@@ -10,7 +10,7 @@
 		(company "Embedded Systems Laboratory - EPFL")
 	)
 	(lib_symbols
-		(symbol "HeepoMind_SchLib:Power_Board_Header_Conn_2.54mm"
+		(symbol "X-MODs_SchLib:Power_Board_Header_Conn_2.54mm"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -30,7 +30,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:Power_Board_Header_Conn_2.54mm"
+			(property "Footprint" "X-MODs_PcbLib:Power_Board_Header_Conn_2.54mm"
 				(at 1.778 -56.896 0)
 				(effects
 					(font
@@ -706,7 +706,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:Power_Board_Socket_Conn_1.27mm"
+		(symbol "X-MODs_SchLib:Power_Board_Socket_Conn_1.27mm"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -726,7 +726,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:Power_Board_Socket_Conn_1.27mm"
+			(property "Footprint" "X-MODs_PcbLib:Power_Board_Socket_Conn_1.27mm"
 				(at 8.128 -31.75 0)
 				(effects
 					(font
@@ -2717,7 +2717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Socket_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Socket_Conn_1.27mm")
 		(at 99.06 114.3 0)
 		(mirror y)
 		(unit 2)
@@ -2744,8 +2744,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Socket_Conn_1.27mm"
-			(at 89.916 144.78 0)
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Socket_Conn_1.27mm"
+			(at 90.932 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2763,7 +2763,7 @@
 			)
 		)
 		(property "Description" "Power_Board_Socket_Conn_1.27mm"
-			(at 101.092 142.748 0)
+			(at 99.822 144.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,7 +2883,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Header_Conn_2.54mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Header_Conn_2.54mm")
 		(at 132.08 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2909,8 +2909,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Header_Conn_2.54mm"
-			(at 132.842 64.77 0)
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Header_Conn_2.54mm"
+			(at 133.858 122.936 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3048,7 +3048,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Socket_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Socket_Conn_1.27mm")
 		(at 99.06 45.72 0)
 		(mirror y)
 		(unit 4)
@@ -3075,8 +3075,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Socket_Conn_1.27mm"
-			(at 89.916 76.2 0)
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Socket_Conn_1.27mm"
+			(at 90.932 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3094,7 @@
 			)
 		)
 		(property "Description" "Power_Board_Socket_Conn_1.27mm"
-			(at 101.092 74.168 0)
+			(at 99.822 75.438 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3214,7 +3214,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Socket_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Socket_Conn_1.27mm")
 		(at 191.77 81.28 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -3240,8 +3240,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Socket_Conn_1.27mm"
-			(at 200.914 111.76 0)
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Socket_Conn_1.27mm"
+			(at 199.898 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3259,7 +3259,7 @@
 			)
 		)
 		(property "Description" "Power_Board_Socket_Conn_1.27mm"
-			(at 189.738 109.728 0)
+			(at 191.008 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3379,7 +3379,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Header_Conn_2.54mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Header_Conn_2.54mm")
 		(at 160.02 116.84 180)
 		(unit 2)
 		(exclude_from_sim no)
@@ -3405,8 +3405,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Header_Conn_2.54mm"
-			(at 159.258 118.11 0)
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Header_Conn_2.54mm"
+			(at 158.242 59.944 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3544,7 +3544,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Socket_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Socket_Conn_1.27mm")
 		(at 99.06 81.28 0)
 		(mirror y)
 		(unit 1)
@@ -3571,8 +3571,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Socket_Conn_1.27mm"
-			(at 89.916 111.76 0)
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Socket_Conn_1.27mm"
+			(at 90.932 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3590,7 +3590,7 @@
 			)
 		)
 		(property "Description" "Power_Board_Socket_Conn_1.27mm"
-			(at 101.092 109.728 0)
+			(at 99.822 110.998 0)
 			(effects
 				(font
 					(size 1.27 1.27)

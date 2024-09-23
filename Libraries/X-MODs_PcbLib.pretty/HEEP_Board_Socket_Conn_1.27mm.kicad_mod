@@ -1889,7 +1889,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/HEEP_Board/HEEP_Board/HEEP_Board.step"
+	(model "${HEEP_DIR}/Module Boards/HEEP_Board/Heep_Board.step"
 		(offset
 			(xyz 0 0 0)
 		)

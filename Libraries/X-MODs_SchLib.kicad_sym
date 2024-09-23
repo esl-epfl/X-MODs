@@ -4395,7 +4395,7 @@
 				)
 			)
 		)
-		(property "Footprint" "X-MODs_PcbLib:HEEP_Board_Socket_Conn_1.27mm"
+		(property "Footprint" "X-MODs:HEEP_Board_Socket_Conn_1.27mm"
 			(at 6.35 -68.072 0)
 			(effects
 				(font

@@ -1042,7 +1042,7 @@
 			(solder_paste_margin 0.05)
 			(uuid "b4bd83f5-4f47-481a-aa4d-ca214509985f")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/Oscillators/CSP_1508_4pins.stp"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/Oscillators/CSP_1508_4pins.stp"
 			(offset
 				(xyz 0 0 0.5)
 			)
@@ -1963,7 +1963,7 @@
 			(pintype "passive")
 			(uuid "f820dd67-6c87-4695-838d-96ceb24e2e1e")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/IC/SN74AUP2G08DQER.stp"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/IC/SN74AUP2G08DQER.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3416,7 +3416,7 @@
 			(pintype "passive")
 			(uuid "c1851343-8b0b-45e4-8f6a-60e42f69d486")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/IC/SN74AUP2G08DQER.stp"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/IC/SN74AUP2G08DQER.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4095,7 +4095,7 @@
 			(pintype "passive")
 			(uuid "5ff311b7-060d-4a0c-8690-00899ae9ab5a")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/IC/SN74AUP1G14DSFR.stp"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/IC/SN74AUP1G14DSFR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4845,7 +4845,7 @@
 			(pintype "passive")
 			(uuid "51e8b758-41c0-4e78-b1c9-50c43a427788")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/Buttons/TL1030AF160AQJ.step"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/Buttons/TL1030AF160AQJ.step"
 			(offset
 				(xyz 0 0 0.3)
 			)
@@ -7167,7 +7167,7 @@
 			(zone_connect 2)
 			(uuid "b57bfe99-913f-44d4-a9be-c806d1e57aa1")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/IC/QFN-88-1EP_10X10_Pitch0_4mm_HEEPocrates.step"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/IC/QFN-88-1EP_10X10_Pitch0_4mm_HEEPocrates.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7507,7 +7507,7 @@
 			(solder_paste_margin 0.05)
 			(uuid "deee1ed8-4311-49fc-9a33-45d8fd10d99e")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/IC/W25Q128JWYIQ_TR.stp"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/IC/W25Q128JWYIQ_TR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7934,7 +7934,7 @@
 			(pintype "passive")
 			(uuid "6c5cf712-0eb3-474f-bb62-e6f31f78a7c2")
 		)
-		(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/IC/SN74AUP1G14DSFR.stp"
+		(model "C:/Users/Alex/OneDrive/ESL/X-MODs/Libraries/3D Models/IC/SN74AUP1G14DSFR.stp"
 			(offset
 				(xyz 0 0 0)
 			)
