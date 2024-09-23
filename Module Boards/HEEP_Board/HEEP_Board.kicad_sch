@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "f96d6723-4e3f-4863-bc0a-34d08a5d2623")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 302.26 63.5)
+		(size 45.72 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "034da606-d4bd-4223-8d2c-d524a3e3d60d")
+		(property "Sheetname" "[2] Connectors & Flash"
+			(at 302.26 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "[2] Connectors & Flash.kicad_sch"
+			(at 302.26 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEEP_Board"
+				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 302.26 31.75)
+		(size 45.72 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73f8c5dd-7f93-4973-97e6-347e1ca1e1a0")
+		(property "Sheetname" "[1] HEEPocrates"
+			(at 302.26 31.0384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "[1] HEEPocrates.kicad_sch"
+			(at 302.26 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "HEEP_Board"
+				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
