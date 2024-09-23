@@ -456,7 +456,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "X-MODs_SchLib"
+    ]
   },
   "meta": {
     "filename": "HEEP_Board.kicad_pro",

@@ -10,7 +10,7 @@
 		(company "Embedded Systems Laboratory - EPFL")
 	)
 	(lib_symbols
-		(symbol "HeepoMind_SchLib:C0402C105K8PACTU"
+		(symbol "X-MODs_SchLib:C0402C105K8PACTU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -32,7 +32,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0402"
+			(property "Footprint" "X-MODs_PcbLib:C0402"
 				(at -21.844 -8.636 0)
 				(effects
 					(font
@@ -159,7 +159,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:CRCW0402100KFKEDC"
+		(symbol "X-MODs_SchLib:CRCW0402100KFKEDC"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -181,7 +181,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:R0402"
+			(property "Footprint" "X-MODs_PcbLib:R0402"
 				(at -14.986 -3.302 0)
 				(effects
 					(font
@@ -273,7 +273,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:DFE201612E-1R5M=P2"
+		(symbol "X-MODs_SchLib:DFE201612E-1R5M=P2"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -295,7 +295,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:L0806"
+			(property "Footprint" "X-MODs_PcbLib:L0806"
 				(at -14.986 -3.302 0)
 				(effects
 					(font
@@ -427,7 +427,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:GRM155R61C225KE44D"
+		(symbol "X-MODs_SchLib:GRM155R61C225KE44D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -449,7 +449,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0402"
+			(property "Footprint" "X-MODs_PcbLib:C0402"
 				(at -25.146 -8.128 0)
 				(effects
 					(font
@@ -576,7 +576,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:GRM15XR71C332KA86D"
+		(symbol "X-MODs_SchLib:GRM15XR71C332KA86D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -598,7 +598,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0402"
+			(property "Footprint" "X-MODs_PcbLib:C0402"
 				(at -25.4 -8.128 0)
 				(effects
 					(font
@@ -725,7 +725,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:GRM188R61A226ME15D"
+		(symbol "X-MODs_SchLib:GRM188R61A226ME15D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -747,7 +747,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0603"
+			(property "Footprint" "X-MODs_PcbLib:C0603"
 				(at -25.4 -8.128 0)
 				(effects
 					(font
@@ -874,7 +874,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:GRM188R61E475KE11D"
+		(symbol "X-MODs_SchLib:GRM188R61E475KE11D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -896,7 +896,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0603"
+			(property "Footprint" "X-MODs_PcbLib:C0603"
 				(at -26.416 -8.128 0)
 				(effects
 					(font
@@ -1023,7 +1023,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:MAX77654MENV+T"
+		(symbol "X-MODs_SchLib:MAX77654MENV+T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1045,7 +1045,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:WLCSP-30_2.788x2.338mm_P0.4mm"
+			(property "Footprint" "X-MODs_PcbLib:WLCSP-30_2.788x2.338mm_P0.4mm"
 				(at 26.162 -99.568 0)
 				(effects
 					(font
@@ -1640,7 +1640,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:RK73Z1ETTP"
+		(symbol "X-MODs_SchLib:RK73Z1ETTP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1662,7 +1662,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:R0402"
+			(property "Footprint" "X-MODs_PcbLib:R0402"
 				(at -14.986 -3.302 0)
 				(effects
 					(font
@@ -3806,7 +3806,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61E475KE11D")
+		(lib_id "X-MODs_SchLib:GRM188R61E475KE11D")
 		(at 55.88 67.31 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3832,7 +3832,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 47.752 40.894 0)
 			(effects
 				(font
@@ -3940,7 +3940,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:C0402C105K8PACTU")
+		(lib_id "X-MODs_SchLib:C0402C105K8PACTU")
 		(at 81.28 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3966,7 +3966,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 72.644 91.186 0)
 			(effects
 				(font
@@ -4009,7 +4009,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 240.03 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4036,7 +4036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 236.728 58.674 0)
 			(effects
 				(font
@@ -4082,7 +4082,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:CRCW0402100KFKEDC")
+		(lib_id "X-MODs_SchLib:CRCW0402100KFKEDC")
 		(at 218.44 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4109,7 +4109,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 221.742 131.826 0)
 			(effects
 				(font
@@ -4285,7 +4285,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:MAX77654MENV+T")
+		(lib_id "X-MODs_SchLib:MAX77654MENV+T")
 		(at 99.06 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4310,7 +4310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:WLCSP-30_2.788x2.338mm_P0.4mm"
+		(property "Footprint" "X-MODs_PcbLib:WLCSP-30_2.788x2.338mm_P0.4mm"
 			(at 125.222 150.368 0)
 			(effects
 				(font
@@ -4505,7 +4505,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:C0402C105K8PACTU")
+		(lib_id "X-MODs_SchLib:C0402C105K8PACTU")
 		(at 172.72 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4531,7 +4531,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 164.084 87.376 0)
 			(effects
 				(font
@@ -4574,7 +4574,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61A226ME15D")
+		(lib_id "X-MODs_SchLib:GRM188R61A226ME15D")
 		(at 184.15 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4600,7 +4600,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 176.022 48.26 0)
 			(effects
 				(font
@@ -4709,7 +4709,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM15XR71C332KA86D")
+		(lib_id "X-MODs_SchLib:GRM15XR71C332KA86D")
 		(at 81.28 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4734,7 +4734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 55.88 100.838 0)
 			(effects
 				(font
@@ -4842,7 +4842,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61E475KE11D")
+		(lib_id "X-MODs_SchLib:GRM188R61E475KE11D")
 		(at 31.75 59.69 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4868,7 +4868,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 23.622 33.274 0)
 			(effects
 				(font
@@ -4911,7 +4911,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 207.01 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4938,7 +4938,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 203.708 58.674 0)
 			(effects
 				(font
@@ -5050,7 +5050,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:C0402C105K8PACTU")
+		(lib_id "X-MODs_SchLib:C0402C105K8PACTU")
 		(at 184.15 110.49 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5076,7 +5076,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 175.514 88.646 0)
 			(effects
 				(font
@@ -5185,7 +5185,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:CRCW0402100KFKEDC")
+		(lib_id "X-MODs_SchLib:CRCW0402100KFKEDC")
 		(at 228.6 116.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5212,7 +5212,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 231.902 131.826 0)
 			(effects
 				(font
@@ -5324,7 +5324,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:DFE201612E-1R5M=P2")
+		(lib_id "X-MODs_SchLib:DFE201612E-1R5M=P2")
 		(at 81.28 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5349,7 +5349,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:L0806"
+		(property "Footprint" "X-MODs_PcbLib:L0806"
 			(at 66.294 83.312 0)
 			(effects
 				(font
@@ -5395,7 +5395,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM155R61C225KE44D")
+		(lib_id "X-MODs_SchLib:GRM155R61C225KE44D")
 		(at 161.29 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5421,7 +5421,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 153.162 84.074 0)
 			(effects
 				(font
@@ -5464,7 +5464,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM155R61C225KE44D")
+		(lib_id "X-MODs_SchLib:GRM155R61C225KE44D")
 		(at 149.86 109.22 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5490,7 +5490,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 141.732 84.074 0)
 			(effects
 				(font
@@ -5533,7 +5533,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 195.58 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5560,7 +5560,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 192.278 58.674 0)
 			(effects
 				(font
@@ -5606,7 +5606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 218.44 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5633,7 +5633,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 215.138 58.674 0)
 			(effects
 				(font
@@ -5679,7 +5679,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 228.6 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5706,7 +5706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 225.298 58.674 0)
 			(effects
 				(font
@@ -5818,7 +5818,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:C0402C105K8PACTU")
+		(lib_id "X-MODs_SchLib:C0402C105K8PACTU")
 		(at 69.85 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5844,7 +5844,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 61.214 83.566 0)
 			(effects
 				(font
@@ -6150,7 +6150,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 251.46 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6177,7 +6177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 248.158 58.674 0)
 			(effects
 				(font
@@ -6288,7 +6288,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61A226ME15D")
+		(lib_id "X-MODs_SchLib:GRM188R61A226ME15D")
 		(at 161.29 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6314,7 +6314,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 153.162 48.26 0)
 			(effects
 				(font
@@ -6488,7 +6488,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61A226ME15D")
+		(lib_id "X-MODs_SchLib:GRM188R61A226ME15D")
 		(at 138.43 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6514,7 +6514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 130.302 48.26 0)
 			(effects
 				(font
@@ -6623,7 +6623,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61A226ME15D")
+		(lib_id "X-MODs_SchLib:GRM188R61A226ME15D")
 		(at 172.72 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6649,7 +6649,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 164.592 48.26 0)
 			(effects
 				(font
@@ -6823,7 +6823,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM188R61A226ME15D")
+		(lib_id "X-MODs_SchLib:GRM188R61A226ME15D")
 		(at 149.86 73.66 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6849,7 +6849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0603"
+		(property "Footprint" "X-MODs_PcbLib:C0603"
 			(at 141.732 48.26 0)
 			(effects
 				(font

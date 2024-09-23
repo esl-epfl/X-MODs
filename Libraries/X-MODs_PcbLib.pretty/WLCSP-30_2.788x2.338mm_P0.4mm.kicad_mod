@@ -323,7 +323,7 @@
 		(solder_paste_margin_ratio -1)
 		(uuid "167f1de9-a56a-4429-acf1-f7e15e1a9583")
 	)
-	(model "${HEEPO_DIR}/IC/WLCSP-30_2.788x2.338mm_P0.4mm.step"
+	(model "${HEEP_DIR}/Libraries/3D Models/IC/WLCSP-30_2.788x2.338mm_P0.4mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1,10 +1,10 @@
-(footprint "R0402"
+(footprint "SIT1532AC"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.975 0)
+		(at 0 -1.4 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "R0402"
-		(at 0 0.65 0)
+	(property "Value" "SIT1532AC"
+		(at 0 1.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,8 +69,30 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -0.5 -0.25)
-		(end 0.5 0.25)
+		(start -0.87 -0.52)
+		(end 0.87 0.52)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "2dc2a3aa-71e6-4516-9fb8-b8a1eb434dba")
+	)
+	(fp_circle
+		(center -1.2 0.7)
+		(end -1.039922 0.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "54fdd2a7-fd12-4422-9347-2aa4c8b878ff")
+	)
+	(fp_rect
+		(start -0.77 -0.42)
+		(end 0.77 0.42)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -91,29 +113,43 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at -0.48 0)
-		(size 0.57 0.62)
+	(pad "1" smd circle
+		(at -0.5 0.205)
+		(size 0.25 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
+		(solder_paste_margin 0.05)
+		(uuid "aad9b156-ce70-4bf4-ae54-a518d2b56aeb")
 	)
-	(pad "2" smd roundrect
-		(at 0.48 0)
-		(size 0.57 0.62)
+	(pad "2" smd circle
+		(at 0.5 0.205)
+		(size 0.25 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
+		(solder_paste_margin 0.05)
+		(uuid "23c70952-e583-461f-b49a-01cc1809210c")
+	)
+	(pad "3" smd circle
+		(at 0.5 -0.205)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.05)
 		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
 	)
-	(model "${HEEPO_DIR}/Resistors/R0402.step"
+	(pad "4" smd circle
+		(at -0.5 -0.205)
+		(size 0.25 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin 0.05)
+		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
+	)
+	(model "${HEEP_DIR}/Libraries/3D Models/Oscillators/CSP_1508_4pins.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 90)
+			(xyz 90 0 90)
 		)
 	)
 )

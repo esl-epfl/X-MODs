@@ -254,7 +254,7 @@
 	(net 84 "BOOT_SEL_EXT")
 	(net 85 "unconnected-(U7-Pad1)")
 	(net 86 "unconnected-(U7-Pad5)")
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "083e9fe0-0980-481c-b044-bf6860ac8171")
 		(at 108.077 107.95 90)
@@ -284,7 +284,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -380,7 +380,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "09bf21fc-892e-4dc5-8382-9629a828fa55")
 		(at 106.045 94.869 180)
@@ -410,7 +410,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -506,7 +506,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "0c34136d-4e53-4834-bbd1-299772363101")
 		(at 104.267 94.869 180)
@@ -536,7 +536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -632,7 +632,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "10e511da-d11e-4f43-b7fe-f207f930a592")
 		(at 107.8915 110.1235 90)
@@ -662,7 +662,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -758,7 +758,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "141451ae-47a6-4b62-a03e-ff93f6fc8fef")
 		(at 104.394 108.712 180)
@@ -788,7 +788,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -884,7 +884,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:SIT1532AC"
+	(footprint "X-MODs_PcbLib:SIT1532AC"
 		(layer "F.Cu")
 		(uuid "1c6aac28-c3de-4dbb-b71f-3467ffc49221")
 		(at 109.093 107.95 90)
@@ -914,7 +914,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:SIT1532AC"
+		(property "Footprint" "X-MODs_PcbLib:SIT1532AC"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1316,7 +1316,7 @@
 			(uuid "f5ed123d-160a-467f-8722-e53f8b09e879")
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "2e75476d-b2ba-4526-8463-9a3b11ce14ba")
 		(at 108.331 113.411 180)
@@ -1346,7 +1346,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1656,7 +1656,7 @@
 			(uuid "4f5602bc-3891-4873-ae78-25e525244517")
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "38090399-2ff6-46a3-b2fa-26fe8c8c199e")
 		(at 110.109 113.411)
@@ -1686,7 +1686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1782,7 +1782,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:X2SON-8"
+	(footprint "X-MODs_PcbLib:X2SON-8"
 		(layer "F.Cu")
 		(uuid "39869b93-2071-4fab-8610-d242cffe976f")
 		(at 109.2095 110.1235 90)
@@ -1812,7 +1812,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:X2SON-8"
+		(property "Footprint" "X-MODs_PcbLib:X2SON-8"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1975,7 +1975,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "3c97b5b9-f87a-4702-831c-2b1fd9310ec4")
 		(at 101.473 99.568 -90)
@@ -2005,7 +2005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2101,7 +2101,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "45c243ec-1df7-4bb8-b034-8ef27b79bd29")
 		(at 106.172 108.712)
@@ -2131,7 +2131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2227,7 +2227,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "491e6062-ac35-471d-9739-a198503ceeeb")
 		(at 101.473 103.759 -90)
@@ -2257,7 +2257,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2353,7 +2353,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "496309e9-a941-4433-8ce5-ff56f3d7df06")
 		(at 110.744 94.869 180)
@@ -2383,7 +2383,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2479,7 +2479,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "59b0ac50-884c-4238-9276-b46109ed0fbf")
 		(at 113.665 101.219 -90)
@@ -2509,7 +2509,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2605,7 +2605,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "5df06c20-9dcd-4940-ac4e-057956e3d551")
 		(at 101.473 97.663 -90)
@@ -2635,7 +2635,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2731,7 +2731,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "7a0642bd-e7b0-444b-aae8-4f4bf32fad1f")
 		(at 104.394 106.934 180)
@@ -2761,7 +2761,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2857,7 +2857,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "8236a15c-a6ec-4550-8da0-4ef85f9740dd")
 		(at 102.08 109.982 180)
@@ -2887,7 +2887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2983,7 +2983,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "82c1d0f0-d296-40af-b223-bfa4884620ca")
 		(at 102.128 113.411 180)
@@ -3013,7 +3013,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3109,7 +3109,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "853bc3ce-84b3-42d0-8350-e58de85b863b")
 		(at 113.665 99.441 -90)
@@ -3139,7 +3139,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3235,7 +3235,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:X2SON-8"
+	(footprint "X-MODs_PcbLib:X2SON-8"
 		(layer "F.Cu")
 		(uuid "9068fc56-313c-47a8-91ae-4ba19fec72d6")
 		(at 109.2095 111.9665 90)
@@ -3265,7 +3265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:X2SON-8"
+		(property "Footprint" "X-MODs_PcbLib:X2SON-8"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3428,7 +3428,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "9959ce40-8a4d-46c0-bac1-3dfe44026dd1")
 		(at 107.8915 111.9665 90)
@@ -3458,7 +3458,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3554,7 +3554,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "9aa3df0f-f329-41ab-970f-55ed9a0e3a90")
 		(at 101.473 101.346 -90)
@@ -3584,7 +3584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3680,7 +3680,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "9bc69561-223a-4f51-9431-e1e1b9880fc0")
 		(at 104.394 107.823 180)
@@ -3710,7 +3710,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3806,7 +3806,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "a3cfae10-f5da-4234-b9da-6e3fa9d87af4")
 		(at 106.18 113.411)
@@ -3836,7 +3836,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3932,7 +3932,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:X2SON-6"
+	(footprint "X-MODs_PcbLib:X2SON-6"
 		(layer "F.Cu")
 		(uuid "a873488a-8f23-47eb-9115-10ac07e7dbeb")
 		(at 102.083461 108.830961 180)
@@ -3962,7 +3962,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:X2SON-6"
+		(property "Footprint" "X-MODs_PcbLib:X2SON-6"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4317,7 +4317,7 @@
 			(uuid "27343e7c-db61-404d-8de4-ae5d16f1c891")
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "b3f2f12d-426c-4cce-a6e4-d0b386633e60")
 		(at 101.473 105.537 90)
@@ -4347,7 +4347,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4567,7 +4567,7 @@
 			(uuid "a24c28ad-6061-4b79-b918-61b333594cde")
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "c9fb489a-1a08-4189-98f5-6bb7452e19d5")
 		(at 104.394 113.411 180)
@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4693,7 +4693,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:TL1030AF160AQJ"
+	(footprint "X-MODs_PcbLib:TL1030AF160AQJ"
 		(layer "F.Cu")
 		(uuid "d7414011-3b76-41af-9b4f-4d65195a075c")
 		(at 112.268 110.236 90)
@@ -4723,7 +4723,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:TL1030AF160AQJ"
+		(property "Footprint" "X-MODs_PcbLib:TL1030AF160AQJ"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4857,7 +4857,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:HEEP_Board_Castellated_Conn_1.27mm"
+	(footprint "X-MODs_PcbLib:HEEP_Board_Castellated_Conn_1.27mm"
 		(layer "F.Cu")
 		(uuid "da409b8e-1820-47d1-9b4c-074c03ad27c2")
 		(at 107.569 104.14)
@@ -4887,7 +4887,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:HEEP_Board_Castellated_Conn_1.27mm"
+		(property "Footprint" "X-MODs_PcbLib:HEEP_Board_Castellated_Conn_1.27mm"
 			(at 0.06 -9 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5808,7 +5808,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "df6a1a9f-c9cb-4317-81c4-03dd95504c3f")
 		(at 102.128 111.125)
@@ -5838,7 +5838,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5934,7 +5934,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:HEEPocrates"
+	(footprint "X-MODs_PcbLib:HEEPocrates"
 		(layer "F.Cu")
 		(uuid "e1d42443-7175-4a93-9d1b-eb7087c8478e")
 		(at 107.569 100.965 90)
@@ -5964,7 +5964,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:HEEPocrates"
+		(property "Footprint" "X-MODs_PcbLib:HEEPocrates"
 			(at -1.27 -13.93 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7179,7 +7179,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:WLCSP-21"
+	(footprint "X-MODs_PcbLib:WLCSP-21"
 		(layer "F.Cu")
 		(uuid "e7251c3d-e107-4291-a353-14528388af6a")
 		(at 105.287 111.002 90)
@@ -7209,7 +7209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:WLCSP-21"
+		(property "Footprint" "X-MODs_PcbLib:WLCSP-21"
 			(at 0 -9 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7519,7 +7519,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:R0402"
+	(footprint "X-MODs_PcbLib:R0402"
 		(layer "F.Cu")
 		(uuid "e958ea77-15dc-4149-90cf-6253812a9f1e")
 		(at 102.08 107.696 180)
@@ -7549,7 +7549,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7645,7 +7645,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "ed923ad0-ca16-40b7-b19a-49e8fac97aff")
 		(at 112.395 107.061 180)
@@ -7675,7 +7675,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7771,7 +7771,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:X2SON-6"
+	(footprint "X-MODs_PcbLib:X2SON-6"
 		(layer "F.Cu")
 		(uuid "f310812e-5550-4a97-9a68-66d7ad9afd25")
 		(at 102.128 112.268 180)
@@ -7801,7 +7801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:X2SON-6"
+		(property "Footprint" "X-MODs_PcbLib:X2SON-6"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7946,7 +7946,7 @@
 			)
 		)
 	)
-	(footprint "HeepoMind_PcbLib:C0402"
+	(footprint "X-MODs_PcbLib:C0402"
 		(layer "F.Cu")
 		(uuid "fd262b67-4951-4833-b353-4724e6671dcb")
 		(at 110.617 107.061 180)
@@ -7976,7 +7976,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 0 -9 180)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -104,7 +104,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:GRM155R60J474KE19"
+		(symbol "X-MODs_SchLib:GRM155R60J474KE19"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -126,7 +126,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0402"
+			(property "Footprint" "X-MODs_PcbLib:C0402"
 				(at -26.416 -8.128 0)
 				(effects
 					(font
@@ -253,7 +253,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:GRM155R71A104JA01D"
+		(symbol "X-MODs_SchLib:GRM155R71A104JA01D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -275,7 +275,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:C0402"
+			(property "Footprint" "X-MODs_PcbLib:C0402"
 				(at -37.084 -8.636 0)
 				(effects
 					(font
@@ -396,7 +396,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:MAX17262REWL+T"
+		(symbol "X-MODs_SchLib:MAX17262REWL+T"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -418,7 +418,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:WLCSP-9_1.468x1.448mm_P0.4mm"
+			(property "Footprint" "X-MODs_PcbLib:WLCSP-9_1.468x1.448mm_P0.4mm"
 				(at -0.254 -33.02 0)
 				(effects
 					(font
@@ -636,7 +636,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:Power_Board_Castellated_Conn_1.27mm"
+		(symbol "X-MODs_SchLib:Power_Board_Castellated_Conn_1.27mm"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
@@ -656,7 +656,7 @@
 					)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:Power_Board_Castellated_Conn_1.27mm"
+			(property "Footprint" "X-MODs_PcbLib:Power_Board_Castellated_Conn_1.27mm"
 				(at 9.144 -30.48 0)
 				(effects
 					(font
@@ -1360,7 +1360,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:R"
+		(symbol "X-MODs_SchLib:R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1382,7 +1382,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:R0402"
+			(property "Footprint" "X-MODs_PcbLib:R0402"
 				(at 0 -3.302 0)
 				(effects
 					(font
@@ -1471,7 +1471,7 @@
 				)
 			)
 		)
-		(symbol "HeepoMind_SchLib:RK73Z1ETTP"
+		(symbol "X-MODs_SchLib:RK73Z1ETTP"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1493,7 +1493,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "HeepoMind_PcbLib:R0402"
+			(property "Footprint" "X-MODs_PcbLib:R0402"
 				(at -14.986 -3.302 0)
 				(effects
 					(font
@@ -3372,7 +3372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:RK73Z1ETTP")
+		(lib_id "X-MODs_SchLib:RK73Z1ETTP")
 		(at 118.11 113.03 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3399,7 +3399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 114.808 98.044 0)
 			(effects
 				(font
@@ -3641,7 +3641,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM155R71A104JA01D")
+		(lib_id "X-MODs_SchLib:GRM155R71A104JA01D")
 		(at 48.26 96.52 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3668,7 +3668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 39.624 59.436 0)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Castellated_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Castellated_Conn_1.27mm")
 		(at 243.84 59.69 0)
 		(unit 3)
 		(exclude_from_sim no)
@@ -3806,7 +3806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Castellated_Conn_1.27mm"
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Castellated_Conn_1.27mm"
 			(at 252.984 90.17 0)
 			(effects
 				(font
@@ -3945,7 +3945,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Castellated_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Castellated_Conn_1.27mm")
 		(at 201.93 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3971,7 +3971,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Castellated_Conn_1.27mm"
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Castellated_Conn_1.27mm"
 			(at 211.074 90.17 0)
 			(effects
 				(font
@@ -4110,7 +4110,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Castellated_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Castellated_Conn_1.27mm")
 		(at 201.93 99.06 0)
 		(unit 2)
 		(exclude_from_sim no)
@@ -4136,7 +4136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Castellated_Conn_1.27mm"
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Castellated_Conn_1.27mm"
 			(at 211.074 129.54 0)
 			(effects
 				(font
@@ -4860,7 +4860,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:GRM155R60J474KE19")
+		(lib_id "X-MODs_SchLib:GRM155R60J474KE19")
 		(at 99.06 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4886,7 +4886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:C0402"
+		(property "Footprint" "X-MODs_PcbLib:C0402"
 			(at 90.932 89.154 0)
 			(effects
 				(font
@@ -4929,7 +4929,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:MAX17262REWL+T")
+		(lib_id "X-MODs_SchLib:MAX17262REWL+T")
 		(at 71.12 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4953,7 +4953,7 @@
 				)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:WLCSP-9_1.468x1.448mm_P0.4mm"
+		(property "Footprint" "X-MODs_PcbLib:WLCSP-9_1.468x1.448mm_P0.4mm"
 			(at 70.866 122.936 0)
 			(effects
 				(font
@@ -5020,7 +5020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:R")
+		(lib_id "X-MODs_SchLib:R")
 		(at 118.11 95.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5047,7 +5047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:R0402"
+		(property "Footprint" "X-MODs_PcbLib:R0402"
 			(at 121.412 95.25 0)
 			(effects
 				(font
@@ -5155,7 +5155,7 @@
 		)
 	)
 	(symbol
-		(lib_id "HeepoMind_SchLib:Power_Board_Castellated_Conn_1.27mm")
+		(lib_id "X-MODs_SchLib:Power_Board_Castellated_Conn_1.27mm")
 		(at 243.84 99.06 0)
 		(unit 4)
 		(exclude_from_sim no)
@@ -5181,7 +5181,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "HeepoMind_PcbLib:Power_Board_Castellated_Conn_1.27mm"
+		(property "Footprint" "X-MODs_PcbLib:Power_Board_Castellated_Conn_1.27mm"
 			(at 252.984 129.54 0)
 			(effects
 				(font

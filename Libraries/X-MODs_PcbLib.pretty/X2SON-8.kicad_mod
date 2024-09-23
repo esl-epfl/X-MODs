@@ -1,10 +1,10 @@
-(footprint "WLCSP-9_1.468x1.448mm_P0.4mm"
+(footprint "X2SON-8"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 -2.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "WLCSP-9_1.468x1.448mm_P0.4mm"
-		(at 0 1.15 0)
+	(property "Value" "X2SON-8"
+		(at 0 1.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,31 +68,20 @@
 		)
 	)
 	(attr smd)
-	(fp_rect
-		(start -0.834 -0.824)
-		(end 0.834 0.824)
-		(stroke
-			(width 0.15)
-			(type solid)
-		)
-		(fill none)
-		(layer "F.SilkS")
-		(uuid "2dc2a3aa-71e6-4516-9fb8-b8a1eb434dba")
-	)
 	(fp_circle
-		(center -1.125 -1.05)
-		(end -0.964922 -1.05)
+		(center -0.739922 -0.9)
+		(end -0.579844 -0.9)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "54fdd2a7-fd12-4422-9347-2aa4c8b878ff")
+		(uuid "c138215e-d0f7-4281-bd87-a68a40cd8738")
 	)
 	(fp_rect
-		(start -0.734 -0.724)
-		(end 0.734 0.724)
+		(start -0.5 -0.7)
+		(end 0.5 0.7)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -102,7 +91,7 @@
 		(uuid "95ddd1e4-e3c8-46d6-ae10-73d705fe8c5b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -0.1 0)
+		(at 0 0 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f31409b2-37a8-46e5-bf2d-532043cfff3a")
@@ -113,70 +102,63 @@
 			)
 		)
 	)
-	(pad "A1" smd circle
-		(at -0.4 -0.4)
-		(size 0.25 0.25)
+	(pad "1" smd roundrect
+		(at -0.4 -0.525)
+		(size 0.6 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
+		(roundrect_rratio 0.25)
+		(uuid "69b40a37-d040-4f94-b582-6a031ef6c7ed")
 	)
-	(pad "A2" smd circle
-		(at 0 -0.4)
-		(size 0.25 0.25)
+	(pad "2" smd roundrect
+		(at -0.45 -0.175)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
+		(roundrect_rratio 0.25)
+		(uuid "7a4d46d1-64a9-4644-a09c-ee6f67424cfe")
 	)
-	(pad "A3" smd circle
-		(at 0.4 -0.4)
-		(size 0.25 0.25)
+	(pad "3" smd roundrect
+		(at -0.45 0.175)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "14df272a-e8d4-43a9-89f4-8c13fdcdc173")
+		(roundrect_rratio 0.25)
+		(uuid "1115fa77-9c82-49af-ab70-327a756f3e12")
 	)
-	(pad "B1" smd circle
-		(at -0.4 0)
-		(size 0.25 0.25)
+	(pad "4" smd roundrect
+		(at -0.45 0.525)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "aad9b156-ce70-4bf4-ae54-a518d2b56aeb")
+		(roundrect_rratio 0.25)
+		(uuid "0407257c-d968-427f-89d0-d89b090f3ab0")
 	)
-	(pad "B2" smd circle
-		(at 0 0)
-		(size 0.25 0.25)
+	(pad "5" smd roundrect
+		(at 0.45 0.525)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "23c70952-e583-461f-b49a-01cc1809210c")
+		(roundrect_rratio 0.25)
+		(uuid "f8ffdbf2-34bb-4dad-bb28-e878e333235f")
 	)
-	(pad "B3" smd circle
-		(at 0.4 0)
-		(size 0.25 0.25)
+	(pad "6" smd roundrect
+		(at 0.45 0.175)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "bd9f73ca-c373-405c-8fd3-7f17ca982b7f")
+		(roundrect_rratio 0.25)
+		(uuid "6311214e-e90b-45a7-9f1e-6ebee44cad16")
 	)
-	(pad "C1" smd circle
-		(at -0.4 0.4)
-		(size 0.25 0.25)
+	(pad "7" smd roundrect
+		(at 0.45 -0.175)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "66c90d5b-fe9a-4354-a456-23c190af6aa3")
+		(roundrect_rratio 0.25)
+		(uuid "fc45be57-f432-4732-9887-0b5c00e15c92")
 	)
-	(pad "C2" smd circle
-		(at 0 0.4)
-		(size 0.25 0.25)
+	(pad "8" smd roundrect
+		(at 0.45 -0.525)
+		(size 0.5 0.175)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "935566da-3bef-4073-8410-2a2c4aee4182")
+		(roundrect_rratio 0.25)
+		(uuid "499a4d8d-1533-42fb-8682-18d6f473f8b6")
 	)
-	(pad "C3" smd circle
-		(at 0.4 0.4)
-		(size 0.25 0.25)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(solder_paste_margin_ratio -1)
-		(uuid "12beef7b-3f59-4ff7-a759-2a428c6caca5")
-	)
-	(model "${HEEPO_DIR}/IC/WLCSP-9_1.468x1.448mm_P0.4mm.step"
+	(model "${HEEP_DIR}/Libraries/3D Models/IC/SN74AUP2G08DQER.stp"
 		(offset
 			(xyz 0 0 0)
 		)
