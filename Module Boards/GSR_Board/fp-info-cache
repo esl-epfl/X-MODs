@@ -1,4 +1,4 @@
-24083084715964731
+24095181279648490
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97789,168 +97789,217 @@ Varistor VF
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
 3-Pole_R0402
 
 
 0
 3
 3
-X-MODs_HEEP
+X-MODs_PcbLib
 8-Row_Castellated_Conn_1.27mm
 
 
 0
 8
 8
-X-MODs_HEEP
+X-MODs_PcbLib
 9-Row_Castellated_Conn_1.27mm
 
 
 0
 9
 9
-X-MODs_HEEP
+X-MODs_PcbLib
 C0201
 
 
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
 C0402
 
 
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
 C0603
 
 
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
 C0805
 
 
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
+DFN-10_3x3mm
+
+
+0
+11
+11
+X-MODs_PcbLib
+GSR_Board_Castellated_Conn_1.27mm
+
+
+0
+10
+10
+X-MODs_PcbLib
+GSR_Electrodes_Conn
+
+
+0
+2
+2
+X-MODs_PcbLib
 HEEP_Board_Castellated_Conn_1.27mm
 
 
 0
 62
 62
-X-MODs_HEEP
+X-MODs_PcbLib
 HEEP_Board_Header_Conn_1.27mm
 
 
 0
 54
 54
-X-MODs_HEEP
+X-MODs_PcbLib
 HEEP_Board_Socket_Conn_1.27mm
 
 
 0
 124
 62
-X-MODs_HEEP
+X-MODs_PcbLib
 HEEPocrates
 
 
 0
 98
 89
-X-MODs_HEEP
+X-MODs_PcbLib
+L0402
+
+
+0
+2
+2
+X-MODs_PcbLib
 L0806
 
 
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
+MSOP-8
+
+
+0
+8
+8
+X-MODs_PcbLib
 Power_Board_Castellated_Conn_1.27mm
 
 
 0
 34
 34
-X-MODs_HEEP
+X-MODs_PcbLib
 Power_Board_Header_Conn_2.54mm
 
 
 0
 34
 34
-X-MODs_HEEP
+X-MODs_PcbLib
 Power_Board_Socket_Conn_1.27mm
 
 
 0
 68
 34
-X-MODs_HEEP
+X-MODs_PcbLib
 R0402
 
 
 0
 2
 2
-X-MODs_HEEP
+X-MODs_PcbLib
 SIT1532AC
 
 
 0
 4
 4
-X-MODs_HEEP
+X-MODs_PcbLib
 TC42X
 
 
 0
 3
 3
-X-MODs_HEEP
+X-MODs_PcbLib
+TDFN-8_3x3mm
+
+
+0
+9
+9
+X-MODs_PcbLib
 TL1030AF160AQJ
 
 
 0
 4
 4
-X-MODs_HEEP
+X-MODs_PcbLib
 WLCSP-9_1.468x1.448mm_P0.4mm
 
 
 0
 9
 9
-X-MODs_HEEP
+X-MODs_PcbLib
 WLCSP-21
 
 
 0
 21
 21
-X-MODs_HEEP
+X-MODs_PcbLib
 WLCSP-30_2.788x2.338mm_P0.4mm
 
 
 0
 30
 30
-X-MODs_HEEP
+X-MODs_PcbLib
+WSON-8-3.15x3.15mm
+
+
+0
+15
+11
+X-MODs_PcbLib
 X2SON-6
 
 
 0
 6
 6
-X-MODs_HEEP
+X-MODs_PcbLib
 X2SON-8
 
 
