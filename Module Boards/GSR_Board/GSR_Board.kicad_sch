@@ -81,6 +81,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 290.83 57.15)
+		(size 29.21 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c6964374-f511-4bed-8712-bbd14de644d5")
+		(property "Sheetname" "[3] ADC"
+			(at 290.83 56.4384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "[3] ADC.kicad_sch"
+			(at 290.83 70.4346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "GSR_Board"
+				(path "/967fd416-113b-4abc-8322-5b19c6966929"
+					(page "4")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

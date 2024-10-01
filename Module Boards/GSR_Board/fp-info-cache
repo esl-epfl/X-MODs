@@ -1,4 +1,4 @@
-24095181279648490
+24102092351811680
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97846,6 +97846,13 @@ DFN-10_3x3mm
 11
 11
 X-MODs_PcbLib
+DSBGA-4_0.74x0.74mm
+
+
+0
+4
+4
+X-MODs_PcbLib
 GSR_Board_Castellated_Conn_1.27mm
 
 
@@ -97888,6 +97895,13 @@ HEEPocrates
 98
 89
 X-MODs_PcbLib
+L0201
+
+
+0
+2
+2
+X-MODs_PcbLib
 L0402
 
 
@@ -97896,6 +97910,13 @@ L0402
 2
 X-MODs_PcbLib
 L0806
+
+
+0
+2
+2
+X-MODs_PcbLib
+LC0201
 
 
 0
@@ -97965,6 +97986,13 @@ TL1030AF160AQJ
 4
 4
 X-MODs_PcbLib
+UQFN-12_1.7x2mm
+
+
+0
+12
+12
+X-MODs_PcbLib
 WLCSP-9_1.468x1.448mm_P0.4mm
 
 
@@ -97986,7 +98014,7 @@ WLCSP-30_2.788x2.338mm_P0.4mm
 30
 30
 X-MODs_PcbLib
-WSON-8-3.15x3.15mm
+WSON-10-3.15x3.15mm
 
 
 0

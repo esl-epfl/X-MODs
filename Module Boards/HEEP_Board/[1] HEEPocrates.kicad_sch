@@ -8730,6 +8730,29 @@
 		)
 		(uuid "b9994a5a-831f-49e0-8c3b-3d6c19a54f37")
 	)
+	(text_box "TODO: Add series termination resistances to SPI Lines (At least CLK but ideally MISO/MOSI)"
+		(exclude_from_sim no)
+		(at 48.26 148.59 0)
+		(size 45.72 7.62)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 2 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "db2730fc-59bf-4343-b522-3b7ddda93b19")
+	)
 	(label "BYPASS_FLL"
 		(at 86.36 66.04 0)
 		(fields_autoplaced yes)
