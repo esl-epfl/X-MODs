@@ -2949,7 +2949,7 @@
 	)
 	(text "I2C Level Shifter (1.8 V -> 3.0 V)"
 		(exclude_from_sim no)
-		(at 51.054 28.956 0)
+		(at 51.308 29.21 0)
 		(effects
 			(font
 				(face "Calibri")
@@ -2964,7 +2964,7 @@
 	)
 	(text "Analog Power Regulator & Filter"
 		(exclude_from_sim no)
-		(at 44.958 92.456 0)
+		(at 44.958 92.71 0)
 		(effects
 			(font
 				(face "Calibri")

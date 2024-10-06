@@ -4465,7 +4465,7 @@
 	)
 	(text "Galvanic Skin Response Excitation & Conditioning"
 		(exclude_from_sim no)
-		(at 22.86 21.59 0)
+		(at 23.368 21.59 0)
 		(effects
 			(font
 				(face "Calibri")

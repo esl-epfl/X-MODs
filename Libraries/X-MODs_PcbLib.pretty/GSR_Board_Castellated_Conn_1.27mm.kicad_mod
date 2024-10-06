@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "GSR_Board_Castellated_Conn_1.27mm"
-		(at 0 7.025 0)
+		(at 0 8.382 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,8 +69,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -11.7 -5.325)
-		(end 11.7 5.325)
+		(start -11.7 -5.833)
+		(end 12.208 6.087)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -92,7 +92,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 5.26 5.3 180)
+		(at -9.652 6.096 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -102,7 +102,7 @@
 		(uuid "3aae63f5-1392-4e08-96c6-f13bf0db220d")
 	)
 	(pad "2" thru_hole roundrect
-		(at 6.53 5.3 180)
+		(at -8.382 6.096 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -112,7 +112,7 @@
 		(uuid "ad7d5f5f-94d5-4424-8a5d-d8aca3b60139")
 	)
 	(pad "3" thru_hole roundrect
-		(at 7.8 5.3 180)
+		(at -7.112 6.096 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -122,7 +122,7 @@
 		(uuid "e2284d9b-5eaf-4205-a49f-2d96da60a359")
 	)
 	(pad "4" thru_hole roundrect
-		(at 9.07 5.3 180)
+		(at -5.842 6.096 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -132,7 +132,7 @@
 		(uuid "40c305df-2d53-4798-bcf5-b96a172880e8")
 	)
 	(pad "5" thru_hole roundrect
-		(at 10.34 5.3 180)
+		(at -4.572 6.096 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -142,7 +142,87 @@
 		(uuid "5bd66477-3f03-4a93-9c66-6d844c0d12f7")
 	)
 	(pad "6" thru_hole roundrect
-		(at 10.34 -5.5 180)
+		(at -3.302 6.096 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "50908f0a-107a-481b-aeb7-2e5497ba84a1")
+	)
+	(pad "7" thru_hole roundrect
+		(at -2.032 6.096 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "dd3bd991-7293-4418-8b21-08e552c60e92")
+	)
+	(pad "8" thru_hole roundrect
+		(at -0.762 6.096 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "f2b90c16-72c9-46ea-9924-1620e38691f9")
+	)
+	(pad "9" thru_hole roundrect
+		(at -0.762 -5.842 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "66c43739-c72c-4dca-b1c6-58c9df1d1240")
+	)
+	(pad "10" thru_hole roundrect
+		(at -2.032 -5.842 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "e4559c01-fd70-4a91-9366-ae3b11b94cf8")
+	)
+	(pad "11" thru_hole roundrect
+		(at -3.302 -5.842 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "df035e91-5a8b-4dfa-87a8-f1af6db1c029")
+	)
+	(pad "12" thru_hole roundrect
+		(at -4.572 -5.842 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "f333c12e-cb6d-4391-9241-475b80d693f7")
+	)
+	(pad "13" thru_hole roundrect
+		(at -5.842 -5.842 180)
+		(size 1.02 1.28)
+		(drill 0.82)
+		(property pad_prop_castellated)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.25)
+		(uuid "53e1e977-c8ad-4bb7-9ac9-316ff4b2124d")
+	)
+	(pad "14" thru_hole roundrect
+		(at -7.112 -5.842 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -151,8 +231,8 @@
 		(roundrect_rratio 0.25)
 		(uuid "d1df32cb-b029-4a88-a25e-e00620b30b97")
 	)
-	(pad "7" thru_hole roundrect
-		(at 9.07 -5.5 180)
+	(pad "15" thru_hole roundrect
+		(at -8.382 -5.842 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -161,8 +241,8 @@
 		(roundrect_rratio 0.25)
 		(uuid "fc34aeb9-d1b5-4f52-8844-a35d4f917507")
 	)
-	(pad "8" thru_hole roundrect
-		(at 7.8 -5.5 180)
+	(pad "16" thru_hole roundrect
+		(at -9.652 -5.842 180)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -171,38 +251,20 @@
 		(roundrect_rratio 0.25)
 		(uuid "387c4833-ee93-452d-a585-f4be529cacf6")
 	)
-	(pad "9" thru_hole roundrect
-		(at 6.53 -5.5 180)
-		(size 1.02 1.28)
-		(drill 0.82)
-		(property pad_prop_castellated)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(uuid "38ab318a-0db2-42af-8029-0c4f458ed7d6")
-	)
-	(pad "10" thru_hole roundrect
-		(at 5.26 -5.5 180)
-		(size 1.02 1.28)
-		(drill 0.82)
-		(property pad_prop_castellated)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.25)
-		(uuid "629898b5-96e0-42df-a78b-3f589ed281aa")
-	)
 	(group ""
-		(uuid "a1d3274d-2637-4eb9-88d3-602a9582f97c")
-		(members "387c4833-ee93-452d-a585-f4be529cacf6" "38ab318a-0db2-42af-8029-0c4f458ed7d6"
-			"629898b5-96e0-42df-a78b-3f589ed281aa" "d1df32cb-b029-4a88-a25e-e00620b30b97"
-			"fc34aeb9-d1b5-4f52-8844-a35d4f917507"
+		(uuid "37be6721-33fa-4a78-889b-89e605fe3389")
+		(members "387c4833-ee93-452d-a585-f4be529cacf6" "53e1e977-c8ad-4bb7-9ac9-316ff4b2124d"
+			"66c43739-c72c-4dca-b1c6-58c9df1d1240" "d1df32cb-b029-4a88-a25e-e00620b30b97"
+			"df035e91-5a8b-4dfa-87a8-f1af6db1c029" "e4559c01-fd70-4a91-9366-ae3b11b94cf8"
+			"f333c12e-cb6d-4391-9241-475b80d693f7" "fc34aeb9-d1b5-4f52-8844-a35d4f917507"
 		)
 	)
 	(group ""
-		(uuid "d6166e6b-5e46-4be7-8e1d-9f9790252279")
+		(uuid "755328e8-aec5-481a-b46d-2a83814df6ef")
 		(members "3aae63f5-1392-4e08-96c6-f13bf0db220d" "40c305df-2d53-4798-bcf5-b96a172880e8"
-			"5bd66477-3f03-4a93-9c66-6d844c0d12f7" "ad7d5f5f-94d5-4424-8a5d-d8aca3b60139"
-			"e2284d9b-5eaf-4205-a49f-2d96da60a359"
+			"50908f0a-107a-481b-aeb7-2e5497ba84a1" "5bd66477-3f03-4a93-9c66-6d844c0d12f7"
+			"ad7d5f5f-94d5-4424-8a5d-d8aca3b60139" "dd3bd991-7293-4418-8b21-08e552c60e92"
+			"e2284d9b-5eaf-4205-a49f-2d96da60a359" "f2b90c16-72c9-46ea-9924-1620e38691f9"
 		)
 	)
 )

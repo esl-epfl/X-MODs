@@ -4144,7 +4144,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:GSR_Board_Castellated_Conn_1.27mm"
-			(at 9.144 -20.574 0)
+			(at 9.652 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4162,7 +4162,7 @@
 			)
 		)
 		(property "Description" "GSR_Board_Castellated_Conn_1.27mm"
-			(at 1.27 -18.796 0)
+			(at 1.778 -26.162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4181,7 @@
 		(symbol "GSR_Board_Castellated_Conn_1.27mm_1_1"
 			(rectangle
 				(start 0 0)
-				(end 8.89 -15.24)
+				(end 17.78 -22.86)
 				(stroke
 					(width 0)
 					(type default)
@@ -4194,7 +4194,7 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "GSR"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4212,7 +4212,7 @@
 			(pin passive line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "LVL_SHIFTER_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4230,7 +4230,7 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "+1V8"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4248,7 +4248,7 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "GND"
+				(name "ADC_EN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4266,7 +4266,7 @@
 			(pin passive line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "+3V3"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4281,42 +4281,10 @@
 					)
 				)
 			)
-		)
-		(symbol "GSR_Board_Castellated_Conn_1.27mm_2_1"
-			(rectangle
-				(start 0 0)
-				(end 17.78 -15.24)
-				(stroke
-					(width 0)
-					(type default)
-					(color 128 0 0 1)
-				)
-				(fill
-					(type background)
-				)
-			)
 			(pin passive line
-				(at -2.54 -12.7 0)
+				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "SCL_1V8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "LVL_SHIFTER_EN"
+				(name "V_IA_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4332,7 +4300,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -5.08 0)
+				(at -2.54 -17.78 0)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -4350,9 +4318,9 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -7.62 0)
+				(at -2.54 -20.32 0)
 				(length 2.54)
-				(name "SDA_1V8"
+				(name "GSR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4367,10 +4335,150 @@
 					)
 				)
 			)
+		)
+		(symbol "GSR_Board_Castellated_Conn_1.27mm_2_1"
+			(rectangle
+				(start 0 0)
+				(end 17.78 -22.86)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "+1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "SDA_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
+				(name "SCL_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "SPI_SCK_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "SPI_MISO_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -17.78 0)
+				(length 2.54)
+				(name "SPI_CS_1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -20.32 0)
+				(length 2.54)
 				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+3V3"
 					(effects
 						(font
 							(size 1.27 1.27)
