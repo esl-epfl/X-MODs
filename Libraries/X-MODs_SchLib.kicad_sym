@@ -25,7 +25,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -18.034 -7.62 0)
+			(at -18.288 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34,7 +34,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/40/X7RDielectric-2943470.pdf"
-			(at 4.318 -5.842 0)
+			(at 4.064 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44,6 +44,15 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 50V 22pF 5% "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "04025C220JAT2A"
+			(at -21.082 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -151,6 +160,160 @@
 			)
 		)
 	)
+	(symbol "212134-0003"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -0.254 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" " 212134-0003 "
+			(at -1.27 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:2121340003"
+			(at -20.574 -19.812 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail/2121340003?display=pdf"
+			(at 4.318 -15.748 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" " Headers & Wire Housings Pico-EZMate Plus1.0 PlugAssy ETP LH 3Ckt "
+			(at -0.254 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " 212134-0003 "
+			(at -27.686 -21.844 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "molex conn"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "212134-0003_1_1"
+			(rectangle
+				(start 0 0)
+				(end 6.35 -12.7)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "MH"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "3-pole 0402 Jumper"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -191,6 +354,15 @@
 		)
 		(property "Description" ""
 			(at -2.54 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,6 +606,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "8-Row_Castellated_Conn_1.27mm_0_1"
 			(rectangle
 				(start 0 0)
@@ -642,6 +823,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(symbol "9-Row_Castellated_Conn_1.27mm_0_1"
 			(rectangle
 				(start 0 0)
@@ -826,7 +1016,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 0.254 3.048 0)
+			(at 0.508 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +1024,7 @@
 			)
 		)
 		(property "Value" "AD8236ARMZ-R7"
-			(at 7.874 1.27 0)
+			(at 17.526 -17.526 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,6 +1051,15 @@
 		)
 		(property "Description" "Instrumentation Amplifiers 40 A Micropower Instrumentation Amplifier "
 			(at 5.588 -28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "AD8236ARMZ-R7"
+			(at -20.574 -32.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1086,7 +1285,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -21.844 -8.636 0)
+			(at -22.86 -8.636 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1105,6 +1304,15 @@
 		)
 		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 1uF X5R 0402 10% "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "C0402C105K8PACTU"
+			(at -24.13 -10.668 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1261,6 +1469,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "C0402C471J5RACTU"
+			(at -23.876 -9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "cap"
 			(at 0 0 0)
 			(effects
@@ -1403,6 +1620,15 @@
 		)
 		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT 16V 0.01uF X7R 0402 5% "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CC0402JRX7R7BB103"
+			(at -24.638 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1559,6 +1785,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CC0402JRX7R7BB153"
+			(at -24.638 -9.398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "cap"
 			(at 0 0 0)
 			(effects
@@ -1682,7 +1917,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:R0402"
-			(at -14.986 -3.302 0)
+			(at -14.986 -3.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1702,12 +1937,21 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 1% Commercial Use "
-			(at -15.748 -5.334 0)
+			(at -14.986 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW0402100KFKEDC"
+			(at -4.318 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1816,12 +2060,21 @@
 			)
 		)
 		(property "Description" "Thick Film Resistors - SMD 0.2W 10Kohms 1% High Power AEC-Q200 "
-			(at -15.748 -5.334 0)
+			(at -14.986 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040210K0FKEDHP"
+			(at -3.81 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -1939,6 +2192,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW040220K0FKED"
+			(at -5.842 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -2050,6 +2312,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040222R0FKED"
+			(at -5.842 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2167,6 +2438,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW0402270KFKTD"
+			(at -5.842 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -2278,6 +2558,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW04022M87FKED"
+			(at -5.588 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2395,6 +2684,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW04024M64FKED"
+			(at -5.588 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -2509,6 +2807,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "CRCW04024M75FKED"
+			(at -5.588 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -2614,12 +2921,21 @@
 			)
 		)
 		(property "Description" " Power Inductors - SMD 1.5 UH 20% "
-			(at -15.748 -5.334 0)
+			(at -16.002 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "DFE201612E-1R5M=P2"
+			(at -3.556 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -2777,6 +3093,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "ERJ-2GEJ563X"
+			(at -8.382 -8.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -2882,12 +3207,21 @@
 			)
 		)
 		(property "Description" " ESD Protection Diodes / TVS Diodes SMP Diode 0201 3.3V 10pF <6V Clamp@1a "
-			(at -15.494 -8.128 0)
+			(at -16.51 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GG020103100N2P"
+			(at -6.858 -11.938 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3109,7 +3443,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -23.876 -7.62 0)
+			(at -25.654 -7.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,7 +3452,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/281/1/GRM155R60G106ME01_01A-1983785.pdf"
-			(at 8.636 -5.842 0)
+			(at 5.08 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3128,6 +3462,15 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 4 VDC 20% 0402 X5R "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R60G106ME01D"
+			(at -25.4 -9.398 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3234,6 +3577,44 @@
 				)
 			)
 		)
+		(symbol "GRM155R60G106ME01D_1_2"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
 	)
 	(symbol "GRM155R60J474KE19D"
 		(exclude_from_sim no)
@@ -3258,7 +3639,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -26.416 -8.128 0)
+			(at -27.432 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3277,6 +3658,15 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47 uF 6.3 VDC 10% 0402 X5R "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R60J474KE19D"
+			(at -27.432 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3407,7 +3797,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -25.146 -8.128 0)
+			(at -26.162 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3426,6 +3816,15 @@
 		)
 		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2 uF 16 VDC 10% 0402 X5R "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R61C225KE44D"
+			(at -25.908 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3556,7 +3955,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -37.084 -8.636 0)
+			(at -37.084 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3582,6 +3981,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM155R71A104JA01D"
+			(at -26.162 -10.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -3699,7 +4107,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at -25.4 -8.128 0)
+			(at -25.908 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3708,7 +4116,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/281/1/GRM15XR71C332KA86_01A-1984603.pdf"
-			(at 4.318 -6.096 0)
+			(at 4.826 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3717,7 +4125,16 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 3300 pF 16 VDC 10% 0402 X7R "
-			(at 1.778 -4.064 0)
+			(at 3.556 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM15XR71C332KA86D"
+			(at -25.654 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +4265,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0603"
-			(at -25.4 -8.128 0)
+			(at -26.416 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,6 +4284,15 @@
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 10 VDC 20% 0603 X5R "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61A226ME15D"
+			(at -26.162 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3997,7 +4423,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0603"
-			(at -26.416 -8.128 0)
+			(at -26.162 -8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4006,7 +4432,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/281/1/GRM155R60J474KE19_01A-1983776.pdf"
-			(at 3.048 -6.096 0)
+			(at 4.318 -6.096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,6 +4442,15 @@
 		)
 		(property "Description" " Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7 uF 25 VDC 10% 0603 X5R "
 			(at 1.778 -4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "GRM188R61E475KE11D"
+			(at -26.162 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4163,6 +4598,15 @@
 		)
 		(property "Description" "GSR_Board_Castellated_Conn_1.27mm"
 			(at 1.778 -26.162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +4962,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:GSR_Electrodes_Conn"
-			(at -20.574 -17.018 0)
+			(at 2.794 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4527,7 +4971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 5.334 -14.732 0)
+			(at 2.54 -5.842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4536,7 +4980,16 @@
 			)
 		)
 		(property "Description" "GSR SMD Electrodes Connector"
-			(at 3.048 -12.446 0)
+			(at -0.254 -9.906 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4625,7 +5078,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:HEEP_Board_Castellated_Conn_1.27mm"
-			(at 4.318 -66.548 0)
+			(at 6.858 -66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4643,7 +5096,16 @@
 			)
 		)
 		(property "Description" "HEEP_Board_Castellated_Conn_1.27mm"
-			(at -4.572 -64.516 0)
+			(at -1.016 -64.008 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5853,7 +6315,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:HEEP_Board_Header_Conn_1.27mm"
-			(at 4.826 -96.52 0)
+			(at 3.556 -96.266 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5872,6 +6334,15 @@
 		)
 		(property "Description" "HEEP_Board_Castellated_Conn_1.27mm"
 			(at -2.286 -94.488 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +7398,16 @@
 			)
 		)
 		(property "Description" "HEEP_Board_Socket_Conn_1.27mm"
-			(at -2.54 -66.04 0)
+			(at 2.032 -66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8165,6 +8645,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -13623,6 +14112,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "LTC1864LIMS8#PBF"
+			(at -9.652 -30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "gauge"
 			(at 0 0 0)
 			(effects
@@ -13814,7 +14312,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:DFN-10_3x3mm"
-			(at -19.558 -13.462 0)
+			(at -18.796 -13.462 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13833,6 +14331,15 @@
 		)
 		(property "Description" " Operational Amplifiers - Op Amps 2 A Supply Current, Low IB, Zero-Drift Operational Amplifiers "
 			(at 12.7 -15.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "LTC2064IDD#PBF"
+			(at -26.162 -19.558 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14106,7 +14613,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:WLCSP-9_1.468x1.448mm_P0.4mm"
-			(at -0.254 -33.02 0)
+			(at -24.638 -33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14116,7 +14623,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/609/MAX17262-3469007.pdf"
-			(at -0.254 -30.734 0)
+			(at -24.638 -31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14126,12 +14633,21 @@
 			)
 		)
 		(property "Description" " Battery Management 5.2 A 1-Cell Fuel Gauge with ModelGauge m5 EZ and Internal Current Sensing "
-			(at -1.27 -28.702 0)
+			(at -25.654 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "MAX17262REWL+T"
+			(at -16.002 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14375,6 +14891,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MAX5419LETA+T"
+			(at -12.446 -30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "gauge"
 			(at 0 0 0)
 			(effects
@@ -14586,7 +15111,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:WLCSP-30_2.788x2.338mm_P0.4mm"
-			(at 25.146 -99.822 0)
+			(at -1.016 -96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14595,7 +15120,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/609/1/max77654-3470828.pdf"
-			(at -0.508 -97.536 0)
+			(at -26.67 -94.234 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14605,13 +15130,21 @@
 			)
 		)
 		(property "Description" "Power Management Specialised - PMIC Ultra Low Power PMIC w/ 3-Output SIMO + 2 LDOs"
-			(at -0.508 -95.504 0)
+			(at -26.67 -92.202 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+		(property "MPN" "MAX77654MENV+T"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "pmic"
@@ -15229,6 +15762,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "MSASJ105BB5475MFNA01"
+			(at -22.098 -9.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "cap"
 			(at 0 0 0)
 			(effects
@@ -15350,7 +15892,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:Power_Board_Castellated_Conn_1.27mm"
-			(at 9.144 -30.48 0)
+			(at 8.128 -30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15369,6 +15911,15 @@
 		)
 		(property "Description" "Power_Board_Castellated_Conn_1.27mm"
 			(at 0.254 -28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16074,7 +16625,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:Power_Board_Header_Conn_2.54mm"
-			(at 1.778 -56.896 0)
+			(at 2.794 -57.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16091,8 +16642,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 0.762 1.27 0)
+		(property "Description" "Power_Board_Header_Conn_2.54mm"
+			(at -5.08 -56.134 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16770,7 +17330,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:Power_Board_Socket_Conn_1.27mm"
-			(at 8.128 -31.75 0)
+			(at 7.366 -29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16788,7 +17348,16 @@
 			)
 		)
 		(property "Description" "Power_Board_Socket_Conn_1.27mm"
-			(at -0.762 -29.718 0)
+			(at -0.762 -27.178 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17494,7 +18063,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:8-Row_Castellated_Conn_1.27mm"
-			(at 17.526 -94.488 0)
+			(at 14.732 -87.884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17512,7 +18081,16 @@
 			)
 		)
 		(property "Description" "Power_Board_Stap"
-			(at 1.016 -92.202 0)
+			(at -0.762 -85.852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18198,6 +18776,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -18309,6 +18896,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK73H1ERTTP1004F"
+			(at -6.096 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18426,6 +19022,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "RK73H1ETTP1434F"
+			(at -6.858 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -18531,12 +19136,21 @@
 			)
 		)
 		(property "Description" " Thick Film Resistors ZEROohms JUMPER "
-			(at -15.748 -5.334 0)
+			(at -16.002 -5.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RK73Z1ETTP"
+			(at -8.89 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18625,7 +19239,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:SIT1532AC"
-			(at 0 -15.24 0)
+			(at -21.082 -13.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18635,7 +19249,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/371/SiT1532_datasheet-1324404.pdf"
-			(at 0 -12.954 0)
+			(at -21.082 -11.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18645,12 +19259,21 @@
 			)
 		)
 		(property "Description" "Standard Clock Oscillators 32.768kHz 75ppm -10C +70C "
-			(at 0 -10.922 0)
+			(at -21.082 -9.906 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SIT1532AC-J5-DCC-32.768D"
+			(at -6.858 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -18773,7 +19396,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:X2SON-6"
-			(at 4.064 -11.43 0)
+			(at 2.794 -11.684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18792,6 +19415,15 @@
 		)
 		(property "Description" " Inverters Low-Pwr Sgl Schmitt- Trigger Inverter "
 			(at 13.97 -13.716 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74AUP1G14DSFR"
+			(at -0.254 -17.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19019,6 +19651,15 @@
 		)
 		(property "Description" "Logic Gates Low-Pwr Dual 2-Inp Pos-AND Gate "
 			(at 10.16 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "SN74AUP2G08DQER"
+			(at -4.826 -17.272 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19297,6 +19938,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TC42X-2-104E"
+			(at -7.366 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "res"
 			(at 0 0 0)
 			(effects
@@ -19424,7 +20074,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:TL1030AF160AQJ"
-			(at -9.906 -5.588 0)
+			(at -10.922 -5.588 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19443,6 +20093,15 @@
 		)
 		(property "Description" "Tactile Switches TACT, Surface Mount, Right Angle, Gull Wing, 50mA, 12VDC "
 			(at 10.414 -7.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TL1030AF160AQJ"
+			(at -18.796 -11.176 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19636,6 +20295,273 @@
 			)
 		)
 	)
+	(symbol "TMUX1104DQAR"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at -0.254 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TMUX1104DQAR "
+			(at -0.254 1.016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:USON-10_1x2.5mm"
+			(at -22.098 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.es/datasheet/2/609/MAX5417_MAX5419-3470280.pdf"
+			(at -22.098 -33.274 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multiplexer Switch ICs 3-pA on-state leakage current, 5-V, 4:1, 1-channel precision multiplexer 10-USON -40 to 125 "
+			(at -22.098 -30.988 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TMUX1104DQAR "
+			(at -14.224 -37.592 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "analog mux"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "TMUX1104DQAR_0_1"
+			(rectangle
+				(start 0 0)
+				(end 15.24 -26.67)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+		(symbol "TMUX1104DQAR_1_1"
+			(pin passive line
+				(at -2.54 -20.32 0)
+				(length 2.54)
+				(name "A0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -22.86 0)
+				(length 2.54)
+				(name "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "S1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -22.86 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "S3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -2.54 180)
+				(length 2.54)
+				(name "EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "S4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 17.78 -11.43 180)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "S2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "TPS22916CYFPR"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19685,6 +20611,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS22916CYFPR"
+			(at -10.922 -19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -19786,7 +20721,7 @@
 			)
 		)
 	)
-	(symbol "TPS7A9401DSCR "
+	(symbol "TPS7A9401DSCR"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19838,6 +20773,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "TPS7A9401DSCR"
+			(at -12.7 -35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(property "ki_keywords" "level shifter"
 			(at 0 0 0)
 			(effects
@@ -19847,7 +20791,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "TPS7A9401DSCR _0_1"
+		(symbol "TPS7A9401DSCR_0_1"
 			(rectangle
 				(start 0 0)
 				(end 21.59 -25.4)
@@ -19861,7 +20805,7 @@
 				)
 			)
 		)
-		(symbol "TPS7A9401DSCR _1_1"
+		(symbol "TPS7A9401DSCR_1_1"
 			(pin passive line
 				(at -2.54 -3.81 0)
 				(length 2.54)
@@ -20111,6 +21055,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXB0104RUTR"
+			(at -12.192 -35.814 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20379,7 +21332,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:X2SON-8"
-			(at -20.574 -33.528 0)
+			(at -20.828 -30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20389,7 +21342,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/txs0102.pdf?ts=1727608546388&ref_url=https%253A%252F%252Fro.mouser.com%252F"
-			(at -20.828 -31.242 0)
+			(at -21.082 -27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20399,12 +21352,21 @@
 			)
 		)
 		(property "Description" "Translation - Voltage Levels 2B Bidirec Vltg-Lev Translator "
-			(at -20.828 -28.956 0)
+			(at -21.082 -25.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TXS0102DQER"
+			(at -14.224 -32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20601,7 +21563,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:WLCSP-21"
-			(at 0 -39.624 0)
+			(at -23.114 -40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20611,7 +21573,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/949/W25Q128JW_RevB_11042019-1761358.pdf"
-			(at 0 -37.338 0)
+			(at -23.114 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20621,12 +21583,21 @@
 			)
 		)
 		(property "Description" " NOR Flash spiFlash, 1.8V, 128M-bit, 4Kb Uniform Sector "
-			(at -1.016 -35.306 0)
+			(at -24.13 -36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "W25Q128JWYIQ"
+			(at -16.002 -42.418 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
