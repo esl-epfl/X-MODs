@@ -2168,7 +2168,13 @@
 		)
 	)
 	(junction
-		(at 38.1 124.46)
+		(at 88.9 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0cb53acd-7deb-48cb-a72f-813561256c94")
+	)
+	(junction
+		(at 35.56 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1411250b-8a5e-4fd3-a82e-f00440f39c6a")
@@ -2345,7 +2351,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 124.46) (xy 38.1 127)
+			(xy 35.56 124.46) (xy 35.56 127)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2391,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 135.89) (xy 83.82 128.27)
+			(xy 81.28 135.89) (xy 81.28 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2515,7 +2521,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 121.92) (xy 35.56 124.46)
+			(xy 33.02 121.92) (xy 33.02 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2605,7 +2611,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 121.92) (xy 88.9 124.46)
+			(xy 91.44 120.65) (xy 91.44 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2622,6 +2628,16 @@
 			(type default)
 		)
 		(uuid "3f9cd29d-f52c-42e1-a470-7cb66be10dac")
+	)
+	(wire
+		(pts
+			(xy 88.9 124.46) (xy 78.74 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400fe9f9-8e1d-4ba3-9147-6bf685bc861c")
 	)
 	(wire
 		(pts
@@ -2725,6 +2741,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 124.46) (xy 88.9 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55907a02-b341-430e-b09d-73659235cf09")
+	)
+	(wire
+		(pts
 			(xy 250.19 43.18) (xy 250.19 45.72)
 		)
 		(stroke
@@ -2815,6 +2841,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 134.62) (xy 88.9 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d48f2d-7398-490e-a149-6710c315110c")
+	)
+	(wire
+		(pts
 			(xy 118.11 133.35) (xy 118.11 140.97)
 		)
 		(stroke
@@ -2835,7 +2871,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 128.27) (xy 59.69 128.27)
+			(xy 54.61 128.27) (xy 57.15 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3125,7 +3161,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 124.46) (xy 81.28 124.46)
+			(xy 91.44 124.46) (xy 88.9 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3275,7 +3311,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 128.27) (xy 81.28 128.27)
+			(xy 81.28 128.27) (xy 78.74 128.27)
 		)
 		(stroke
 			(width 0)
@@ -3305,7 +3341,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 124.46) (xy 59.69 124.46)
+			(xy 35.56 124.46) (xy 57.15 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3315,7 +3351,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 124.46) (xy 38.1 124.46)
+			(xy 33.02 124.46) (xy 35.56 124.46)
 		)
 		(stroke
 			(width 0)
@@ -3355,7 +3391,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 134.62) (xy 38.1 135.89)
+			(xy 35.56 134.62) (xy 35.56 135.89)
 		)
 		(stroke
 			(width 0)
@@ -3569,6 +3605,17 @@
 		)
 		(uuid "264a884c-106e-4ca1-a504-71bde9e01a62")
 	)
+	(label "FB_PG"
+		(at 220.98 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b8b2c454-a2b3-4878-9912-c63fc329d84f")
+	)
 	(label "EN_UV"
 		(at 177.8 53.34 0)
 		(fields_autoplaced yes)
@@ -3736,7 +3783,7 @@
 	)
 	(global_label "ADC_EN"
 		(shape input)
-		(at 57.15 128.27 180)
+		(at 54.61 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3746,7 +3793,7 @@
 		)
 		(uuid "b72fc923-3aa4-40e2-b280-958ad9ce4b76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 47.0891 128.27 0)
+			(at 44.5491 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3824,7 +3871,7 @@
 	)
 	(symbol
 		(lib_id "X-MODs_SchLib:TPS22916CYFPR")
-		(at 62.23 121.92 0)
+		(at 59.69 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3832,7 +3879,7 @@
 		(dnp no)
 		(uuid "0721d224-6910-49fb-8249-f46d92ea4830")
 		(property "Reference" "U3"
-			(at 63.246 118.618 0)
+			(at 60.706 118.618 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3840,7 +3887,7 @@
 			)
 		)
 		(property "Value" "TPS22916CYFPR"
-			(at 69.85 120.65 0)
+			(at 67.31 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3848,7 +3895,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:DSBGA-4_0.74x0.74mm"
-			(at 43.434 138.938 0)
+			(at 40.894 138.938 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3858,7 +3905,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/tps22916"
-			(at 43.18 136.652 0)
+			(at 40.64 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3868,7 +3915,7 @@
 			)
 		)
 		(property "Description" "Power Switch ICs - Power Distribution 5.5-V, 2-A, 60-mohm, 10-nA leakage load switch with output discharge 4-DSBGA -40 to 85"
-			(at 43.18 134.366 0)
+			(at 40.64 134.366 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3893,6 +3940,78 @@
 			(project "Analog_Board"
 				(path "/bdf5493b-d107-405a-a118-5a34dab51f77/49cb7aeb-0ac0-45b6-8eb1-5dc013975d0d"
 					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X-MODs_SchLib:GRM155R71A104JA01D")
+		(at 88.9 130.81 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "072f720b-c7a4-4ded-8d8c-8642183f5014")
+		(property "Reference" "C13"
+			(at 89.916 128.524 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n 10V"
+			(at 85.598 125.984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:C0402"
+			(at 80.264 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.es/datasheet/2/281/1/GRM155R71A104JA01_01A-1984196.pdf"
+			(at 82.55 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10 VDC 5% 0402 X7R"
+			(at 84.836 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "822ac699-4802-4044-9c26-831d72a343c9")
+		)
+		(pin "2"
+			(uuid "5cd41fed-141c-4388-85af-077759162efc")
+		)
+		(instances
+			(project "Analog_Board"
+				(path "/bdf5493b-d107-405a-a118-5a34dab51f77/49cb7aeb-0ac0-45b6-8eb1-5dc013975d0d"
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -4580,7 +4699,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 83.82 135.89 0)
+		(at 81.28 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4588,7 +4707,7 @@
 		(dnp no)
 		(uuid "39b039d8-30a6-4509-9219-27b51c4508a8")
 		(property "Reference" "#PWR011"
-			(at 83.82 142.24 0)
+			(at 81.28 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4597,7 +4716,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 140.97 0)
+			(at 81.28 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,7 +4724,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 135.89 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4614,7 +4733,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 83.82 135.89 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4623,7 +4742,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 83.82 135.89 0)
+			(at 81.28 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5047,7 +5166,7 @@
 	)
 	(symbol
 		(lib_id "X-MODs_SchLib:C0402C105K8PACTU")
-		(at 38.1 130.81 90)
+		(at 35.56 130.81 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5055,7 +5174,7 @@
 		(dnp no)
 		(uuid "4ae27d46-30dd-423a-ae2b-31bf0a5ea6d2")
 		(property "Reference" "C4"
-			(at 40.64 129.54 90)
+			(at 38.1 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5064,7 +5183,7 @@
 			)
 		)
 		(property "Value" "1u00 10V"
-			(at 40.64 132.08 90)
+			(at 38.1 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5073,7 +5192,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at 46.736 152.654 0)
+			(at 44.196 152.654 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5201,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.mouser.es/datasheet/2/447/KEM_C1006_X5R_SMD-3316465.pdf"
-			(at 44.45 126.746 0)
+			(at 41.91 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5091,7 +5210,7 @@
 			)
 		)
 		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 1uF X5R 0402 10%"
-			(at 42.164 129.032 0)
+			(at 39.624 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5258,7 +5377,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 35.56 121.92 0)
+		(at 33.02 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5267,7 +5386,7 @@
 		(fields_autoplaced yes)
 		(uuid "53f0bd93-9132-457c-99e8-16c4c525488d")
 		(property "Reference" "#PWR08"
-			(at 35.56 125.73 0)
+			(at 33.02 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5276,7 +5395,7 @@
 			)
 		)
 		(property "Value" "+3VA"
-			(at 35.56 116.84 0)
+			(at 33.02 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5284,7 +5403,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 35.56 121.92 0)
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5293,7 +5412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 35.56 121.92 0)
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5302,7 +5421,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 35.56 121.92 0)
+			(at 33.02 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5467,7 +5586,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 38.1 135.89 0)
+		(at 35.56 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5475,7 +5594,7 @@
 		(dnp no)
 		(uuid "60e51fda-509e-4db6-8c6e-bc2c785a2cb5")
 		(property "Reference" "#PWR010"
-			(at 38.1 142.24 0)
+			(at 35.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5484,7 +5603,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 140.97 0)
+			(at 35.56 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5492,7 +5611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5501,7 +5620,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5510,7 +5629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 38.1 135.89 0)
+			(at 35.56 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6487,6 +6606,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:Earth")
+		(at 88.9 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e1b256a9-fe31-4571-a3d4-ba66c0cef9d1")
+		(property "Reference" "#PWR042"
+			(at 88.9 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"Earth\""
+			(at 88.9 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25ac8b66-0cf4-47d9-97ca-9188b28ff45e")
+		)
+		(instances
+			(project "Analog_Board"
+				(path "/bdf5493b-d107-405a-a118-5a34dab51f77/49cb7aeb-0ac0-45b6-8eb1-5dc013975d0d"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3VA")
 		(at 264.16 115.57 0)
 		(unit 1)
@@ -6554,7 +6738,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3VA")
-		(at 88.9 121.92 0)
+		(at 91.44 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6563,7 +6747,7 @@
 		(fields_autoplaced yes)
 		(uuid "e66eedd2-15e2-4154-bae1-bad2215c7a25")
 		(property "Reference" "#PWR09"
-			(at 88.9 125.73 0)
+			(at 91.44 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6572,7 +6756,7 @@
 			)
 		)
 		(property "Value" "+3VA_ADC"
-			(at 88.9 116.84 0)
+			(at 91.44 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6580,7 +6764,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 121.92 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6589,7 +6773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 121.92 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6598,7 +6782,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
-			(at 88.9 121.92 0)
+			(at 91.44 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
