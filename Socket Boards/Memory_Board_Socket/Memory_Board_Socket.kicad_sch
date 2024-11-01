@@ -1,0 +1,1186 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8aee0bf8-e47e-40ec-bb3b-df19bfc04c88")
+	(paper "A4")
+	(lib_symbols
+		(symbol "X-MODs_SchLib:Memory_Board_Header_Conn_2.54mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.508 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X-MODs_PcbLib:Memory_Board_Header_Conn_2.54mm"
+				(at 7.366 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+				(at 1.27 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Memory_Board_Header_Conn_2.54mm_1_1"
+				(rectangle
+					(start 0 0)
+					(end 21.59 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "+1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "FLASH_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "~{FLASH_2_CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "~{FLASH_2_WP_(IO2)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "~{FLASH_2_RST_(IO3)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Memory_Board_Header_Conn_2.54mm_2_1"
+				(rectangle
+					(start 0 0)
+					(end 21.59 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "FLASH_MISO_(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "FLASH_MOSI_(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~{FLASH_1_RST_(IO3)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "~{FLASH_1_WP_(IO2)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "~{FLASH_1_CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "X-MODs_SchLib:Memory_Board_Socket_Conn_1.27mm"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.508 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X-MODs_PcbLib:Memory_Board_Socket_Conn_1.27mm"
+				(at 9.398 -22.352 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+				(at 1.27 -20.574 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Memory_Board_Socket_Conn_1.27mm_1_1"
+				(rectangle
+					(start 0 0)
+					(end 21.59 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "+1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "FLASH_CLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "~{FLASH_2_CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "~{FLASH_2_WP_(IO2)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "~{FLASH_2_RST_(IO3)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "Memory_Board_Socket_Conn_1.27mm_2_1"
+				(rectangle
+					(start 0 0)
+					(end 21.59 -17.78)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "FLASH_MISO_(IO1)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "FLASH_MOSI_(IO0)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "~{FLASH_1_RST_(IO3)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "~{FLASH_1_WP_(IO2)}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "~{FLASH_1_CS}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 111.76 101.6) (xy 100.33 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13933ed5-44d4-477d-a214-34e3be545234")
+	)
+	(wire
+		(pts
+			(xy 191.77 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ad21a87-34d5-4e28-bcc2-c4e777a36cef")
+	)
+	(wire
+		(pts
+			(xy 191.77 96.52) (xy 180.34 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b8bf4ff-f42b-4baf-914c-1eda8211f053")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 100.33 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "347256f6-54d1-49a6-82cc-4d954e09b2ec")
+	)
+	(wire
+		(pts
+			(xy 191.77 104.14) (xy 180.34 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47398366-95ff-4c0c-9442-f5e9dd339789")
+	)
+	(wire
+		(pts
+			(xy 111.76 93.98) (xy 100.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ab64b1b-e4e5-4e11-90f8-e1a834d4f0d7")
+	)
+	(wire
+		(pts
+			(xy 191.77 101.6) (xy 180.34 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5fbe0818-8a15-46cc-ac3e-7a453fedd20a")
+	)
+	(wire
+		(pts
+			(xy 191.77 91.44) (xy 180.34 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9308dd4f-3879-4a47-809d-1fc18d356723")
+	)
+	(wire
+		(pts
+			(xy 111.76 91.44) (xy 100.33 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa72dd7f-15c5-4906-9af8-db18d8125bc8")
+	)
+	(wire
+		(pts
+			(xy 111.76 99.06) (xy 100.33 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adb0b3fa-035f-4ebb-805d-fad6a1bd5f22")
+	)
+	(wire
+		(pts
+			(xy 191.77 99.06) (xy 180.34 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c362376f-1c0c-4561-ab90-e6ab022dd105")
+	)
+	(wire
+		(pts
+			(xy 111.76 96.52) (xy 100.33 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c20fc7-8de3-42b7-923c-da26ee74f248")
+	)
+	(symbol
+		(lib_id "X-MODs_SchLib:Memory_Board_Header_Conn_2.54mm")
+		(at 194.31 88.9 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "417a4654-df9d-40fb-a108-08a3b3f90b32")
+		(property "Reference" "J2"
+			(at 194.056 87.5029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 217.17 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Header_Conn_2.54mm"
+			(at 201.676 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+			(at 195.58 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 194.31 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8a93d325-5f72-4f47-9035-a59df8ea7dc5")
+		)
+		(pin "7"
+			(uuid "b822f234-0ff3-4512-ad8e-91022c790ad2")
+		)
+		(pin "10"
+			(uuid "651e1179-9b61-427e-a08d-bc300721da0d")
+		)
+		(pin "4"
+			(uuid "c730ab7f-aad2-41ad-ab0d-a11a135e48a1")
+		)
+		(pin "9"
+			(uuid "4dc92625-e01c-48ab-911a-d1e9ff97e931")
+		)
+		(pin "2"
+			(uuid "ce9b58b0-88cb-48ac-b715-517829d884cf")
+		)
+		(pin "12"
+			(uuid "a8703f23-af2c-4581-9ee2-e968eeb13b61")
+		)
+		(pin "8"
+			(uuid "04c4b515-8a7e-45d0-a44b-44745063caf8")
+		)
+		(pin "1"
+			(uuid "01178c12-4499-453d-895e-31154ddde06d")
+		)
+		(pin "3"
+			(uuid "71fff3cd-9cdd-4d20-aef7-f62afa34ad0a")
+		)
+		(pin "6"
+			(uuid "e9c0eed9-3645-4c67-9531-f0303b9910e3")
+		)
+		(pin "11"
+			(uuid "02c30a70-8d64-4495-b2a7-e98b2d0a6bcf")
+		)
+		(instances
+			(project ""
+				(path "/8aee0bf8-e47e-40ec-bb3b-df19bfc04c88"
+					(reference "J2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X-MODs_SchLib:Memory_Board_Header_Conn_2.54mm")
+		(at 97.79 88.9 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6102ff7-a668-4b33-81bc-1bb9ab4a51c8")
+		(property "Reference" "J2"
+			(at 97.79 87.7569 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 74.93 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Header_Conn_2.54mm"
+			(at 90.424 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+			(at 96.52 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 97.79 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "8a93d325-5f72-4f47-9035-a59df8ea7dc6")
+		)
+		(pin "7"
+			(uuid "b822f234-0ff3-4512-ad8e-91022c790ad3")
+		)
+		(pin "10"
+			(uuid "651e1179-9b61-427e-a08d-bc300721da0e")
+		)
+		(pin "4"
+			(uuid "c730ab7f-aad2-41ad-ab0d-a11a135e48a2")
+		)
+		(pin "9"
+			(uuid "4dc92625-e01c-48ab-911a-d1e9ff97e932")
+		)
+		(pin "2"
+			(uuid "ce9b58b0-88cb-48ac-b715-517829d884d0")
+		)
+		(pin "12"
+			(uuid "a8703f23-af2c-4581-9ee2-e968eeb13b62")
+		)
+		(pin "8"
+			(uuid "04c4b515-8a7e-45d0-a44b-44745063caf9")
+		)
+		(pin "1"
+			(uuid "01178c12-4499-453d-895e-31154ddde06e")
+		)
+		(pin "3"
+			(uuid "71fff3cd-9cdd-4d20-aef7-f62afa34ad0b")
+		)
+		(pin "6"
+			(uuid "e9c0eed9-3645-4c67-9531-f0303b9910e4")
+		)
+		(pin "11"
+			(uuid "02c30a70-8d64-4495-b2a7-e98b2d0a6bd0")
+		)
+		(instances
+			(project ""
+				(path "/8aee0bf8-e47e-40ec-bb3b-df19bfc04c88"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X-MODs_SchLib:Memory_Board_Socket_Conn_1.27mm")
+		(at 114.3 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e8b02c2c-1253-4f99-b4b7-f113e5103b26")
+		(property "Reference" "J1"
+			(at 114.046 87.5029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 137.16 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Socket_Conn_1.27mm"
+			(at 123.698 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+			(at 115.57 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 114.3 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "12"
+			(uuid "d430af64-158d-4108-a831-13db3d2c998e")
+		)
+		(pin "10"
+			(uuid "f57880c0-d3ef-426c-a413-0f3a2f9fb395")
+		)
+		(pin "8"
+			(uuid "beb3649a-20e8-47ef-842f-f474725ba007")
+		)
+		(pin "9"
+			(uuid "c0956e2e-9943-44d0-b081-72573c15c73f")
+		)
+		(pin "5"
+			(uuid "63eab9c2-0e90-4448-8ac3-b3006a2839a9")
+		)
+		(pin "7"
+			(uuid "89ed52cd-2699-4940-a6ef-615728db2360")
+		)
+		(pin "1"
+			(uuid "acf94ab3-cf1c-4b17-aba7-9289d62c1a26")
+		)
+		(pin "11"
+			(uuid "8c09f0a4-eb86-43e7-b07a-2f9fe074b9d3")
+		)
+		(pin "2"
+			(uuid "106bc0c0-2f07-4751-abab-3d8aa9ffb393")
+		)
+		(pin "4"
+			(uuid "ec67528b-46e3-46da-9313-73b57f7b5228")
+		)
+		(pin "6"
+			(uuid "b49e03b6-dbc3-47f9-95ef-2d0622d85c48")
+		)
+		(pin "3"
+			(uuid "be360420-deee-4e96-b808-860afdd0d3d3")
+		)
+		(instances
+			(project ""
+				(path "/8aee0bf8-e47e-40ec-bb3b-df19bfc04c88"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X-MODs_SchLib:Memory_Board_Socket_Conn_1.27mm")
+		(at 177.8 88.9 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7c28677-f381-436f-92b9-f14f06c4cc3e")
+		(property "Reference" "J1"
+			(at 178.308 87.5029 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 154.94 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Socket_Conn_1.27mm"
+			(at 168.402 111.252 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+			(at 176.53 109.474 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "8"
+			(uuid "d430af64-158d-4108-a831-13db3d2c998f")
+		)
+		(pin "6"
+			(uuid "f57880c0-d3ef-426c-a413-0f3a2f9fb396")
+		)
+		(pin "10"
+			(uuid "beb3649a-20e8-47ef-842f-f474725ba008")
+		)
+		(pin "1"
+			(uuid "c0956e2e-9943-44d0-b081-72573c15c740")
+		)
+		(pin "4"
+			(uuid "63eab9c2-0e90-4448-8ac3-b3006a2839aa")
+		)
+		(pin "7"
+			(uuid "89ed52cd-2699-4940-a6ef-615728db2361")
+		)
+		(pin "9"
+			(uuid "acf94ab3-cf1c-4b17-aba7-9289d62c1a27")
+		)
+		(pin "11"
+			(uuid "8c09f0a4-eb86-43e7-b07a-2f9fe074b9d4")
+		)
+		(pin "2"
+			(uuid "106bc0c0-2f07-4751-abab-3d8aa9ffb394")
+		)
+		(pin "12"
+			(uuid "ec67528b-46e3-46da-9313-73b57f7b5229")
+		)
+		(pin "5"
+			(uuid "b49e03b6-dbc3-47f9-95ef-2d0622d85c49")
+		)
+		(pin "3"
+			(uuid "be360420-deee-4e96-b808-860afdd0d3d4")
+		)
+		(instances
+			(project ""
+				(path "/8aee0bf8-e47e-40ec-bb3b-df19bfc04c88"
+					(reference "J1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

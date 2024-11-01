@@ -17209,7 +17209,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Castellated_Conn_1.27mm"
-			(at 9.398 -22.352 0)
+			(at 9.652 -22.606 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17304,7 +17304,7 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "~{FLASH_2_CS}"
+				(name "FLASH_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17322,7 +17322,7 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "~{FLASH_2_WP_(IO2)}"
+				(name "~{FLASH_2_CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17340,7 +17340,7 @@
 			(pin passive line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "~{FLASH_2_RST_(IO3)}"
+				(name "~{FLASH_2_WP_(IO2)}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17358,7 +17358,7 @@
 			(pin passive line
 				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "FLASH_MOSI_(IO0)"
+				(name "~{FLASH_2_RST_(IO3)}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17390,7 +17390,7 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "~{FLASH_1_WP_(IO2)}"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17426,7 +17426,7 @@
 			(pin passive line
 				(at -2.54 -15.24 0)
 				(length 2.54)
-				(name "~{FLASH_1_CS}"
+				(name "FLASH_MOSI_(IO0)"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17444,7 +17444,7 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "FLASH_CLK"
+				(name "~{FLASH_1_RST_(IO3)}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17462,7 +17462,7 @@
 			(pin passive line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "GND"
+				(name "~{FLASH_1_WP_(IO2)}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17480,7 +17480,625 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
+				(name "~{FLASH_1_CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Memory_Board_Header_Conn_2.54mm"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0.508 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Header_Conn_2.54mm"
+			(at 7.366 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+			(at 1.27 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Memory_Board_Header_Conn_2.54mm_1_1"
+			(rectangle
+				(start 0 0)
+				(end 21.59 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "FLASH_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "~{FLASH_2_CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "~{FLASH_2_WP_(IO2)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "~{FLASH_2_RST_(IO3)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Memory_Board_Header_Conn_2.54mm_2_1"
+			(rectangle
+				(start 0 0)
+				(end 21.59 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "FLASH_MISO_(IO1)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "FLASH_MOSI_(IO0)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
 				(name "~{FLASH_1_RST_(IO3)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "~{FLASH_1_WP_(IO2)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "~{FLASH_1_CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "Memory_Board_Socket_Conn_1.27mm"
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0.508 1.524 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Socket_Conn_1.27mm"
+			(at 9.398 -22.352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
+			(at 1.27 -20.574 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Memory_Board_Socket_Conn_1.27mm_1_1"
+			(rectangle
+				(start 0 0)
+				(end 21.59 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "+1V8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "FLASH_CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "~{FLASH_2_CS}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "~{FLASH_2_WP_(IO2)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "~{FLASH_2_RST_(IO3)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Memory_Board_Socket_Conn_1.27mm_2_1"
+			(rectangle
+				(start 0 0)
+				(end 21.59 -17.78)
+				(stroke
+					(width 0)
+					(type default)
+					(color 128 0 0 1)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -12.7 0)
+				(length 2.54)
+				(name "FLASH_MISO_(IO1)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "FLASH_MOSI_(IO0)"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "~{FLASH_1_RST_(IO3)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -5.08 0)
+				(length 2.54)
+				(name "~{FLASH_1_WP_(IO2)}"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -7.62 0)
+				(length 2.54)
+				(name "~{FLASH_1_CS}"
 					(effects
 						(font
 							(size 1.27 1.27)

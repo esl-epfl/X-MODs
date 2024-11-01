@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -10.085 0)
+		(at 0 -6.685 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Memory_Board_Castellated_Conn_1.27mm"
-		(at 0 13.482 0)
+		(at 0 7.182 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -29,7 +29,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 -9 0)
+		(at 9 0 -90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -42,7 +42,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 -9 0)
+		(at 9 0 -90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -55,7 +55,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 -9 0)
+		(at 9 0 -90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -69,8 +69,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -5.4 7.6)
-		(end 5.4 -7.6)
+		(start -7.6 -5.4)
+		(end 7.6 5.4)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -92,7 +92,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at -3.175 7.6 180)
+		(at -7.6 -3.175 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -102,7 +102,7 @@
 		(uuid "242a8852-db3d-48bf-a90a-456175a1f840")
 	)
 	(pad "2" thru_hole roundrect
-		(at -1.905 7.6 180)
+		(at -7.6 -1.905 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -112,7 +112,7 @@
 		(uuid "61adafaa-01a1-49c0-8997-839af0dccbfa")
 	)
 	(pad "3" thru_hole roundrect
-		(at -0.635 7.6 180)
+		(at -7.6 -0.635 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -122,7 +122,7 @@
 		(uuid "9afdd36f-486c-4a7f-bb7e-364db48c7373")
 	)
 	(pad "4" thru_hole roundrect
-		(at 0.635 7.6 180)
+		(at -7.6 0.635 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -132,7 +132,7 @@
 		(uuid "9ddaba2d-a0bd-4002-8b47-c3ff1df8ff59")
 	)
 	(pad "5" thru_hole roundrect
-		(at 1.905 7.6 180)
+		(at -7.6 1.905 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -142,7 +142,7 @@
 		(uuid "be6fd6ba-0f1a-4139-8f7d-abde6f5b388f")
 	)
 	(pad "6" thru_hole roundrect
-		(at 3.175 7.6 180)
+		(at -7.6 3.175 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -152,7 +152,7 @@
 		(uuid "eb62e3e1-8fbb-4f2c-8e8e-00fd9b15ad47")
 	)
 	(pad "7" thru_hole roundrect
-		(at 3.175 -7.6 180)
+		(at 7.6 3.175 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -162,7 +162,7 @@
 		(uuid "a6a4b9e3-95b7-4464-8449-38d97a8a01ed")
 	)
 	(pad "8" thru_hole roundrect
-		(at 1.905 -7.6 180)
+		(at 7.6 1.905 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -172,7 +172,7 @@
 		(uuid "5a89b429-c460-4bfb-8dd0-d631930d06bc")
 	)
 	(pad "9" thru_hole roundrect
-		(at 0.635 -7.6 180)
+		(at 7.6 0.635 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -182,7 +182,7 @@
 		(uuid "799b9741-4293-42fb-ac40-bc56f40637be")
 	)
 	(pad "10" thru_hole roundrect
-		(at -0.635 -7.6 180)
+		(at 7.6 -0.635 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -192,7 +192,7 @@
 		(uuid "f4ee3219-c076-45aa-b432-16a3c3b0c747")
 	)
 	(pad "11" thru_hole roundrect
-		(at -1.905 -7.6 180)
+		(at 7.6 -1.905 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
@@ -202,7 +202,7 @@
 		(uuid "e028a571-9b25-4ea5-82fa-aff3f06a8184")
 	)
 	(pad "12" thru_hole roundrect
-		(at -3.175 -7.6 180)
+		(at 7.6 -3.175 90)
 		(size 1.02 1.28)
 		(drill 0.82)
 		(property pad_prop_castellated)
