@@ -4793,7 +4793,7 @@
 		)
 		(uuid "6ce0d10f-f239-4325-b67f-b9fff4eaab52")
 	)
-	(text "128M-bit Flash Memory"
+	(text "128 Mbit Flash Memory"
 		(exclude_from_sim no)
 		(at 24.638 24.13 0)
 		(effects

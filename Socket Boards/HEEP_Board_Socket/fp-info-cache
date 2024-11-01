@@ -1,4 +1,4 @@
-24083085406330159
+24112475183527462
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97811,6 +97811,34 @@ X-MODs_PcbLib
 9
 9
 X-MODs_PcbLib
+2121340003
+
+
+0
+5
+4
+X-MODs_PcbLib
+Analog_Board_Castellated_Conn_1.27mm
+
+
+0
+10
+10
+X-MODs_PcbLib
+Analog_Board_Header_Conn_2.54mm
+
+
+0
+10
+5
+X-MODs_PcbLib
+Analog_Board_Socket_Conn_1.27mm
+
+
+0
+20
+10
+X-MODs_PcbLib
 C0201
 
 
@@ -97833,6 +97861,41 @@ C0603
 2
 X-MODs_PcbLib
 C0805
+
+
+0
+2
+2
+X-MODs_PcbLib
+DFN-10_3x3mm
+
+
+0
+11
+11
+X-MODs_PcbLib
+DSBGA-4_0.74x0.74mm
+
+
+0
+4
+4
+X-MODs_PcbLib
+Flexypin
+
+
+0
+2
+0
+X-MODs_PcbLib
+GSR_Board_Castellated_Conn_1.27mm
+
+
+0
+16
+16
+X-MODs_PcbLib
+GSR_Electrodes_Conn
 
 
 0
@@ -97867,12 +97930,40 @@ HEEPocrates
 98
 89
 X-MODs_PcbLib
+L0201
+
+
+0
+2
+2
+X-MODs_PcbLib
+L0402
+
+
+0
+2
+2
+X-MODs_PcbLib
 L0806
 
 
 0
 2
 2
+X-MODs_PcbLib
+LC0201
+
+
+0
+2
+2
+X-MODs_PcbLib
+MSOP-8
+
+
+0
+8
+8
 X-MODs_PcbLib
 Power_Board_Castellated_Conn_1.27mm
 
@@ -97916,12 +98007,33 @@ TC42X
 3
 3
 X-MODs_PcbLib
+TDFN-8_3x3mm
+
+
+0
+9
+9
+X-MODs_PcbLib
 TL1030AF160AQJ
 
 
 0
 4
 4
+X-MODs_PcbLib
+UQFN-12_1.7x2mm
+
+
+0
+12
+12
+X-MODs_PcbLib
+USON-10_1x2.5mm
+
+
+0
+10
+10
 X-MODs_PcbLib
 WLCSP-9_1.468x1.448mm_P0.4mm
 
@@ -97943,6 +98055,13 @@ WLCSP-30_2.788x2.338mm_P0.4mm
 0
 30
 30
+X-MODs_PcbLib
+WSON-10-3.15x3.15mm
+
+
+0
+15
+11
 X-MODs_PcbLib
 X2SON-6
 

@@ -1,0 +1,130 @@
+(footprint "Flexypin"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.255 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Flexypin"
+		(at 0 0.9144 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d483a2-045c-454c-ba59-cc2b0d66b727")
+		(effects
+			(font
+				(size 0.28 0.28)
+				(thickness 0.042)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0.06 -9.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3471c5d-ba15-4820-8b3a-0c6d53e0bb06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0.06 -9.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aeb224b-df2c-4dcc-8002-23d764171d07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0.06 -9.635 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fbb8acc-fd64-4a14-9a5a-e5dd61e88676")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0.35 -0.45) (xy 0.9912 -0.475) (xy 0.9912 0.475) (xy 0.35 0.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "cdf829cc-05c5-4cf6-9ae2-e20aec6cfff5")
+	)
+	(fp_poly
+		(pts
+			(xy 0.35 -0.45) (xy 0.9912 -0.475) (xy 0.9912 0.475) (xy 0.35 0.45)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Cu")
+		(uuid "e51a67d8-0b6c-4b78-8b08-0fed76874466")
+	)
+	(pad "" thru_hole rect
+		(at 0 0)
+		(size 1.3 0.9)
+		(drill 0.6
+			(offset -0.3 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b8ea09df-f92c-43b1-b2c5-094b3c01abe2")
+	)
+	(pad "" thru_hole oval
+		(at 1.55 0)
+		(size 2 0.95)
+		(drill oval 1.7 0.65)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "89b28203-7c0d-46ed-a472-240324e088f0")
+	)
+	(group ""
+		(uuid "162b7f65-4030-4464-9b47-0b451fe2ee61")
+		(members "89b28203-7c0d-46ed-a472-240324e088f0" "b8ea09df-f92c-43b1-b2c5-094b3c01abe2"
+			"cdf829cc-05c5-4cf6-9ae2-e20aec6cfff5" "e51a67d8-0b6c-4b78-8b08-0fed76874466"
+		)
+	)
+	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
