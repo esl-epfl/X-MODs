@@ -168,14 +168,6 @@
 		(remove_unused_layers no)
 		(uuid "d066d34f-8314-4d9e-b14e-732387a53359")
 	)
-	(pad "1" thru_hole oval
-		(at 30.33 -5.08)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "a450ced2-6006-4028-92b8-9d1e1b48c8a3")
-	)
 	(pad "2" thru_hole oval
 		(at -30.31 -2.54)
 		(size 1.7 1.7)
@@ -183,14 +175,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "788905d1-ad8a-4543-91f0-dce12e0a9d9c")
-	)
-	(pad "2" thru_hole oval
-		(at 30.33 -2.54)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "39c44a21-e2d8-4c04-a52e-5563cb1f5b3b")
 	)
 	(pad "3" thru_hole oval
 		(at -30.31 0)
@@ -200,14 +184,6 @@
 		(remove_unused_layers no)
 		(uuid "66790bbc-01e6-4571-9fe4-573e065d1e9e")
 	)
-	(pad "3" thru_hole oval
-		(at 30.33 0)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "6166469e-528c-412f-981e-929877210415")
-	)
 	(pad "4" thru_hole oval
 		(at -30.31 2.54)
 		(size 1.7 1.7)
@@ -215,14 +191,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "107dd98f-cb48-4380-828d-2ba17aa25def")
-	)
-	(pad "4" thru_hole oval
-		(at 30.33 2.54)
-		(size 1.7 1.7)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "5c8a6c97-bba5-475a-af8f-1ed206b2524c")
 	)
 	(pad "5" thru_hole oval
 		(at -30.31 5.08)
@@ -232,13 +200,45 @@
 		(remove_unused_layers no)
 		(uuid "a2cff1b4-3fee-4210-99bc-74289662ce7c")
 	)
-	(pad "5" thru_hole oval
+	(pad "6" thru_hole oval
 		(at 30.33 5.08)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "08e85619-7f91-42d3-bad8-bc0654197028")
+	)
+	(pad "7" thru_hole oval
+		(at 30.33 2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c8a6c97-bba5-475a-af8f-1ed206b2524c")
+	)
+	(pad "8" thru_hole oval
+		(at 30.33 0)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6166469e-528c-412f-981e-929877210415")
+	)
+	(pad "9" thru_hole oval
+		(at 30.33 -2.54)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "39c44a21-e2d8-4c04-a52e-5563cb1f5b3b")
+	)
+	(pad "10" thru_hole oval
+		(at 30.33 -5.08)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a450ced2-6006-4028-92b8-9d1e1b48c8a3")
 	)
 	(model "${HEEPO_DIR}/Headers/PinHeader_1x5_P2.54mm_Vertical.step"
 		(offset
