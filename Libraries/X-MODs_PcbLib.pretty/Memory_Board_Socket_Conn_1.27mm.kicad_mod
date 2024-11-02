@@ -308,7 +308,7 @@
 		(remove_unused_layers no)
 		(uuid "66d68085-200a-4133-902e-061abc98e45b")
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 9.46 -3.175 0)
 		)
@@ -319,7 +319,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 9.46 -1.905 0)
 		)
@@ -330,7 +330,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 9.46 -0.635 0)
 		)
@@ -341,7 +341,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 9.46 0.635 0)
 		)
@@ -352,7 +352,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 9.46 1.905 0)
 		)
@@ -363,7 +363,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 9.46 3.175 0)
 		)
@@ -374,7 +374,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -9.46 3.175 0)
 		)
@@ -385,7 +385,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -9.46 1.905 0)
 		)
@@ -396,7 +396,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -9.46 0.635 0)
 		)
@@ -407,7 +407,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -9.46 -0.635 0)
 		)
@@ -418,7 +418,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -9.46 -1.905 0)
 		)
@@ -429,7 +429,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEPO_DIR}/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -9.46 -3.175 0)
 		)

@@ -79,16 +79,17 @@
 		(layer "F.SilkS")
 		(uuid "2dc2a3aa-71e6-4516-9fb8-b8a1eb434dba")
 	)
-	(fp_circle
-		(center -2.05 -2.05)
-		(end -1.889922 -2.05)
+	(fp_poly
+		(pts
+			(xy -1.9 -1.8) (xy -1.9 -2) (xy -2.1 -1.8)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "54fdd2a7-fd12-4422-9347-2aa4c8b878ff")
+		(uuid "ef2b35d8-7b7b-4c4b-a233-881d2c641f84")
 	)
 	(fp_rect
 		(start -1.615 -1.615)
@@ -260,7 +261,7 @@
 		(solder_paste_margin 0.05)
 		(uuid "6fe82d23-57e1-43f2-9251-38672cdee83e")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/IC/W25Q128JWYIQ_TR.stp"
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/W25Q128JWYIQ_TR.stp"
 		(offset
 			(xyz 0 0 0)
 		)

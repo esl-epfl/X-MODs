@@ -162,15 +162,15 @@
 	)
 	(fp_poly
 		(pts
-			(xy -5.1 -5.1) (xy -5.34 -5.43) (xy -4.86 -5.43) (xy -5.1 -5.1)
+			(xy -5.3 -5.3) (xy -4.9 -5.3) (xy -5.1 -5.1)
 		)
 		(stroke
-			(width 0.12)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "a175507b-e0ce-43a8-8829-95b56fd2fead")
+		(uuid "af255d35-6717-4332-b104-18019a840ea4")
 	)
 	(fp_line
 		(start -5.1 -5.1)
@@ -961,7 +961,7 @@
 		(zone_connect 2)
 		(uuid "f162109b-07bc-488f-ac52-b7674fdc3e4b")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/IC/QFN-88-1EP_10X10_Pitch0_4mm_HEEPocrates.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/QFN-88-1EP_10X10_Pitch0_4mm_HEEPocrates.step"
 		(offset
 			(xyz 0 0 0)
 		)

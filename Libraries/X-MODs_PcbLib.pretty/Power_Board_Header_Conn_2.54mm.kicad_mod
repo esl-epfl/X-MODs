@@ -431,7 +431,7 @@
 		(remove_unused_layers no)
 		(uuid "4a5b6317-446e-47bc-9a8e-0aa0f8c2049e")
 	)
-	(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/Headers/PinHeader_1x16_P2.54mm_Vertical.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Headers/PinHeader_1x16_P2.54mm_Vertical.step"
 		(offset
 			(xyz 17.61 19.05 -1.58)
 		)
@@ -442,7 +442,7 @@
 			(xyz 0 180 0)
 		)
 	)
-	(model "C:/Users/Alex/OneDrive/ESL/HEEPoMind/ALEX/Libraries/3D Models/Headers/PinHeader_1x18_P2.54mm_Vertical.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Headers/PinHeader_1x18_P2.54mm_Vertical.step"
 		(offset
 			(xyz -17.61 21.59 -1.58)
 		)

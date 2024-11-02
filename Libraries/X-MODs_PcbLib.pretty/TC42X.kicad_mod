@@ -112,7 +112,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Potentiometers/TC42X-2-104E.STEP"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Potentiometers/TC42X-2-104E.STEP"
 		(offset
 			(xyz 0 -0.25 0)
 		)

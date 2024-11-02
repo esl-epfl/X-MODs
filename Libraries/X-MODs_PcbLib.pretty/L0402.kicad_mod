@@ -68,6 +68,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -0.2 -0.4)
+		(end 0.2 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bfa168c3-9a3c-4793-ac3b-19bd41206bff")
+	)
+	(fp_line
+		(start -0.2 0.4)
+		(end 0.2 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1de8193f-0286-43bf-a5ed-98d602e1adbf")
+	)
 	(fp_rect
 		(start -0.5 -0.25)
 		(end 0.5 0.25)
@@ -105,7 +125,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 		(offset
 			(xyz 0 0 0)
 		)

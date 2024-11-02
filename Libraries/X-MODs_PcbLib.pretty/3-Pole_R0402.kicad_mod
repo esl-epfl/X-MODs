@@ -112,7 +112,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "5fd43795-accc-46ca-99fe-d01112a9b1c7")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Resistors/R0402.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 		(offset
 			(xyz -0.5 0 0)
 		)

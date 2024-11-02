@@ -256,7 +256,7 @@
 		(remove_unused_layers no)
 		(uuid "a450ced2-6006-4028-92b8-9d1e1b48c8a3")
 	)
-	(model "${HEEPO_DIR}/Headers/PinHeader_1x6_P2.54mm_Vertical.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Headers/PinHeader_1x6_P2.54mm_Vertical.step"
 		(offset
 			(xyz -32.85 31.75 -1.65)
 		)
@@ -267,7 +267,7 @@
 			(xyz 0 180 0)
 		)
 	)
-	(model "${HEEPO_DIR}/Headers/PinHeader_1x6_P2.54mm_Vertical.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Headers/PinHeader_1x6_P2.54mm_Vertical.step"
 		(offset
 			(xyz 32.85 31.75 -1.65)
 		)

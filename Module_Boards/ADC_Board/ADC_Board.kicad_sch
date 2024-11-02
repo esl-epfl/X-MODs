@@ -1,0 +1,89 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "bdf5493b-d107-405a-a118-5a34dab51f77")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 295.91 30.48)
+		(size 34.29 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "49cb7aeb-0ac0-45b6-8eb1-5dc013975d0d")
+		(property "Sheetname" "[1] Power Regulation & Level Shifting"
+			(at 295.91 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "[1] Power Regulation & Level Shifting.kicad_sch"
+			(at 295.91 45.0346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/bdf5493b-d107-405a-a118-5a34dab51f77"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 295.91 50.8)
+		(size 34.29 13.97)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97b9a398-7a5d-4ca2-b3db-825e217c0c0e")
+		(property "Sheetname" "[2] ADC & Multiplexer"
+			(at 295.91 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "[2] ADC & Multiplexer.kicad_sch"
+			(at 295.91 65.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "ADC_Board"
+				(path "/bdf5493b-d107-405a-a118-5a34dab51f77"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

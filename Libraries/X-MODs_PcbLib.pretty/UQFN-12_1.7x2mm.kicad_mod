@@ -68,16 +68,17 @@
 		)
 	)
 	(attr smd)
-	(fp_circle
-		(center -1.3 -1)
-		(end -1.139922 -1)
+	(fp_poly
+		(pts
+			(xy -1.2 -1) (xy -1.2 -1.2) (xy -1.4 -1)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "c138215e-d0f7-4281-bd87-a68a40cd8738")
+		(uuid "548bb7a9-fecc-4801-82f7-2877366bc6d5")
 	)
 	(fp_rect
 		(start -0.85 -1)
@@ -186,7 +187,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "12566744-a46b-4ef7-8c3d-1ae3be74277e")
 	)
-	(model "${HEEPO_DIR}/IC/UQFN-12_1.7x5mm.STEP"
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/UQFN-12_1.7x5mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -1058,7 +1058,7 @@
 			"ff42f6e7-8c52-47d4-845a-4be8776f27cd"
 		)
 	)
-	(model "${HEEP_DIR}/Power_Board/Power_Board.step"
+	(model "${HEEP_DIR}/Module_Boards/Power_Board/Power_Board.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -1069,7 +1069,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 4.445 0)
 		)
@@ -1080,7 +1080,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 3.175 0)
 		)
@@ -1091,7 +1091,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 1.905 0)
 		)
@@ -1102,7 +1102,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 0.635 0)
 		)
@@ -1113,7 +1113,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 -0.635 0)
 		)
@@ -1124,7 +1124,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 -1.905 0)
 		)
@@ -1135,7 +1135,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 -3.175 0)
 		)
@@ -1146,7 +1146,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 8.825 -4.445 0)
 		)
@@ -1157,7 +1157,7 @@
 			(xyz 0 0 180)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 4.445 0)
 		)
@@ -1168,7 +1168,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 3.175 0)
 		)
@@ -1179,7 +1179,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 1.905 0)
 		)
@@ -1190,7 +1190,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 0.635 0)
 		)
@@ -1201,7 +1201,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 -0.635 0)
 		)
@@ -1212,7 +1212,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 -1.905 0)
 		)
@@ -1223,7 +1223,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 -3.175 0)
 		)
@@ -1234,7 +1234,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -8.825 -4.445 0)
 		)
@@ -1245,7 +1245,7 @@
 			(xyz 0 0 0)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -5.08 7.7 0)
 		)
@@ -1256,7 +1256,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -3.81 7.7 0)
 		)
@@ -1267,7 +1267,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -2.54 7.7 0)
 		)
@@ -1278,7 +1278,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -1.27 7.7 0)
 		)
@@ -1289,7 +1289,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 0 7.7 0)
 		)
@@ -1300,7 +1300,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 1.27 7.7 0)
 		)
@@ -1311,7 +1311,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 2.54 7.7 0)
 		)
@@ -1322,7 +1322,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 3.81 7.7 0)
 		)
@@ -1333,7 +1333,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 5.08 7.7 0)
 		)
@@ -1344,7 +1344,7 @@
 			(xyz 0 0 90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -5.08 -7.7 0)
 		)
@@ -1355,7 +1355,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -3.81 -7.7 0)
 		)
@@ -1366,7 +1366,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -2.54 -7.7 0)
 		)
@@ -1377,7 +1377,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz -1.27 -7.7 0)
 		)
@@ -1388,7 +1388,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 0 -7.7 0)
 		)
@@ -1399,7 +1399,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 1.27 -7.7 0)
 		)
@@ -1410,7 +1410,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 2.54 -7.7 0)
 		)
@@ -1421,7 +1421,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 3.81 -7.7 0)
 		)
@@ -1432,7 +1432,7 @@
 			(xyz 0 0 -90)
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 5.08 -7.7 0)
 		)

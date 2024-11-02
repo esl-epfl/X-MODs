@@ -79,16 +79,17 @@
 		(layer "F.SilkS")
 		(uuid "2dc2a3aa-71e6-4516-9fb8-b8a1eb434dba")
 	)
-	(fp_circle
-		(center -1.2 0.7)
-		(end -1.039922 0.7)
+	(fp_poly
+		(pts
+			(xy -1 0.7) (xy -1.2 0.7) (xy -1 0.9)
+		)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "54fdd2a7-fd12-4422-9347-2aa4c8b878ff")
+		(uuid "e323df49-f4d2-4eb7-a313-c281e59ad892")
 	)
 	(fp_rect
 		(start -0.77 -0.42)
@@ -141,7 +142,7 @@
 		(solder_paste_margin 0.05)
 		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Oscillators/CSP_1508_4pins.stp"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Oscillators/CSP_1508_4pins.stp"
 		(offset
 			(xyz 0 0 0.5)
 		)

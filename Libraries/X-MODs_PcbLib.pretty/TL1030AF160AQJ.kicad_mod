@@ -139,7 +139,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "f33baece-8685-4b7d-9695-314de7b87d48")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Buttons/TL1030AF160AQJ.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Buttons/TL1030AF160AQJ.step"
 		(offset
 			(xyz 0 0 0.3)
 		)

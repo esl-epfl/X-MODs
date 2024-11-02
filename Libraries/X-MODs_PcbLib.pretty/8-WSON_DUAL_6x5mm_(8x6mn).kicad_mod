@@ -109,27 +109,29 @@
 		(layer "F.SilkS")
 		(uuid "17f40bf4-46b4-4b6a-ae9f-df5f77c312b3")
 	)
-	(fp_circle
-		(center -4.33 -3.24)
-		(end -4.27901 -3.24)
-		(stroke
-			(width 0.2)
-			(type default)
+	(fp_poly
+		(pts
+			(xy -4.2 -3.1) (xy -4.2 -3.3) (xy -4.4 -3.1)
 		)
-		(fill none)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "4982a9f5-cd1b-4766-9a6a-55c40abb74ff")
+		(uuid "9b43a32b-34c2-44ce-b858-22a6792f9197")
 	)
-	(fp_circle
-		(center -3.33099 -2.74)
-		(end -3.28 -2.74)
-		(stroke
-			(width 0.2)
-			(type default)
+	(fp_poly
+		(pts
+			(xy -3.2 -2.6) (xy -3.2 -2.8) (xy -3.4 -2.6)
 		)
-		(fill none)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "5211f4ab-deb8-458a-92f9-5e6561d81658")
+		(uuid "22d8d877-1b60-4b4c-be85-abc87bfee35d")
 	)
 	(fp_line
 		(start -4.33 -3.25)
@@ -488,7 +490,7 @@
 		(zone_connect 2)
 		(uuid "d52bb59c-016e-4cd0-a8d7-1ea30da90c46")
 	)
-	(model "${HEEPO_DIR}/IC/WSON8-6x5.STEP"
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/WSON8-6x5.STEP"
 		(hide yes)
 		(offset
 			(xyz 0 0 0)
@@ -500,7 +502,7 @@
 			(xyz -90 0 0)
 		)
 	)
-	(model "${HEEPO_DIR}/IC/WSON8-8x6.STEP"
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/WSON8-8x6.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

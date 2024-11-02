@@ -116,7 +116,7 @@
 			"cdf829cc-05c5-4cf6-9ae2-e20aec6cfff5" "e51a67d8-0b6c-4b78-8b08-0fed76874466"
 		)
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Flexypin/flexypin.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Flexypin/flexypin.step"
 		(offset
 			(xyz 0 0 0)
 		)

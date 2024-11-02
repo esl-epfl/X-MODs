@@ -68,6 +68,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -0.2 -0.4)
+		(end 0.2 -0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "8d9dc85d-325a-4423-ac4b-ead977484ecc")
+	)
+	(fp_line
+		(start -0.2 0.4)
+		(end 0.2 0.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3d3ccea8-ad3e-4bc8-baa0-8fe3673a9e21")
+	)
 	(fp_rect
 		(start -0.5 -0.25)
 		(end 0.5 0.25)
@@ -105,7 +125,7 @@
 		(roundrect_rratio 0.25)
 		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
 	)
-	(model "${HEEP_DIR}/Libraries/3D Models/Resistors/R0402.step"
+	(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 		(offset
 			(xyz 0 0 0)
 		)
