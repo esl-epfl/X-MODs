@@ -5,129 +5,6 @@
 	(uuid "f81bd9e0-fc79-4d6b-86c8-b0542692bef4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "X-MODs_SchLib:CRCW0402100KFKEDC"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at -4.064 5.588 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "100K"
-				(at -4.064 3.302 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "X-MODs_PcbLib:R0402"
-				(at -14.986 -3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/doc?28773"
-				(at -14.986 -7.112 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 1% Commercial Use "
-				(at -14.986 -5.334 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "MPN" "CRCW0402100KFKEDC"
-				(at -4.318 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "res"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "CRCW0402100KFKEDC_0_1"
-				(rectangle
-					(start -2.54 1.016)
-					(end 2.54 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-						(color 0 0 255 1)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "CRCW0402100KFKEDC_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "X-MODs_SchLib:CRCW040210K0FKEDHP"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5871,7 +5748,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
+			(property "Reference" "OSC"
 				(at -0.254 2.794 0)
 				(effects
 					(font
@@ -6017,242 +5894,6 @@
 						)
 					)
 					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "X-MODs_SchLib:SN74AUP1G14DSFR"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at 0.508 3.048 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SN74AUP1G14DSFR"
-				(at 9.144 1.016 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "X-MODs_PcbLib:X2SON-6"
-				(at 2.794 -11.684 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/gpn/sn74aup1g14"
-				(at 10.922 -15.748 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" " Inverters Low-Pwr Sgl Schmitt- Trigger Inverter "
-				(at 13.97 -13.716 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" "SN74AUP1G14DSFR"
-				(at -0.254 -17.78 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "SN74AUP1G14DSFR_1_1"
-				(polyline
-					(pts
-						(xy 1.778 -2.032) (xy 2.286 -2.032)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 -2.54) (xy 0 -5.08) (xy 0 0) (xy 4.064 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 -3.048) (xy 1.778 -3.048) (xy 1.778 -2.032) (xy 1.016 -2.032) (xy 1.016 -3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 4.572 -2.54)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SN74AUP1G14DSFR_2_1"
-				(rectangle
-					(start 0 0)
-					(end 6.35 -7.62)
-					(stroke
-						(width 0)
-						(type default)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin no_connect line
-					(at 6.35 -1.27 180)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 6.35 -6.35 180)
-					(length 2.54) hide
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6570,22 +6211,10 @@
 		(uuid "21035ed0-c822-438b-b7e0-49a9e70f731c")
 	)
 	(junction
-		(at 259.08 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22550e77-dedf-4bde-a79e-1b810725b2b1")
-	)
-	(junction
 		(at 134.62 29.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "236cca4e-6a62-406c-8f61-beb139e45464")
-	)
-	(junction
-		(at 255.27 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2a6b21f3-6655-460f-a2f2-33759ed35837")
 	)
 	(junction
 		(at 148.59 165.1)
@@ -6754,6 +6383,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92944683-f103-4edf-85ca-f4ab72c54437")
+	)
+	(junction
+		(at 252.73 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "99436323-571f-4d7c-87a5-0b2d07ee8242")
 	)
 	(junction
 		(at 81.28 29.21)
@@ -6975,16 +6610,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 55.88) (xy 255.27 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0efdada7-8c92-4e31-94a7-c268ef98b323")
-	)
-	(wire
-		(pts
 			(xy 143.51 162.56) (xy 143.51 165.1)
 		)
 		(stroke
@@ -7155,6 +6780,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 41.91) (xy 252.73 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "287ddecc-fdf0-48e5-aa3d-9663a8b065e1")
+	)
+	(wire
+		(pts
 			(xy 100.33 81.28) (xy 101.6 81.28)
 		)
 		(stroke
@@ -7282,26 +6917,6 @@
 			(type default)
 		)
 		(uuid "389eb959-975e-4e8b-bff2-a8788a13cd15")
-	)
-	(wire
-		(pts
-			(xy 254 26.67) (xy 254 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3987e28e-01a7-4efa-a15b-d0dac6934312")
-	)
-	(wire
-		(pts
-			(xy 259.08 38.1) (xy 259.08 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a6b849d-0398-4ed6-8f11-394aa12f4146")
 	)
 	(wire
 		(pts
@@ -7555,16 +7170,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 29.21) (xy 259.08 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57e2b6fb-7948-40f4-9f81-c80a299eab77")
-	)
-	(wire
-		(pts
 			(xy 96.52 38.1) (xy 96.52 39.37)
 		)
 		(stroke
@@ -7662,16 +7267,6 @@
 			(type default)
 		)
 		(uuid "6a04bcea-0c8a-43ee-8ed2-0ddb29053326")
-	)
-	(wire
-		(pts
-			(xy 265.43 31.75) (xy 265.43 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf2a187-757e-421b-8a89-ceadd49ac207")
 	)
 	(wire
 		(pts
@@ -8135,6 +7730,16 @@
 	)
 	(wire
 		(pts
+			(xy 252.73 54.61) (xy 252.73 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe0b657-2121-4e90-9530-cf0651b09a40")
+	)
+	(wire
+		(pts
 			(xy 81.28 39.37) (xy 81.28 38.1)
 		)
 		(stroke
@@ -8295,16 +7900,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 31.75) (xy 269.24 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b598e957-081e-4bcc-b4ee-edf8a8da7425")
-	)
-	(wire
-		(pts
 			(xy 72.39 119.38) (xy 72.39 121.92)
 		)
 		(stroke
@@ -8395,16 +7990,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 67.31) (xy 255.27 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c96d5307-fab4-4ce8-b0f4-5c70ce3a83b6")
-	)
-	(wire
-		(pts
 			(xy 168.91 165.1) (xy 173.99 165.1)
 		)
 		(stroke
@@ -8465,16 +8050,6 @@
 	)
 	(wire
 		(pts
-			(xy 254 29.21) (xy 259.08 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1c85189-6758-42cc-a17a-5a62fd4160f8")
-	)
-	(wire
-		(pts
 			(xy 152.4 29.21) (xy 152.4 31.75)
 		)
 		(stroke
@@ -8482,6 +8057,16 @@
 			(type default)
 		)
 		(uuid "d1cfc716-253f-4384-a471-4b07cdc1d014")
+	)
+	(wire
+		(pts
+			(xy 252.73 55.88) (xy 259.08 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b4e11f-80c6-4f01-b799-361304df8d0a")
 	)
 	(wire
 		(pts
@@ -8605,17 +8190,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 29.21) (xy 269.24 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e87ab0ca-9ed7-4df7-b8aa-828ed33c416f")
-	)
-	(wire
-		(pts
-			(xy 208.28 55.88) (xy 242.57 55.88)
+			(xy 208.28 55.88) (xy 252.73 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8642,16 +8217,6 @@
 			(type default)
 		)
 		(uuid "ea2b0c18-6611-4e79-9f4b-c9eef8852b86")
-	)
-	(wire
-		(pts
-			(xy 255.27 55.88) (xy 259.08 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea4a8c9f-d0ce-4da1-a2e0-dcf82df6dfc0")
 	)
 	(wire
 		(pts
@@ -8682,16 +8247,6 @@
 			(type default)
 		)
 		(uuid "eb72bca2-7ed2-4290-89b4-bb04319d77e1")
-	)
-	(wire
-		(pts
-			(xy 252.73 55.88) (xy 255.27 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebdabf1f-6b56-4cbe-a512-7bc87e60180a")
 	)
 	(wire
 		(pts
@@ -8763,10 +8318,10 @@
 		)
 		(uuid "ff28b222-6d78-46ca-9991-1dc92702da32")
 	)
-	(text_box "Boot Procedure:\n	- SPI Flash Load → BOOT_SEL_EX = 1\n	- JTAG		   → BOOT_SEL_EX = 0"
+	(text_box "Boot Procedure:\n	- SPI Flash Load → BOOT_SEL_EXT = 1 (Default)\n	- JTAG		   → BOOT_SEL_EXT = 0 "
 		(exclude_from_sim no)
-		(at 232.41 76.2 0)
-		(size 45.72 7.62)
+		(at 224.79 69.85 0)
+		(size 58.42 7.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -9916,7 +9471,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "09857a74-8a8e-44db-8064-1907719dd541")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 72.39 111.76 0)
 			(effects
 				(font
@@ -9966,7 +9521,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -9982,7 +9537,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0af822e5-9c35-45e4-a554-8fb377cb594e")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR011"
 			(at 66.04 74.93 0)
 			(effects
 				(font
@@ -10032,7 +9587,89 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR013")
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "X-MODs_SchLib:CRCW040210K0FKEDHP")
+		(at 252.73 49.53 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0fdc0225-d851-455e-9693-30947aa14773")
+		(property "Reference" "R1"
+			(at 255.27 48.2599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K0"
+			(at 255.27 50.7999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:R0402"
+			(at 249.428 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/doc?20043"
+			(at 245.618 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD 0.2W 10Kohms 1% High Power AEC-Q200"
+			(at 247.396 33.782 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CRCW040210K0FKEDHP"
+			(at 243.84 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be2a2bdb-bd8a-4df3-997c-426e612d69a0")
+		)
+		(pin "1"
+			(uuid "872d220e-1557-49c2-b510-a7b49b02d1dc")
+		)
+		(instances
+			(project "CHEEP_Board"
+				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10201,72 +9838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 265.43 39.37 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2195e24e-cd3f-493f-bafb-a439dbd5e96c")
-		(property "Reference" "#PWR06"
-			(at 265.43 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 265.43 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 265.43 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 265.43 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1fe5bdd3-ae99-4542-bfb9-3d60b4001d44")
-		)
-		(instances
-			(project "HEEP_Board"
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "X-MODs_SchLib:HEEPocrates")
 		(at 106.68 36.83 0)
 		(unit 1)
@@ -10275,7 +9846,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3a051366-c14f-4bd3-b1bc-53ad0259f766")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 106.426 32.766 0)
 			(effects
 				(font
@@ -10602,7 +10173,7 @@
 		(instances
 			(project ""
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -10777,7 +10348,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3eb2a82c-fc5b-4b6c-b473-1ae50dce4c9e")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 62.23 111.76 0)
 			(effects
 				(font
@@ -10827,156 +10398,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR016")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "X-MODs_SchLib:CRCW0402100KFKEDC")
-		(at 255.27 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "49d2bba8-8a15-4e3e-a5b2-c9a4cc1286f9")
-		(property "Reference" "R1"
-			(at 257.81 60.9599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 257.81 63.4999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "X-MODs_PcbLib:R0402"
-			(at 251.968 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/doc?28773"
-			(at 248.158 47.244 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Thick Film Resistors - SMD 1/16watt 100Kohms 1% Commercial Use"
-			(at 249.936 46.482 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "CRCW0402100KFKEDC"
-			(at 246.38 57.912 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5da3be28-c128-49ec-81f4-0b9d4e2b6ce8")
-		)
-		(pin "1"
-			(uuid "dc127675-0c47-4070-aa06-0acdba96c1bb")
-		)
-		(instances
-			(project ""
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 255.27 68.58 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4f3ab72e-6da9-411d-9314-40167ee40ac0")
-		(property "Reference" "#PWR015"
-			(at 255.27 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 255.27 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 255.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 255.27 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3248d998-5de2-4b51-bb61-4504ab2bfaba")
-		)
-		(instances
-			(project "HEEP_Board"
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR015")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11057,7 +10479,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "56771972-21fe-45c7-a787-a41bf008a55e")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR04"
 			(at 66.04 48.26 0)
 			(effects
 				(font
@@ -11107,7 +10529,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR07")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11282,7 +10704,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6b35f0cc-c2cf-4329-8909-eb422b79efbf")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR09"
 			(at 31.75 74.93 0)
 			(effects
 				(font
@@ -11332,7 +10754,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR011")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -11421,85 +10843,6 @@
 		)
 	)
 	(symbol
-		(lib_id "X-MODs_SchLib:GRM155R71A104JA01D")
-		(at 259.08 34.29 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7a8c79b2-1c31-45b4-a320-8cd61f1ddcd8")
-		(property "Reference" "C13"
-			(at 262.128 31.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n 10V"
-			(at 255.27 34.544 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "X-MODs_PcbLib:C0402"
-			(at 267.716 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.mouser.es/datasheet/2/281/1/GRM155R71A104JA01_01A-1984196.pdf"
-			(at 265.43 71.374 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10 VDC 5% 0402 X7R"
-			(at 263.144 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "GRM155R71A104JA01D"
-			(at 269.494 60.452 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24e4fd6a-a240-4389-a43f-9d956bb922f1")
-		)
-		(pin "2"
-			(uuid "858201a1-d2c2-4b06-9b6b-34a0f1935208")
-		)
-		(instances
-			(project "HEEP_Board"
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "C13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+1V8")
 		(at 25.4 55.88 0)
 		(unit 1)
@@ -11508,7 +10851,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "89b81130-81ff-48f8-9780-f71160d5c25c")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR07"
 			(at 25.4 59.69 0)
 			(effects
 				(font
@@ -11558,7 +10901,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR09")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -11638,7 +10981,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96cc2a95-fdf1-4459-9a02-d810e2ee8556")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 39.37 74.93 0)
 			(effects
 				(font
@@ -11688,7 +11031,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -11863,7 +11206,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b494932c-0402-450b-96f7-75314b202dbb")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR05"
 			(at 242.57 48.26 0)
 			(effects
 				(font
@@ -11913,7 +11256,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR08")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -12008,7 +11351,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "becf2cb9-e020-4f2c-81d4-940bed2c795a")
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 33.02 61.214 90)
 			(effects
 				(font
@@ -12074,7 +11417,7 @@
 		(instances
 			(project ""
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "C14")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -12250,7 +11593,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c15b3be3-ced4-4498-a44f-a21f1a13c410")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR08"
 			(at 237.49 68.58 0)
 			(effects
 				(font
@@ -12300,186 +11643,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "X-MODs_SchLib:SN74AUP1G14DSFR")
-		(at 271.78 26.67 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c4bddbe4-6907-42ce-ac09-387e93c1c445")
-		(property "Reference" "U1"
-			(at 271.272 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "~"
-			(at 279.4 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "X-MODs_PcbLib:X2SON-6"
-			(at 276.098 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74aup1g14"
-			(at 282.956 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inverters Low-Pwr Sgl Schmitt- Trigger Inverter"
-			(at 286.004 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SN74AUP1G14DSFR"
-			(at 271.526 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1f168ec9-36d8-4c08-afc2-0a9b1291050c")
-		)
-		(pin "6"
-			(uuid "db11d8df-a45e-44ae-9932-65f857b74487")
-		)
-		(pin "2"
-			(uuid "d8537d87-17b5-4da3-a3c2-0c805755f044")
-		)
-		(pin "5"
-			(uuid "35401562-7795-4750-9c91-fb68dec1fece")
-		)
-		(pin "1"
-			(uuid "c79b399e-7c7d-4679-b2fc-e9e0392dd5af")
-		)
-		(pin "3"
-			(uuid "669ad758-5150-4f62-ba68-d7a2873dc559")
-		)
-		(instances
-			(project ""
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "U1")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "X-MODs_SchLib:SN74AUP1G14DSFR")
-		(at 250.19 53.34 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccaaac1e-8ff4-439f-bbfe-75869a264549")
-		(property "Reference" "U1"
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "~"
-			(at 247.65 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "X-MODs_PcbLib:X2SON-6"
-			(at 245.872 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74aup1g14"
-			(at 239.014 65.278 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inverters Low-Pwr Sgl Schmitt- Trigger Inverter"
-			(at 235.966 63.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MPN" "SN74AUP1G14DSFR"
-			(at 250.444 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "1f168ec9-36d8-4c08-afc2-0a9b1291050d")
-		)
-		(pin "6"
-			(uuid "db11d8df-a45e-44ae-9932-65f857b74488")
-		)
-		(pin "2"
-			(uuid "d8537d87-17b5-4da3-a3c2-0c805755f045")
-		)
-		(pin "5"
-			(uuid "35401562-7795-4750-9c91-fb68dec1fecf")
-		)
-		(pin "1"
-			(uuid "c79b399e-7c7d-4679-b2fc-e9e0392dd5b0")
-		)
-		(pin "3"
-			(uuid "669ad758-5150-4f62-ba68-d7a2873dc55a")
-		)
-		(instances
-			(project ""
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "U1")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -12494,8 +11658,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ce530fc1-d01f-4c80-aee4-51c4d82991a5")
-		(property "Reference" "U3"
-			(at 45.72 52.324 0)
+		(property "Reference" "OSC1"
+			(at 46.736 52.578 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12563,7 +11727,7 @@
 		(instances
 			(project ""
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "U3")
+					(reference "OSC1")
 					(unit 1)
 				)
 			)
@@ -12725,7 +11889,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e0dbe8ef-4e3a-4345-8e63-c47e4cdf881c")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR012"
 			(at 81.28 74.93 0)
 			(effects
 				(font
@@ -12775,7 +11939,7 @@
 		(instances
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR014")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -12783,15 +11947,15 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 254 26.67 0)
+		(at 252.73 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e4c66f68-7f33-4eb1-b1c8-30dd8d729493")
-		(property "Reference" "#PWR04"
-			(at 254 30.48 0)
+		(uuid "edc5c862-6e24-43a0-ae93-4f0e67c0904d")
+		(property "Reference" "#PWR06"
+			(at 252.73 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12800,7 +11964,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 254 21.59 0)
+			(at 252.73 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12808,7 +11972,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 26.67 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,7 +11981,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 26.67 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12826,7 +11990,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 254 26.67 0)
+			(at 252.73 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,12 +11999,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "073ce24c-82bd-4061-8e32-93458268c016")
+			(uuid "3a92b13c-8ed4-443f-92cd-b8a4b04e2f53")
 		)
 		(instances
-			(project "HEEP_Board"
+			(project "CHEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR04")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -12856,7 +12020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f11e08df-4446-420b-895f-3922affbf990")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR015"
 			(at 130.81 172.72 0)
 			(effects
 				(font
@@ -12906,7 +12070,7 @@
 		(instances
 			(project ""
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR018")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -12987,72 +12151,6 @@
 			(project "HEEP_Board"
 				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 259.08 39.37 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f7281460-1529-407b-b4a0-e8de429d77e9")
-		(property "Reference" "#PWR05"
-			(at 259.08 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 259.08 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 259.08 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3eb785a-71c0-4908-90ac-03eb7293d022")
-		)
-		(instances
-			(project "HEEP_Board"
-				(path "/f96d6723-4e3f-4863-bc0a-34d08a5d2623/73f8c5dd-7f93-4973-97e6-347e1ca1e1a0"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
