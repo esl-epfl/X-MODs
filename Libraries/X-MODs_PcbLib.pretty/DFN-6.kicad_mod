@@ -1,10 +1,10 @@
-(footprint "L0402"
+(footprint "DFN-6"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.975 0)
+		(at 0 -2.1 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "L0402"
-		(at 0 0.65 0)
+	(property "Value" "DFN-6"
+		(at 0 1.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,29 +68,21 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.2 -0.4)
-		(end 0.2 -0.4)
+	(fp_poly
+		(pts
+			(xy -1.42 -0.955) (xy -1.42 -1.155) (xy -1.62 -0.955)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "bfa168c3-9a3c-4793-ac3b-19bd41206bff")
-	)
-	(fp_line
-		(start -0.2 0.4)
-		(end 0.2 0.4)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "1de8193f-0286-43bf-a5ed-98d602e1adbf")
+		(uuid "8a614fcf-d46d-4492-9205-7dff118aa30f")
 	)
 	(fp_rect
-		(start -0.5 -0.25)
-		(end 0.5 0.25)
+		(start -1 -1)
+		(end 1 1)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -100,7 +92,7 @@
 		(uuid "95ddd1e4-e3c8-46d6-ae10-73d705fe8c5b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 0.175 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f31409b2-37a8-46e5-bf2d-532043cfff3a")
@@ -112,22 +104,62 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.48 0)
-		(size 0.57 0.62)
+		(at -0.925 -0.5)
+		(size 0.7 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
-		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
+		(uuid "69b40a37-d040-4f94-b582-6a031ef6c7ed")
 	)
 	(pad "2" smd roundrect
-		(at 0.48 0)
-		(size 0.57 0.62)
+		(at -0.925 0)
+		(size 0.7 0.25)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
-		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
+		(uuid "7a4d46d1-64a9-4644-a09c-ee6f67424cfe")
 	)
-	(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
+	(pad "3" smd roundrect
+		(at -0.925 0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "1115fa77-9c82-49af-ab70-327a756f3e12")
+	)
+	(pad "3" smd roundrect
+		(at 0 0)
+		(size 0.61 1.42)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "654962e3-544b-41f8-844a-669a512c254d")
+	)
+	(pad "4" smd roundrect
+		(at 0.925 0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "6311214e-e90b-45a7-9f1e-6ebee44cad16")
+	)
+	(pad "5" smd roundrect
+		(at 0.925 0)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "fc45be57-f432-4732-9887-0b5c00e15c92")
+	)
+	(pad "6" smd roundrect
+		(at 0.925 -0.5)
+		(size 0.7 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
+		(uuid "499a4d8d-1533-42fb-8682-18d6f473f8b6")
+	)
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/DFN-6-2x2mm.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -135,7 +167,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 90 0 0)
 		)
 	)
 )

@@ -96,6 +96,7 @@
 		(size 0.57 0.62)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
 	)
 	(pad "2" smd roundrect
@@ -103,6 +104,7 @@
 		(size 0.57 0.62)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
 	)
 	(pad "3" smd roundrect
@@ -110,6 +112,7 @@
 		(size 0.57 0.62)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "5fd43795-accc-46ca-99fe-d01112a9b1c7")
 	)
 	(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"

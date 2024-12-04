@@ -1,4 +1,4 @@
-24119523792723676
+24121322129505076
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97892,8 +97892,8 @@ CHEEP_Board_Header_Conn_2.54mm
 
 
 0
-54
-54
+56
+56
 X-MODs_PcbLib
 CHEEP_Board_Socket_Conn_1.27mm
 
@@ -98020,6 +98020,13 @@ R0402
 0
 2
 2
+X-MODs_PcbLib
+SC70
+
+
+0
+6
+6
 X-MODs_PcbLib
 SIT1532AC
 

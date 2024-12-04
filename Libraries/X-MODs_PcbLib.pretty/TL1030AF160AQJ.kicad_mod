@@ -116,6 +116,7 @@
 		(size 1.15 1.05)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
 	)
 	(pad "2" smd roundrect
@@ -123,6 +124,7 @@
 		(size 1.15 1.05)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "90a8ef9e-f8a2-4a8c-9554-37f1f8d554de")
 	)
 	(pad "3" smd roundrect
@@ -130,6 +132,7 @@
 		(size 1.15 1.05)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
 	)
 	(pad "4" smd roundrect
@@ -137,6 +140,7 @@
 		(size 1.15 1.05)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "f33baece-8685-4b7d-9695-314de7b87d48")
 	)
 	(model "${HEEP_DIR}/Libraries/3D_Models/Buttons/TL1030AF160AQJ.step"

@@ -217,40 +217,40 @@
 	(net 47 "FLASH_nHLD_nRST")
 	(net 48 "Manual_RST")
 	(net 49 "nRST_HEEP")
-	(net 50 "unconnected-(U2-BLADETEST_OSC_OUT_O-Pad42)")
+	(net 50 "unconnected-(U1-BLADETEST_SC_EN_I-Pad44)")
 	(net 51 "FLASH_MISO")
 	(net 52 "FLASH_MOSI")
-	(net 53 "unconnected-(U2-BLADETEST_CK_I-Pad43)")
-	(net 54 "unconnected-(U2-EXIT_VALUE_O-Pad17)")
-	(net 55 "unconnected-(U2-EXIT_VALID_O-Pad16)")
-	(net 56 "unconnected-(U2-FLL_CLK_DIV_IO-Pad15)")
-	(net 57 "unconnected-(U2-BLADETEST_SC_OUT_O-Pad45)")
-	(net 58 "unconnected-(U2-BLADETEST_SC_EN_I-Pad44)")
-	(net 59 "unconnected-(U2-BLADETEST_SC_IN_I-Pad46)")
-	(net 60 "unconnected-(U2-BLADETEST_OSC_EN_I-Pad41)")
-	(net 61 "unconnected-(U4-NC-PadC1)")
-	(net 62 "unconnected-(U4-NC-PadD6)")
-	(net 63 "unconnected-(U4-NC-PadB6)")
-	(net 64 "unconnected-(U4-NC-PadE6)")
-	(net 65 "unconnected-(U4-NC-PadE1)")
-	(net 66 "unconnected-(U4-NC-PadA2)")
-	(net 67 "unconnected-(U4-NC-PadF5)")
-	(net 68 "unconnected-(U4-NC-PadA5)")
-	(net 69 "unconnected-(U4-NC-PadB1)")
-	(net 70 "unconnected-(U4-NC-PadF2)")
-	(net 71 "unconnected-(U4-NC-PadC6)")
+	(net 53 "unconnected-(U1-BLADETEST_SC_OUT_O-Pad45)")
+	(net 54 "unconnected-(U1-BLADETEST_OSC_OUT_O-Pad42)")
+	(net 55 "unconnected-(U1-EXIT_VALUE_O-Pad17)")
+	(net 56 "unconnected-(U1-FLL_CLK_DIV_IO-Pad15)")
+	(net 57 "unconnected-(U1-BLADETEST_CK_I-Pad43)")
+	(net 58 "unconnected-(U1-BLADETEST_SC_IN_I-Pad46)")
+	(net 59 "unconnected-(U1-BLADETEST_OSC_EN_I-Pad41)")
+	(net 60 "unconnected-(U1-EXIT_VALID_O-Pad16)")
+	(net 61 "unconnected-(U2-NC-PadE1)")
+	(net 62 "unconnected-(U2-NC-PadB6)")
+	(net 63 "unconnected-(U2-NC-PadB1)")
+	(net 64 "unconnected-(U2-NC-PadC1)")
+	(net 65 "unconnected-(U2-NC-PadF5)")
+	(net 66 "unconnected-(U2-NC-PadA5)")
+	(net 67 "unconnected-(U2-NC-PadE6)")
+	(net 68 "unconnected-(U2-NC-PadF2)")
+	(net 69 "unconnected-(U2-NC-PadD1)")
+	(net 70 "unconnected-(U2-NC-PadD6)")
+	(net 71 "unconnected-(U2-NC-PadA2)")
 	(net 72 "/[2] Connectors & Flash/nSOC_RST")
-	(net 73 "unconnected-(U4-NC-PadD1)")
-	(net 74 "unconnected-(U4-NC-PadA6)")
+	(net 73 "unconnected-(U2-NC-PadC6)")
+	(net 74 "unconnected-(U2-NC-PadA6)")
 	(net 75 "SOC_RST_OUT")
-	(net 76 "unconnected-(U6-Pad3)")
+	(net 76 "unconnected-(U4-Pad3)")
 	(net 77 "PMIC_nRST")
 	(net 78 "/[2] Connectors & Flash/RST_A")
 	(net 79 "/[2] Connectors & Flash/RST_B")
 	(net 80 "/[1] HEEPocrates/REF_CLK_IN")
 	(net 81 "BOOT_SEL_EXT")
-	(net 82 "unconnected-(U7-Pad1)")
-	(net 83 "unconnected-(U7-Pad5)")
+	(net 82 "unconnected-(U5-Pad1)")
+	(net 83 "unconnected-(U5-Pad5)")
 	(footprint "kibuzzard-67265ADF"
 		(layer "F.Cu")
 		(uuid "01370641-d27d-4e98-8822-3ff4b2ec4130")
@@ -380,7 +380,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "532c8862-bbad-47b1-bed1-52f866594813")
+			(uuid "fb3b25c5-e330-46b8-ae6c-5deece47a986")
 			(effects
 				(font
 					(size 1 1)
@@ -393,7 +393,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "701283e7-9da6-424f-b886-80f0fbcf2c81")
+			(uuid "c777e58e-4e77-4628-989c-7bbe50a44f6f")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -406,7 +406,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d6f76d4c-9b5a-432d-a80e-2703012b6734")
+			(uuid "d93ef3a1-3697-495f-a220-189bdf75a9c5")
 			(effects
 				(font
 					(size 1 1)
@@ -419,7 +419,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f91c3e18-ab99-4e66-a8ec-192cf056e914")
+			(uuid "523c7112-d7ed-46fa-8f86-fab27b5ca7db")
 			(effects
 				(font
 					(size 1 1)
@@ -432,7 +432,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cefbb5fd-256c-492c-981d-7608d23f9320")
+			(uuid "b590b1e6-c856-4fd1-a59e-ef987d978da5")
 			(effects
 				(font
 					(size 1 1)
@@ -465,7 +465,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3cd80c7e-a484-4517-8a64-d2c581fe7678")
+			(uuid "3578353e-1975-4105-b68d-b4a4ea1e2939")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -475,7 +475,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "eabc060e-c2cd-4fe0-8871-f7575c58f476")
+			(uuid "4407124f-d602-4dcd-9b40-a2ea3b919d11")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -486,13 +486,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ca3b1e34-b0d9-4bde-a1af-097ce23b6bc0")
+			(uuid "461f655b-d9b6-42cd-84a0-92495ae91f77")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b5c4e123-fa98-46f8-bd9a-5860ebda87ac")
+			(uuid "5c6fa29e-ab2a-4fc3-8e05-1e418211fe07")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -507,7 +507,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "2f51dd50-63ac-43c2-ad3b-326ce3c6aa8c")
+			(solder_mask_margin 0.05)
+			(uuid "23141225-ca7d-4079-b796-7d8cd1809b15")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -516,7 +517,8 @@
 			(roundrect_rratio 0.25)
 			(net 81 "BOOT_SEL_EXT")
 			(pintype "passive")
-			(uuid "50b32adb-8f69-4a55-9250-e2c3b93b69d7")
+			(solder_mask_margin 0.05)
+			(uuid "a097e82a-7eeb-4edf-a11a-999d42cb9541")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -534,12 +536,12 @@
 		(layer "F.Cu")
 		(uuid "083e9fe0-0980-481c-b044-bf6860ac8171")
 		(at 108.460669 109.1585 180)
-		(property "Reference" "C14"
+		(property "Reference" "C13"
 			(at 0 -0.6858 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "833aa8fd-40e0-49f8-b167-3e1e1ee6b0f2")
+			(uuid "dd6d4aa0-0bc2-4963-8562-9a5e9cf5ba56")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -552,7 +554,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "99313cdb-91bd-4bb8-bc7e-a5b6e2388644")
+			(uuid "3538b0bf-96d8-4574-9e94-bece3e7c86f5")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -565,7 +567,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20056de8-2b7a-46cf-bbd1-01c8dbbdd59f")
+			(uuid "28bd5d21-9e55-4284-a348-8b96d37e7f60")
 			(effects
 				(font
 					(size 1 1)
@@ -578,7 +580,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5084b6c5-233c-4634-9f34-5ad4fbb2e3ec")
+			(uuid "a6af0c90-b9f0-4254-b134-963ccc6da350")
 			(effects
 				(font
 					(size 1 1)
@@ -591,7 +593,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ffd5c4da-f2fb-4005-9a1b-8509c05569ca")
+			(uuid "69b1b895-6c92-4ae8-8b90-bbbc5c9e65d7")
 			(effects
 				(font
 					(size 1 1)
@@ -624,7 +626,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "2cbb98e7-e5da-46e7-89de-1fc0c2fefcec")
+			(uuid "4b5adb65-4cfd-46ef-8415-4a8cf0d39127")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -634,7 +636,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3c52a62a-3f57-4d30-b85c-ab5fba3fda71")
+			(uuid "52457257-472a-4878-bd6a-ee31051d8163")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -645,13 +647,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "41a45931-13ec-491a-9830-fa4d8f654953")
+			(uuid "644d4ccf-cee2-4841-abf6-9422a46d3b1a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1acd7ae5-d2dc-4d1d-826c-5329a276b3cf")
+			(uuid "773e3307-a5dc-4c3b-99d0-34b836508bfb")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -666,7 +668,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "cf6fbdfb-5297-49fb-947e-88aa4fea76e5")
+			(solder_mask_margin 0.05)
+			(uuid "47c92caf-17bf-40ce-9b6b-5a017757578d")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -675,7 +678,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "296241d8-29d4-4938-b06d-9f31be431587")
+			(solder_mask_margin 0.05)
+			(uuid "29313b84-7ef0-4090-8e2e-97f09db24972")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -698,7 +702,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "9a66e7f6-d563-4d5b-a35d-eb4688c5c315")
+			(uuid "9b19d053-5ec0-4e93-beb4-60c50c1a7570")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -711,7 +715,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c6a95f8c-f941-4097-b00a-761faf09cd99")
+			(uuid "0e4112fa-d078-414d-a2f3-696d6fdfcbeb")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -724,7 +728,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "00b81580-62d6-41e5-97d9-5221cd53f5e8")
+			(uuid "27cf8733-924e-4c0c-a264-536ec359a79c")
 			(effects
 				(font
 					(size 1 1)
@@ -737,7 +741,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8d641dcd-03b5-43f0-949a-0b653991783e")
+			(uuid "2009503a-6eec-4915-ad85-0bf14b3fb809")
 			(effects
 				(font
 					(size 1 1)
@@ -750,7 +754,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c9962aae-dc09-419d-9801-b000e340e177")
+			(uuid "b5bc4f28-0be4-4932-9a14-90177ceff27e")
 			(effects
 				(font
 					(size 1 1)
@@ -783,7 +787,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "08200cbe-a0c5-4469-a435-d32a3f9051ff")
+			(uuid "16a32b06-9d1e-4801-8096-3d0451deeee0")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -793,7 +797,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "31bfa555-85fe-45be-a420-a76c7edb123e")
+			(uuid "b6f71f16-1d24-4698-a35b-a510d4a71129")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -804,13 +808,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "b01e3851-4173-4e8c-a715-249674fc7d09")
+			(uuid "336ca97c-2d0e-4b98-b5ef-683cd1c92a34")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "c7453574-981d-4c2f-9ec8-d906d5d875ef")
+			(uuid "b85f29cd-b47a-4e2c-a14a-9ee9137cda77")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -825,7 +829,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "4f8b8d98-8a78-4225-8347-b4868b65b15d")
+			(solder_mask_margin 0.05)
+			(uuid "2f5c84f9-1eff-434d-8faf-0571acfd0f93")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -834,7 +839,8 @@
 			(roundrect_rratio 0.25)
 			(net 3 "VCORE")
 			(pintype "passive")
-			(uuid "7f2ada00-618f-4b47-96ed-8465c7f84825")
+			(solder_mask_margin 0.05)
+			(uuid "d7f77510-74a2-40c2-84e6-185185d81608")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -857,7 +863,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d14fa9f4-ddc9-469f-b342-a0ae32a6580a")
+			(uuid "8ab5b480-46a8-43e3-bfa0-6590275913c2")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -870,7 +876,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c1d45087-8e1c-4207-9dec-9176eed2e504")
+			(uuid "ed0195d2-39ee-40c5-8507-ecc296922bd5")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -883,7 +889,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "23713ad7-a0de-4d02-98f3-6fb9eec7c3dd")
+			(uuid "6a57c723-4d4b-40c7-a869-195e44638581")
 			(effects
 				(font
 					(size 1 1)
@@ -896,7 +902,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a2cad4f6-5332-4095-92ab-4ea100906694")
+			(uuid "1fe7f51a-250d-42fc-b6bb-ba8f90c0f18d")
 			(effects
 				(font
 					(size 1 1)
@@ -909,7 +915,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3700ab55-1e53-4447-8471-bd9ae0b7cb6a")
+			(uuid "fe932eaf-2017-45c4-88da-b4113e7a811e")
 			(effects
 				(font
 					(size 1 1)
@@ -942,7 +948,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "43569c78-f4d7-4a07-839e-00440fe276d3")
+			(uuid "9dd5e704-fbba-4cb3-aa0b-b8eb597230b1")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -952,7 +958,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1c6f16b3-98c2-4522-b6d5-b754df7baa07")
+			(uuid "dbbfeaa4-57d1-4fc4-ad1e-1b0a4ea36335")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -963,13 +969,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "35309cd6-47c8-4776-8a4d-43305f018299")
+			(uuid "c6182508-e64c-4d79-8537-0a809b209249")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "cecfa16f-f1f6-49bb-b396-5736f3e38992")
+			(uuid "18443e8d-1619-41f2-80f2-24f165e257f7")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -984,7 +990,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "125e04be-7873-41a2-b0b6-6a15925738e9")
+			(solder_mask_margin 0.05)
+			(uuid "4c04ce93-a2fe-4784-abd7-e22e9a899e3d")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -993,7 +1000,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "b54146b5-db43-48c4-9521-17d7e1bb0d73")
+			(solder_mask_margin 0.05)
+			(uuid "387ad504-f404-46e0-b63d-89b78cab854a")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -1127,12 +1135,12 @@
 		(layer "F.Cu")
 		(uuid "10e511da-d11e-4f43-b7fe-f207f930a592")
 		(at 108.460669 112.025 180)
-		(property "Reference" "C18"
+		(property "Reference" "C17"
 			(at -0.0109 -0.4495 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a1234160-0176-4b0e-80b8-d06311bc3032")
+			(uuid "df872690-74a7-49b1-8e61-6e0d94735e6a")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -1145,7 +1153,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2b37eab3-9caf-408c-87c3-8771af6abc28")
+			(uuid "67c8f61d-6f4e-4220-bce4-d7e32c6f6c52")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -1158,7 +1166,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "880bde51-904d-4693-a7f1-49212026a12f")
+			(uuid "d47e95db-9d17-4ba4-9e86-94b465fc6c82")
 			(effects
 				(font
 					(size 1 1)
@@ -1171,7 +1179,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "37c7b987-2992-41e9-9459-43d899b7d26f")
+			(uuid "351fb8de-6482-4bb3-8328-6b2d01845688")
 			(effects
 				(font
 					(size 1 1)
@@ -1184,7 +1192,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "57491b04-3bb1-4cc9-89f6-c803f43fc1b6")
+			(uuid "3b650438-ef2d-4738-94ee-9e2fe73ade37")
 			(effects
 				(font
 					(size 1 1)
@@ -1217,7 +1225,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d6508aa9-1465-4353-b0ca-378760c285af")
+			(uuid "852ada22-3d25-49d6-b74c-8292b8aab1d2")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -1227,7 +1235,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "f1738ebd-e3c6-4b51-b100-eef8eec24be4")
+			(uuid "750d3ffd-884e-43fb-8f41-5e41c2128b11")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -1238,13 +1246,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "fa0d7ba2-883c-4d8c-8d05-8dc25a053ff6")
+			(uuid "ec866af5-da12-485c-8246-712b6b5ae783")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "bb5ce65b-691b-444c-9246-0aec4c9c128f")
+			(uuid "afc2641c-edc1-446f-add0-11a1c377ed57")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -1259,7 +1267,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "a499fcfc-bb8c-437b-b04d-8866c002189b")
+			(solder_mask_margin 0.05)
+			(uuid "b273fb70-fc70-4ab8-b0f0-096d97180cf7")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -1268,7 +1277,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "3cd2347d-2c45-42a0-85ab-97ff87b0a98f")
+			(solder_mask_margin 0.05)
+			(uuid "3dd2b2f1-1057-4489-a822-a9cdb922fe43")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -1291,7 +1301,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8a47b8fd-2dd1-434e-9dc9-455ca8d644ef")
+			(uuid "ed6d754b-bfce-4dd6-a37f-8df84b449103")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -1304,7 +1314,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a748c463-aa82-42ca-8f31-0a9a321332d1")
+			(uuid "1d836f0f-2132-4058-a5e6-ad407183bd46")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -1317,7 +1327,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d43b36ef-3e36-4cd2-aa33-42ad3d65aee0")
+			(uuid "b476e91d-3e9a-4f2c-95d2-b3efcbc91199")
 			(effects
 				(font
 					(size 1 1)
@@ -1330,7 +1340,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1e87b10a-8680-49e0-95f5-9a09e16267bd")
+			(uuid "2be32727-8672-4f0b-946d-529b7525a611")
 			(effects
 				(font
 					(size 1 1)
@@ -1343,7 +1353,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "78380ff2-5fce-4d76-91aa-f85da2e85d10")
+			(uuid "276cb32c-d2bf-4e0b-89b6-212cc72429d0")
 			(effects
 				(font
 					(size 1 1)
@@ -1376,7 +1386,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "4ae7fac5-888b-49d1-a9fb-658966b1ad71")
+			(uuid "c9edb592-31b0-4abf-be05-f944cb887cfa")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -1386,7 +1396,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "20cfad15-908a-4ab3-bd77-bc76cc52cc63")
+			(uuid "dacc50ed-77d5-4923-bdf6-8dae880831cf")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -1397,13 +1407,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "54cdb663-f5d8-4935-aab5-b7e34b57d2a1")
+			(uuid "92c3fa76-9117-4c09-b630-7f547901c2ac")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "d706e017-ac21-4763-8812-8931ba40f0b6")
+			(uuid "d54cd20b-6fd8-4b15-ba38-edf9526d8dc1")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -1418,7 +1428,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "933d037c-6f8f-4924-b82a-c17978c527cb")
+			(solder_mask_margin 0.05)
+			(uuid "9007141b-9c78-4f5b-9352-1134e04e97f5")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -1427,7 +1438,8 @@
 			(roundrect_rratio 0.25)
 			(net 44 "FLASH_CS")
 			(pintype "passive")
-			(uuid "0092a75f-0475-49e4-a1df-6f17e15f5d83")
+			(solder_mask_margin 0.05)
+			(uuid "30f85817-e5d9-4d13-96fc-2cfbb1627923")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -2492,12 +2504,12 @@
 		(layer "F.Cu")
 		(uuid "1c6aac28-c3de-4dbb-b71f-3467ffc49221")
 		(at 108.45 107.957 180)
-		(property "Reference" "U3"
+		(property "Reference" "OSC1"
 			(at 1.27 -0.2794 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "29cc019f-3766-4f72-a2bb-16f42c49a712")
+			(uuid "d7ed674e-bff9-4d68-9248-bedcc46dfd23")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2510,7 +2522,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3ce949a5-cc8d-442a-9d96-503a7765e8c1")
+			(uuid "21207923-88c1-426c-a874-4007a6e9c0b5")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -2523,7 +2535,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7a98f171-79a9-4357-aa4e-8ad36b981ce2")
+			(uuid "fb750aa3-836a-4ba2-a27d-0a897aefea71")
 			(effects
 				(font
 					(size 1 1)
@@ -2536,7 +2548,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bf900667-c2a6-46ba-8b06-04932a6b3d66")
+			(uuid "f4ae2379-afc6-41da-a0ee-3bc08c08ab96")
 			(effects
 				(font
 					(size 1 1)
@@ -2549,7 +2561,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b028bec6-7104-48a9-ab3f-380e621d82f0")
+			(uuid "9d28fcc2-18d4-45c9-a6e0-aeb871761dae")
 			(effects
 				(font
 					(size 1 1)
@@ -2583,7 +2595,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "fb243bef-c0cf-4f81-8b84-e7bf75cb32d9")
+			(uuid "01869991-3a15-4ecb-9afb-f99101d504cd")
 		)
 		(fp_poly
 			(pts
@@ -2595,7 +2607,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "df382f9f-4a58-4223-a79d-e761a4019900")
+			(uuid "019ca0e2-0981-4b81-98b7-d93d36ff975e")
 		)
 		(fp_rect
 			(start -0.77 -0.42)
@@ -2606,13 +2618,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "2619e46d-e707-40a8-80d8-21f7b6ef5c3d")
+			(uuid "4f8538a9-ce85-455f-8899-8faafcefa73b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "41846390-88a1-4298-b771-ebb759d01f8f")
+			(uuid "be95ae4e-3221-43e4-94c2-9564ae18d226")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -2627,8 +2639,8 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "9fbcf7c1-34d8-412e-a5e3-c444f0d2de13")
+			(solder_mask_margin 0.05)
+			(uuid "f5bd98e4-168a-4851-9ecb-ac540635452b")
 		)
 		(pad "2" smd circle
 			(at 0.5 0.205 180)
@@ -2637,8 +2649,8 @@
 			(net 80 "/[1] HEEPocrates/REF_CLK_IN")
 			(pinfunction "CLK_OUT")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "28d1d3c7-e8d8-4992-b104-aa226ca93dba")
+			(solder_mask_margin 0.05)
+			(uuid "6f8a977d-fe3c-4441-8c60-67fab05df458")
 		)
 		(pad "3" smd circle
 			(at 0.5 -0.205 180)
@@ -2647,8 +2659,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDD")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "1a034590-1f82-43f6-99bf-a728181cfe3b")
+			(solder_mask_margin 0.05)
+			(uuid "aba3465d-203d-47e3-b036-9a4b0c52d3d5")
 		)
 		(pad "4" smd circle
 			(at -0.5 -0.205 180)
@@ -2657,8 +2669,8 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "aae7bdf2-3639-4acf-9ff6-fe1e231bc1a0")
+			(solder_mask_margin 0.05)
+			(uuid "488e83f6-15f5-4b3c-a0c2-63f00a2dd019")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Oscillators/CSP_1508_4pins.stp"
 			(offset
@@ -2812,7 +2824,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "37058fcb-4c97-40a0-b340-50e0fa68dcd4")
+			(uuid "7c969057-f951-432c-9a03-4a832dfb3442")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2825,7 +2837,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b65fba36-4551-444e-b7c0-787130198956")
+			(uuid "5910151a-a128-4f23-9c3f-58d9c32980a0")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -2838,7 +2850,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "45b97e65-25ce-4ba6-98e3-51cb5c13c20f")
+			(uuid "5f87e588-1030-4a1f-aa76-4a30c4b82883")
 			(effects
 				(font
 					(size 1 1)
@@ -2851,7 +2863,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "880f30d8-2a62-40ce-8c44-631e05913827")
+			(uuid "a678b68a-b131-4b0d-b4c9-6aa66103bd16")
 			(effects
 				(font
 					(size 1 1)
@@ -2864,7 +2876,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f9f6dee8-df6f-4e8a-b5fe-69a62f78173d")
+			(uuid "049ced29-881e-4ffe-bf0c-a090163cbf25")
 			(effects
 				(font
 					(size 1 1)
@@ -2897,7 +2909,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e7f59445-8f0b-4eef-8ebe-3cc79d599940")
+			(uuid "205561fa-eca5-4356-8bf1-4a8324a2b7b5")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -2907,7 +2919,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "db4d20f3-01fe-4e7f-abfb-6dfd2969eb9c")
+			(uuid "d70a5a8d-0173-4cca-bc3b-a859cb85db35")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -2918,13 +2930,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "dede3ab0-9cea-444d-ae14-466ad02b09d0")
+			(uuid "1912a239-a1b4-4be8-a842-1f3cc810ab4f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "235d2187-888f-48eb-b36e-ea9ccc14253b")
+			(uuid "4f565229-34df-44cf-9bf9-e4851810de2a")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -2939,7 +2951,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "f3cca9c7-9240-46fd-8c0b-36432a56434f")
+			(solder_mask_margin 0.05)
+			(uuid "63399a32-99ff-4dba-bc44-8132b035734f")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -2948,7 +2961,8 @@
 			(roundrect_rratio 0.25)
 			(net 48 "Manual_RST")
 			(pintype "passive")
-			(uuid "bd989393-1ac3-4636-9c0b-f9fd7e7ad893")
+			(solder_mask_margin 0.05)
+			(uuid "e1a9a4c1-32a8-49ea-9902-034a812f941c")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -2971,7 +2985,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e061ceba-7c83-4280-87b8-d842b18bc645")
+			(uuid "859457e2-a9a5-45a1-80dd-fdbaff193c21")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -2984,7 +2998,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9c7ecaad-8bf1-46dc-b498-a6f0f0771666")
+			(uuid "fd8e9480-1ec8-46a2-b01e-8838b1992232")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -2997,7 +3011,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b645c04a-2ada-49d5-b622-156440e6e637")
+			(uuid "578fc6b0-7582-46d1-8a7c-9572356ee0bc")
 			(effects
 				(font
 					(size 1 1)
@@ -3010,7 +3024,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "61b48bcb-e5dc-43a0-9208-9ff1008799e3")
+			(uuid "cf08a98b-c273-49bc-8fb3-afaa2768752e")
 			(effects
 				(font
 					(size 1 1)
@@ -3023,7 +3037,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "aa04c784-36d5-4e54-8af3-fd5cdf79387b")
+			(uuid "0a7c5da1-ea5f-4f2e-8dec-4b2ec1ff433c")
 			(effects
 				(font
 					(size 1 1)
@@ -3056,7 +3070,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9ea1a24f-5751-4cdf-a988-c408269df77b")
+			(uuid "fefd3585-7862-4fc3-8459-63e073e0e2ac")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -3066,7 +3080,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e3e022b4-469d-4c21-b381-be03034170b9")
+			(uuid "5ee5f9d7-f7a2-4352-87f5-f79dbe6bfe4c")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -3077,13 +3091,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "a509fd93-ad32-4890-a2d9-6e5f8ee5285d")
+			(uuid "aa28c6da-0359-4a14-94f6-4ed2ae61d85a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ccdf8da1-1829-415e-a9b3-7edc601000ad")
+			(uuid "aa195389-7635-433a-aeae-c37f2fa8ffe0")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3098,7 +3112,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "9a45da8c-9662-457f-ac6c-f07bdf5a79b4")
+			(solder_mask_margin 0.05)
+			(uuid "ccd8b3f2-a932-4021-98fe-5c0c87b8b968")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -3107,7 +3122,8 @@
 			(roundrect_rratio 0.25)
 			(net 14 "JTAG_TRST")
 			(pintype "passive")
-			(uuid "54e1fc35-9af7-4ad7-89eb-818a074ef1f2")
+			(solder_mask_margin 0.05)
+			(uuid "c91a96b8-c073-46bd-b1ab-20384709a725")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -3125,12 +3141,12 @@
 		(layer "F.Cu")
 		(uuid "39869b93-2071-4fab-8610-d242cffe976f")
 		(at 108.460669 110.707 180)
-		(property "Reference" "U6"
+		(property "Reference" "U4"
 			(at 0.0907 1.0265 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "843cf148-b954-48ef-9771-981c82a0a101")
+			(uuid "97a6e141-d376-4081-afe0-f2ca8b1086c6")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3143,7 +3159,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a28e26a-7a3d-46bc-ab80-3c1d05dc6a4a")
+			(uuid "453cf987-58b7-4e81-9ce5-1726fe65f60a")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3156,7 +3172,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ed3807df-deb0-4d4a-bf46-4ac30cace2b5")
+			(uuid "77ab852a-b94d-440e-97f7-5df0d241edfb")
 			(effects
 				(font
 					(size 1 1)
@@ -3169,7 +3185,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cdee38ad-359a-4c4e-a426-c49fbf60117a")
+			(uuid "86714eff-cc58-479a-bb2f-2610c05e47d4")
 			(effects
 				(font
 					(size 1 1)
@@ -3182,7 +3198,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bcf05870-c92c-4b77-b891-5e29d5808879")
+			(uuid "1c809925-a0a7-4509-9b22-bd35edf891d2")
 			(effects
 				(font
 					(size 1 1)
@@ -3217,7 +3233,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "13f2ad24-82b8-4e1a-9df4-25538fe4a317")
+			(uuid "96aaa54d-45a4-4941-b6a7-0862477d0f71")
 		)
 		(fp_rect
 			(start -0.5 -0.7)
@@ -3228,13 +3244,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "f8d6d742-ce48-4055-b002-f38749205121")
+			(uuid "5c2e809f-3022-4421-a0e2-b856ef2ca991")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "92b9c96e-4629-4c74-9f46-42c1b46f1d15")
+			(uuid "6e964602-5f6a-4262-b588-30bf50a96bf8")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3249,7 +3265,8 @@
 			(roundrect_rratio 0.25)
 			(net 78 "/[2] Connectors & Flash/RST_A")
 			(pintype "passive")
-			(uuid "4afceb77-7b95-4c01-8837-7ef1a79ece8b")
+			(solder_mask_margin 0.05)
+			(uuid "935f8c77-a07b-4bca-9a08-e02de2a2f562")
 		)
 		(pad "2" smd roundrect
 			(at -0.45 -0.175 180)
@@ -3258,16 +3275,18 @@
 			(roundrect_rratio 0.25)
 			(net 79 "/[2] Connectors & Flash/RST_B")
 			(pintype "passive")
-			(uuid "7615fd12-0c0f-431a-98fe-97f4b0b13547")
+			(solder_mask_margin 0.05)
+			(uuid "eb191ad3-d539-45c6-a678-b5cf87b21ab3")
 		)
 		(pad "3" smd roundrect
 			(at -0.45 0.175 180)
 			(size 0.5 0.175)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 76 "unconnected-(U6-Pad3)")
+			(net 76 "unconnected-(U4-Pad3)")
 			(pintype "passive+no_connect")
-			(uuid "39c8b177-e283-4a5f-b738-b9f49590208f")
+			(solder_mask_margin 0.05)
+			(uuid "7caf6dc1-3acf-4689-b7b8-ab722265038e")
 		)
 		(pad "4" smd roundrect
 			(at -0.45 0.525 180)
@@ -3277,7 +3296,8 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "b09a372b-3b33-431e-a9a1-cbe45831f97c")
+			(solder_mask_margin 0.05)
+			(uuid "570a38d0-cb13-4a7b-ad76-01501c054b23")
 		)
 		(pad "5" smd roundrect
 			(at 0.45 0.525 180)
@@ -3286,7 +3306,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "a0202d01-fc2f-46aa-8149-d8717cd9d013")
+			(solder_mask_margin 0.05)
+			(uuid "9c276850-b9a7-466d-bd6e-e9129f53dd10")
 		)
 		(pad "6" smd roundrect
 			(at 0.45 0.175 180)
@@ -3295,7 +3316,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "410187cc-13b8-4d78-980b-fd47ef9ad6c3")
+			(solder_mask_margin 0.05)
+			(uuid "de6bd6fe-3c5e-4f46-ba5c-8a14d61d249f")
 		)
 		(pad "7" smd roundrect
 			(at 0.45 -0.175 180)
@@ -3304,7 +3326,8 @@
 			(roundrect_rratio 0.25)
 			(net 49 "nRST_HEEP")
 			(pintype "passive")
-			(uuid "63be76a5-abe6-4635-9a04-4f717eeee3d0")
+			(solder_mask_margin 0.05)
+			(uuid "21ebd804-3c3b-413b-8cb9-aec64ad064da")
 		)
 		(pad "8" smd roundrect
 			(at 0.45 -0.525 180)
@@ -3314,7 +3337,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VCC")
 			(pintype "passive")
-			(uuid "a0b662d1-2840-4cad-94a9-8c69778467bf")
+			(solder_mask_margin 0.05)
+			(uuid "2a0554b8-f623-4176-8d11-696f55adf815")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/IC/SN74AUP2G08DQER.stp"
 			(offset
@@ -3337,7 +3361,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "62be616e-6faa-46f0-abed-fd6d68c53704")
+			(uuid "4459d26c-9ed9-47cf-9dc4-120da0d6d4aa")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3350,7 +3374,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e8437832-c01d-43ce-ab5c-44d4d92ad3c0")
+			(uuid "b0a2d5bb-d203-46eb-800e-5119339dd39e")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3363,7 +3387,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cac7a86d-8cce-4840-aac8-29c526d80783")
+			(uuid "bb3854cd-312c-483e-80db-35509ac23b69")
 			(effects
 				(font
 					(size 1 1)
@@ -3376,7 +3400,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "80997690-0a00-47b4-8ee2-a7f827ce197f")
+			(uuid "1352d325-6861-4ef3-a66c-0e39f6ce72b6")
 			(effects
 				(font
 					(size 1 1)
@@ -3389,7 +3413,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c08f3f38-91e9-401a-87a2-b43458ddf3ca")
+			(uuid "d45a7202-7fb2-4493-9272-faea3412499f")
 			(effects
 				(font
 					(size 1 1)
@@ -3422,7 +3446,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d433baae-9787-4aeb-b176-771e35169b94")
+			(uuid "932d8f26-d095-4b6e-800d-5fb952ec18d9")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -3432,7 +3456,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1429111e-38a7-4261-a2f3-e9cebb328411")
+			(uuid "cece5546-116f-4c3c-99f4-c6837f96e3fc")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -3443,13 +3467,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "3a1c22c2-507a-4312-be5b-7523e6dcb45d")
+			(uuid "db43cc29-7b09-41c3-a721-4bf29ec854a1")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ae3eb3c7-b212-47d9-9069-47efbd95aa3f")
+			(uuid "14bf8296-a1a2-4020-adea-1c389fa61fd9")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3464,7 +3488,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "4be0c8ad-6f70-4288-96eb-b145fae34a62")
+			(solder_mask_margin 0.05)
+			(uuid "b1f85c0c-8cd8-43dd-80dc-1665856e3c88")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -3473,7 +3498,8 @@
 			(roundrect_rratio 0.25)
 			(net 3 "VCORE")
 			(pintype "passive")
-			(uuid "1669b2b0-72f3-4745-a2a6-3b78dfa76ffe")
+			(solder_mask_margin 0.05)
+			(uuid "799321cb-c311-435f-8750-89fed41b9494")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -3496,7 +3522,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "45016ba7-f8da-4d3c-8bbb-b83027a902b1")
+			(uuid "25f8e7bf-6339-43c9-9a1a-d0697e1684ae")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3509,7 +3535,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1ba4a7f0-3871-4a0e-bbec-896c375b39e0")
+			(uuid "a10bf86c-720b-4252-bcae-b7a7bba14794")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3522,7 +3548,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "20e093d5-c466-46b2-a9b9-0995ea4cfe8e")
+			(uuid "a14e9f7a-3d7c-4d06-a175-2d20e13c1013")
 			(effects
 				(font
 					(size 1 1)
@@ -3535,7 +3561,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf9d3d6f-5441-4a1c-888c-0d851709b586")
+			(uuid "8242961c-2a71-4602-8270-2bc6e155129a")
 			(effects
 				(font
 					(size 1 1)
@@ -3548,7 +3574,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3977c821-5fec-4bd2-a136-2e352929a13b")
+			(uuid "10455610-003a-4cd0-8f98-2753f195f921")
 			(effects
 				(font
 					(size 1 1)
@@ -3581,7 +3607,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "9178a35a-e9fc-45cb-a817-0e803d3b01c3")
+			(uuid "e205b179-d295-4830-a5f5-d135b9529d27")
 		)
 		(fp_line
 			(start -0.2 0.4)
@@ -3591,7 +3617,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c30d5174-7666-401d-b033-2d5bcb209ddd")
+			(uuid "369961e7-ee82-41ec-a210-83372a975803")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -3602,13 +3628,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "3bec9971-88c1-4543-8745-2003e2ea9f8a")
+			(uuid "b8d32042-89e3-474f-9281-6a9eda8f7418")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ccfbc747-ee69-483f-83f5-9d164b6071c0")
+			(uuid "2c092075-e555-483c-95c1-0d7be31efe94")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3623,7 +3649,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "e9fb3bb6-33ae-46a3-a9ff-9b7ed648b665")
+			(solder_mask_margin 0.05)
+			(uuid "4a86d4f4-5069-40f5-8336-e4e754bfa3d7")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 90)
@@ -3632,7 +3659,8 @@
 			(roundrect_rratio 0.25)
 			(net 46 "FLASH_nWP")
 			(pintype "passive")
-			(uuid "91d089ba-061d-41ca-94df-8e5c3ace7cdf")
+			(solder_mask_margin 0.05)
+			(uuid "9512412c-195c-4f38-bac9-c53ad95954a5")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -3655,7 +3683,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "6d976537-613b-4ce0-9301-a33782eb9546")
+			(uuid "7228f7e3-409d-424d-95cf-da5bb240c0fc")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3668,7 +3696,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "990bcb78-fbbf-4650-8391-9604e00d5bad")
+			(uuid "8c534467-e991-43af-b9b9-8c95ece60689")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3681,7 +3709,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b9dd93bf-5e00-411c-a840-fd48d7fc3b3d")
+			(uuid "ce35e525-e65b-47ca-9911-4702a2e75cb2")
 			(effects
 				(font
 					(size 1 1)
@@ -3694,7 +3722,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "521724e9-daa4-423a-b317-b906fcfe3bde")
+			(uuid "ad259320-af85-40d3-aebd-0c15c0f4e81e")
 			(effects
 				(font
 					(size 1 1)
@@ -3707,7 +3735,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad7c6f72-f5dc-4672-b18f-dab2eefaf01d")
+			(uuid "9af4f217-8ac6-4f4f-a2fd-1dbb681d647d")
 			(effects
 				(font
 					(size 1 1)
@@ -3740,7 +3768,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "324eec76-4531-42cf-950e-817e6c84b4f9")
+			(uuid "585e31b9-3859-4672-a7b3-a99c854419d9")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -3750,7 +3778,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d1987ac5-3324-4783-a3b2-5ad561ba09d6")
+			(uuid "f35cd2fb-d378-448f-b563-0c53df847280")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -3761,13 +3789,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "eef558b3-c495-4a5d-a1c3-51e06f25192b")
+			(uuid "c6e39ed1-dc1b-49b6-b1b7-83efe6a920c7")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "e52c2ade-1ae9-4b50-a3e1-6b17bd5b7e38")
+			(uuid "063262a3-9959-4c49-93ba-115803127d9e")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3782,7 +3810,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "d3cb4f7b-cf27-4332-90ed-a27e9b09f161")
+			(solder_mask_margin 0.05)
+			(uuid "863a12ae-655d-443c-882b-80c798a3a3dc")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -3791,7 +3820,8 @@
 			(roundrect_rratio 0.25)
 			(net 21 "I2C_SDA_HEEP")
 			(pintype "passive")
-			(uuid "3df77202-3790-4ff8-ab50-069374ecb8d7")
+			(solder_mask_margin 0.05)
+			(uuid "2447f57c-5823-48ad-9ece-21fcf4f9bfec")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -3814,7 +3844,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "3f49abd7-82ab-4a04-aa38-45a1fd7b36c4")
+			(uuid "515d1daa-e8f6-4db6-97b9-b65b588e9400")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -3827,7 +3857,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ad1f2e51-557a-4b19-bf93-cf3f078889e8")
+			(uuid "2e500dec-55de-4a96-a769-ff4a580818fb")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3840,7 +3870,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "19aa4b5a-a914-46b2-beaf-10fad3338388")
+			(uuid "bfea4364-a048-4a0a-b0b0-29b920552c63")
 			(effects
 				(font
 					(size 1 1)
@@ -3853,7 +3883,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "485e3ab6-efdc-4521-9cbf-7cc8a5d6a9c1")
+			(uuid "9189e58c-1a12-465c-ae8f-0d470dec339e")
 			(effects
 				(font
 					(size 1 1)
@@ -3866,7 +3896,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "806eed55-b3b8-4d76-b125-31fbbd49b97d")
+			(uuid "540fd765-5a99-433d-88aa-f0449a4fbcb5")
 			(effects
 				(font
 					(size 1 1)
@@ -3899,7 +3929,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "707be8fe-1001-474e-93e4-b4286f7df1f2")
+			(uuid "20eeca2b-02c1-4c85-9347-a8df9ac9134e")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -3909,7 +3939,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "0f482fb3-28eb-4c8e-a9be-0823723e9b48")
+			(uuid "34f2d1f8-d9b6-4f1c-bf08-65f702a20b57")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -3920,13 +3950,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "c0a32881-fc06-4b0b-bbd3-0b392a19a43a")
+			(uuid "31cd4658-d9a4-40a3-b31f-96388f50c40e")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "0251f044-bb59-487e-867f-7775b6aac9b1")
+			(uuid "e4ae16eb-f902-492d-8280-9c3482eae0f9")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3941,7 +3971,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "d5819d7d-aa68-4dd6-a3a4-a9a67b1f0980")
+			(solder_mask_margin 0.05)
+			(uuid "508572c8-cf05-4571-a73f-614a666c974e")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -3950,7 +3981,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "75b37dfd-4a54-490c-9c58-6e492c764227")
+			(solder_mask_margin 0.05)
+			(uuid "8328927e-3733-4073-91c2-687036255407")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -3973,7 +4005,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a3c3ed35-1de2-4e0a-8bf1-c495cb93d4bf")
+			(uuid "ae523767-4526-478c-80e1-b3b221fcbff6")
 			(effects
 				(font
 					(size 1 1)
@@ -3986,7 +4018,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e30b2a24-78ad-4bf8-9f6d-13ca5a8369a1")
+			(uuid "3f44f322-ada0-4c8f-b7c7-ea5ed50ec9e2")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -3999,7 +4031,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9fd27235-e5cc-401a-bda5-e7e45289166c")
+			(uuid "0cd578c7-4566-4e83-882c-a7c8209aaf57")
 			(effects
 				(font
 					(size 1 1)
@@ -4012,7 +4044,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f0957b6c-9fb8-4aa3-a33d-e5c6ac54a8c8")
+			(uuid "69a77e94-5be8-4a6e-905d-e635f0e6da04")
 			(effects
 				(font
 					(size 1 1)
@@ -4025,7 +4057,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ae1caeef-c699-49e1-9352-0ff7e282e3a6")
+			(uuid "6c42bdba-b6b8-413e-bbf0-ec593ced4998")
 			(effects
 				(font
 					(size 1 1)
@@ -4046,7 +4078,7 @@
 				)
 			)
 		)
-		(path "/034da606-d4bd-4223-8d2c-d524a3e3d60d/61862eb8-cdb0-445d-a166-e2c206c061e1")
+		(path "/034da606-d4bd-4223-8d2c-d524a3e3d60d/f6bde9aa-bc44-4fed-a012-7879bacda8ae")
 		(sheetname "[2] Connectors & Flash")
 		(sheetfile "[2] Connectors & Flash.kicad_sch")
 		(attr smd exclude_from_bom)
@@ -4059,13 +4091,13 @@
 			)
 			(fill none)
 			(layer "User.1")
-			(uuid "1cd8d293-f4fc-439e-8f68-21c6fb4405d2")
+			(uuid "07a46581-60fa-49f0-ae55-d9ab7433025c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 -0.635 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3a3b6484-5e7a-4599-af2b-c2e5fd511e33")
+			(uuid "1ec56007-f69b-4e36-b8b2-f9a0d0e4b7f3")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -4084,7 +4116,7 @@
 			(net 41 "JTAG_TDO")
 			(pinfunction "JTAG_TDO")
 			(pintype "passive")
-			(uuid "8370a0af-0512-4236-b9f6-e7f28a1966ac")
+			(uuid "2a0cdb0d-d8c0-4e5e-bb5b-8ca712acf039")
 		)
 		(pad "2" thru_hole roundrect
 			(at -8.255 -10.16 270)
@@ -4097,7 +4129,7 @@
 			(net 6 "JTAG_TDI")
 			(pinfunction "JTAG_TDI")
 			(pintype "passive")
-			(uuid "7e04e7a5-1eff-4287-92fd-d8dd0d79533b")
+			(uuid "96c2c911-b7aa-48a3-98c9-1b3b55524a66")
 		)
 		(pad "3" thru_hole roundrect
 			(at -8.255 -8.89 270)
@@ -4110,7 +4142,7 @@
 			(net 14 "JTAG_TRST")
 			(pinfunction "JTAG_TRST")
 			(pintype "passive")
-			(uuid "4556816f-668f-495a-9360-e7700ba1805a")
+			(uuid "1ada4477-d6bb-463d-8762-2ddbdd551625")
 		)
 		(pad "4" thru_hole roundrect
 			(at -8.255 -7.62 270)
@@ -4123,7 +4155,7 @@
 			(net 13 "JTAG_TMS")
 			(pinfunction "JTAG_TMS")
 			(pintype "passive")
-			(uuid "9eae6a0f-fded-4d28-b47a-41b91e8f8cf5")
+			(uuid "d48a4f5c-ba43-4d22-b577-68faf182cba2")
 		)
 		(pad "5" thru_hole roundrect
 			(at -8.255 -6.35 270)
@@ -4136,7 +4168,7 @@
 			(net 9 "JTAG_TCK")
 			(pinfunction "JTAG_TCK")
 			(pintype "passive")
-			(uuid "6eeb4f91-7547-4f5a-966f-a0d907ff588a")
+			(uuid "733fdf8b-4744-4edf-9d28-e09f20ec9d6a")
 		)
 		(pad "6" thru_hole roundrect
 			(at -8.255 -5.08 270)
@@ -4149,7 +4181,7 @@
 			(net 48 "Manual_RST")
 			(pinfunction "Manual_RST")
 			(pintype "passive")
-			(uuid "e6ef848a-0eb1-47cd-bbb0-e443aeb1f329")
+			(uuid "87612761-2bd6-45f1-8495-1b39110ea535")
 		)
 		(pad "7" thru_hole roundrect
 			(at -8.255 -3.81 270)
@@ -4162,7 +4194,7 @@
 			(net 77 "PMIC_nRST")
 			(pinfunction "PMIC_nRST")
 			(pintype "passive")
-			(uuid "404505c2-fcf9-46af-a504-df2ed989854a")
+			(uuid "b8beee3d-4de0-4f20-a2ee-79cd05cd1f22")
 		)
 		(pad "8" thru_hole roundrect
 			(at -8.255 -2.54 270)
@@ -4175,7 +4207,7 @@
 			(net 75 "SOC_RST_OUT")
 			(pinfunction "SOC_RST_OUT")
 			(pintype "passive")
-			(uuid "4c32fd6a-f171-41a8-8444-a25c7d9cb17d")
+			(uuid "a416f913-a067-4a67-9515-1832d65a42cf")
 		)
 		(pad "9" thru_hole roundrect
 			(at -8.255 -1.27 90)
@@ -4188,7 +4220,7 @@
 			(net 52 "FLASH_MOSI")
 			(pinfunction "FLASH_MOSI")
 			(pintype "passive")
-			(uuid "574306d1-1b70-4d73-9d43-e30d279ecf56")
+			(uuid "bb9ffe13-2ff0-4217-abb8-931272107f35")
 		)
 		(pad "10" thru_hole roundrect
 			(at -8.255 0 90)
@@ -4201,7 +4233,7 @@
 			(net 51 "FLASH_MISO")
 			(pinfunction "FLASH_MISO")
 			(pintype "passive")
-			(uuid "16cebe3f-6023-4209-84d4-c01894674a2b")
+			(uuid "81761198-c15b-405c-a543-1b292a988c80")
 		)
 		(pad "11" thru_hole roundrect
 			(at -8.255 1.27 90)
@@ -4214,7 +4246,7 @@
 			(net 44 "FLASH_CS")
 			(pinfunction "FLASH_CS")
 			(pintype "passive")
-			(uuid "98d7a7ce-80bc-4d20-8722-4249138688ee")
+			(uuid "51b9ca02-d802-4c6f-98ed-3f92dcff7ec1")
 		)
 		(pad "12" thru_hole roundrect
 			(at -8.255 2.54 90)
@@ -4227,7 +4259,7 @@
 			(net 46 "FLASH_nWP")
 			(pinfunction "FLASH_nWP")
 			(pintype "passive")
-			(uuid "2f21d06b-c2c1-47b2-aaef-4e259cd4fc04")
+			(uuid "0181fd13-e500-4af8-8a70-e34b6ef3822f")
 		)
 		(pad "13" thru_hole roundrect
 			(at -8.255 3.81 90)
@@ -4240,7 +4272,7 @@
 			(net 47 "FLASH_nHLD_nRST")
 			(pinfunction "FLASH_nHLD_nRST")
 			(pintype "passive")
-			(uuid "5b50d8ac-fcff-4c5e-9e57-59b84a60c6ea")
+			(uuid "78b60e0a-6fcd-4b10-b461-0a19fd7c6b50")
 		)
 		(pad "14" thru_hole roundrect
 			(at -8.255 5.08 90)
@@ -4253,7 +4285,7 @@
 			(net 45 "FLASH_SCK")
 			(pinfunction "FLASH_SCK")
 			(pintype "passive")
-			(uuid "d576a66d-649b-4f31-80ea-97b55c5634fe")
+			(uuid "6533eea6-39d8-4453-8e67-44f593f785c7")
 		)
 		(pad "15" thru_hole roundrect
 			(at -8.255 6.35 90)
@@ -4266,7 +4298,7 @@
 			(net 21 "I2C_SDA_HEEP")
 			(pinfunction "I2C_SDA_HEEP")
 			(pintype "passive")
-			(uuid "f3fab6f9-02e0-4c10-8b91-89604d23c6df")
+			(uuid "82133c3f-f417-4e87-8e96-f75d1046480a")
 		)
 		(pad "16" thru_hole roundrect
 			(at -8.255 7.62 90)
@@ -4279,7 +4311,7 @@
 			(net 7 "I2C_SCL_HEEP")
 			(pinfunction "I2C_SCL_HEEP")
 			(pintype "passive")
-			(uuid "c3ffae0d-042e-4995-b82c-db6f0fe1e95b")
+			(uuid "1d529732-eb78-4049-81a1-b940c985652d")
 		)
 		(pad "17" thru_hole roundrect
 			(at -8.255 8.89 90)
@@ -4292,7 +4324,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "fe9a4ff0-fa18-4f31-83dd-6c15cdd0eee2")
+			(uuid "fa12dd7c-3e8a-4f9f-8bea-2bad73e92b80")
 		)
 		(pad "18" thru_hole roundrect
 			(at -6.985 10.16 180)
@@ -4305,7 +4337,7 @@
 			(net 2 "+1V8")
 			(pinfunction "+1V8")
 			(pintype "passive")
-			(uuid "5fc40b77-d404-4f26-8e81-91210d10a5d7")
+			(uuid "c440a077-1d1b-422b-bd10-6bbda3b70e24")
 		)
 		(pad "19" thru_hole roundrect
 			(at -5.715 10.16 180)
@@ -4318,7 +4350,7 @@
 			(net 3 "VCORE")
 			(pinfunction "VCORE")
 			(pintype "passive")
-			(uuid "1a67abe8-75cc-4898-bed3-f281d2c5285e")
+			(uuid "988dfabf-80fd-4e07-91e4-100c974264ed")
 		)
 		(pad "20" thru_hole roundrect
 			(at -4.445 10.16 180)
@@ -4331,7 +4363,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "50c13c54-1dea-483d-8225-ea223242f505")
+			(uuid "08e89079-525f-4ff1-a803-8a892930b15b")
 		)
 		(pad "21" thru_hole roundrect
 			(at -3.175 10.16 180)
@@ -4344,7 +4376,7 @@
 			(net 10 "UART_RX_HEEP")
 			(pinfunction "UART_RX_HEEP")
 			(pintype "passive")
-			(uuid "1eaf82e2-69a8-41bd-8986-63006070e0fe")
+			(uuid "70a4a12e-58bc-44a4-852c-64e64f232d63")
 		)
 		(pad "22" thru_hole roundrect
 			(at -1.905 10.16 180)
@@ -4357,7 +4389,7 @@
 			(net 35 "UART_TX_HEEP")
 			(pinfunction "UART_TX_HEEP")
 			(pintype "passive")
-			(uuid "a0dedbab-36ba-4012-ba47-5de083526aec")
+			(uuid "0b712a5b-eb9a-4b9a-9b49-54707cab17d3")
 		)
 		(pad "23" thru_hole roundrect
 			(at -0.635 10.16 180)
@@ -4370,7 +4402,7 @@
 			(net 12 "SPI_MOSI_HEEP")
 			(pinfunction "SPI_MOSI_HEEP")
 			(pintype "passive")
-			(uuid "b9130793-85d9-46de-bf0e-2bf53f298a54")
+			(uuid "206330d4-60da-411f-bae1-0a1187e11bf2")
 		)
 		(pad "24" thru_hole roundrect
 			(at 0.635 10.16)
@@ -4383,7 +4415,7 @@
 			(net 5 "SPI_MISO_HEEP")
 			(pinfunction "SPI_MISO_HEEP")
 			(pintype "passive")
-			(uuid "7bd25b34-e2dd-4e76-8ead-c28d848edc38")
+			(uuid "6c14bba3-406f-4700-8259-e38dac61b4fd")
 		)
 		(pad "25" thru_hole roundrect
 			(at 1.905 10.16)
@@ -4396,7 +4428,7 @@
 			(net 32 "SPI_SD2_HEEP")
 			(pinfunction "SPI_SD2_HEEP")
 			(pintype "passive")
-			(uuid "5c681a42-60e1-4905-9d08-3f45422628f8")
+			(uuid "4c052391-d684-4c37-b020-ce6d1dedea7f")
 		)
 		(pad "26" thru_hole roundrect
 			(at 3.175 10.16)
@@ -4409,7 +4441,7 @@
 			(net 27 "SPI_SD3_HEEP")
 			(pinfunction "SPI_SD3_HEEP")
 			(pintype "passive")
-			(uuid "3e45a3c3-32e3-426b-b459-f15c1f5c96c0")
+			(uuid "85780719-d7c9-4504-ab15-ab270de0d7ea")
 		)
 		(pad "27" thru_hole roundrect
 			(at 4.445 10.16)
@@ -4422,7 +4454,7 @@
 			(net 18 "SPI_CS1_HEEP")
 			(pinfunction "SPI_CS1_HEEP")
 			(pintype "passive")
-			(uuid "a6a67128-7d91-4576-8c2d-920d6c85e674")
+			(uuid "4a5bd798-6992-418e-a8b5-4df0ec2c0ec0")
 		)
 		(pad "28" thru_hole roundrect
 			(at 5.715 10.16)
@@ -4435,7 +4467,7 @@
 			(net 20 "SPI_CS0_HEEP")
 			(pinfunction "SPI_CS0_HEEP")
 			(pintype "passive")
-			(uuid "bf18e9f8-6b90-445d-a22d-721accdfdaac")
+			(uuid "fd27f055-7c19-4bf4-a09d-b6879dfc1999")
 		)
 		(pad "29" thru_hole roundrect
 			(at 6.985 10.16)
@@ -4448,7 +4480,7 @@
 			(net 31 "SPI_SCK_HEEP")
 			(pinfunction "SPI_SCK_HEEP")
 			(pintype "passive")
-			(uuid "a77c38ed-8793-4dec-bb86-dba7167d602e")
+			(uuid "42534332-7315-41b5-b9bf-7061fe2e148c")
 		)
 		(pad "30" thru_hole roundrect
 			(at 8.255 8.89 270)
@@ -4461,7 +4493,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "ef088f5d-792e-464d-8e5b-3a4bfd947541")
+			(uuid "2ef4dc24-9350-467a-a1a4-5f5a3561286b")
 		)
 		(pad "31" thru_hole roundrect
 			(at 8.255 7.62 270)
@@ -4474,7 +4506,7 @@
 			(net 81 "BOOT_SEL_EXT")
 			(pinfunction "BOOT_SEL_EXT")
 			(pintype "passive")
-			(uuid "6f1d7242-7c6e-40c0-a013-2b8255aaff32")
+			(uuid "41edaa73-ba7c-42d3-96af-797636f636ea")
 		)
 		(pad "32" thru_hole roundrect
 			(at 8.255 6.35 270)
@@ -4487,7 +4519,7 @@
 			(net 19 "GPIO_23")
 			(pinfunction "GPIO_23")
 			(pintype "passive")
-			(uuid "933235e1-3fb9-4b83-a9ff-f863b58cf9f4")
+			(uuid "84ff27a3-2941-4102-9449-0df4bfd671ed")
 		)
 		(pad "33" thru_hole roundrect
 			(at 8.255 5.08 270)
@@ -4500,7 +4532,7 @@
 			(net 17 "GPIO_22")
 			(pinfunction "GPIO_22")
 			(pintype "passive")
-			(uuid "e4747629-1a19-4931-9a24-cee6b51ea600")
+			(uuid "2364658f-2097-45b0-8093-c608990bb3db")
 		)
 		(pad "34" thru_hole roundrect
 			(at 8.255 3.81 270)
@@ -4513,7 +4545,7 @@
 			(net 36 "GPIO_21")
 			(pinfunction "GPIO_21")
 			(pintype "passive")
-			(uuid "8259b92c-5cf8-4f27-82a8-f6d683a4d87f")
+			(uuid "d18c8731-d2f7-4b10-ac7d-12cc30170bc3")
 		)
 		(pad "35" thru_hole roundrect
 			(at 8.255 2.54 270)
@@ -4526,7 +4558,7 @@
 			(net 22 "GPIO_20")
 			(pinfunction "GPIO_20")
 			(pintype "passive")
-			(uuid "4659f618-9010-4f20-aa70-ee6a7b42aad5")
+			(uuid "4645e7da-8b6e-4fad-8958-a1527f4257ab")
 		)
 		(pad "36" thru_hole roundrect
 			(at 8.255 1.27 270)
@@ -4539,7 +4571,7 @@
 			(net 37 "GPIO_19")
 			(pinfunction "GPIO_19")
 			(pintype "passive")
-			(uuid "f497a455-c57c-42d6-8bcb-cd1a2c90a0b2")
+			(uuid "fc29119f-89c9-4f97-82ba-7ed9efc06d69")
 		)
 		(pad "37" thru_hole roundrect
 			(at 8.255 0 270)
@@ -4552,7 +4584,7 @@
 			(net 28 "GPIO_18")
 			(pinfunction "GPIO_18")
 			(pintype "passive")
-			(uuid "f2154a61-c4ea-47b3-be91-76c4a6128246")
+			(uuid "4c99addc-a1e8-48c9-8c5b-b6f0efb002fe")
 		)
 		(pad "38" thru_hole roundrect
 			(at 8.255 -1.27 270)
@@ -4565,7 +4597,7 @@
 			(net 25 "GPIO_17")
 			(pinfunction "GPIO_17")
 			(pintype "passive")
-			(uuid "efc10ba0-d834-4542-9e4e-fc534949eb86")
+			(uuid "0f05c733-e559-4f41-9ae2-60b4b5097c23")
 		)
 		(pad "39" thru_hole roundrect
 			(at 8.255 -2.54 270)
@@ -4578,7 +4610,7 @@
 			(net 8 "GPIO_16")
 			(pinfunction "GPIO_16")
 			(pintype "passive")
-			(uuid "3edb2e50-86a1-4219-ade5-38ca52e7d4d3")
+			(uuid "08e702fe-d6f2-4228-8977-169b0f1d7de9")
 		)
 		(pad "40" thru_hole roundrect
 			(at 8.255 -3.81 270)
@@ -4591,7 +4623,7 @@
 			(net 43 "GPIO_15")
 			(pinfunction "GPIO_15")
 			(pintype "passive")
-			(uuid "dbc84c30-c093-4860-a3f2-51e72c1e01f1")
+			(uuid "1cca8ec3-71b8-47c8-bcb4-10279d44d371")
 		)
 		(pad "41" thru_hole roundrect
 			(at 8.255 -5.08 270)
@@ -4604,7 +4636,7 @@
 			(net 4 "GPIO_14")
 			(pinfunction "GPIO_14")
 			(pintype "passive")
-			(uuid "2dd49cfd-43de-4037-ac66-c26f61166ad7")
+			(uuid "71b8d058-1eb4-43c1-95d3-710d145aef64")
 		)
 		(pad "42" thru_hole roundrect
 			(at 8.255 -6.35 90)
@@ -4617,7 +4649,7 @@
 			(net 15 "GPIO_13")
 			(pinfunction "GPIO_13")
 			(pintype "passive")
-			(uuid "ab311c9f-0550-47de-afcc-720f4fd39869")
+			(uuid "cf1462c7-fbff-44ec-a098-d5b94edec459")
 		)
 		(pad "43" thru_hole roundrect
 			(at 8.255 -7.62 90)
@@ -4630,7 +4662,7 @@
 			(net 26 "GPIO_12")
 			(pinfunction "GPIO_12")
 			(pintype "passive")
-			(uuid "33a1be42-ea29-4dac-b338-ce2e4be05926")
+			(uuid "97f2367a-14b5-4ef3-8795-ebe83da418b3")
 		)
 		(pad "44" thru_hole roundrect
 			(at 8.255 -8.89 90)
@@ -4643,7 +4675,7 @@
 			(net 29 "GPIO_11")
 			(pinfunction "GPIO_11")
 			(pintype "passive")
-			(uuid "8e6252e3-7774-4c28-8226-8225cdb1b68c")
+			(uuid "52364a60-9f90-4297-9703-0c24460cf902")
 		)
 		(pad "45" thru_hole roundrect
 			(at 8.255 -10.16 90)
@@ -4656,7 +4688,7 @@
 			(net 16 "GPIO_10")
 			(pinfunction "GPIO_10")
 			(pintype "passive")
-			(uuid "4d732b18-dab5-4ab2-a166-db70db862356")
+			(uuid "96f6fa05-86d1-4d17-ad54-53fab89e3a9c")
 		)
 		(pad "46" thru_hole roundrect
 			(at 8.255 -11.43 90)
@@ -4669,7 +4701,7 @@
 			(net 24 "GPIO_9")
 			(pinfunction "GPIO_9")
 			(pintype "passive")
-			(uuid "1a3af32e-0161-4284-96a2-7a7912427f58")
+			(uuid "91d693b9-f7db-4f6f-a26c-ace74592d021")
 		)
 		(pad "47" thru_hole roundrect
 			(at 6.985 -12.7)
@@ -4682,7 +4714,7 @@
 			(net 3 "VCORE")
 			(pinfunction "VCORE")
 			(pintype "passive")
-			(uuid "8d0f6763-cb7d-4731-a36c-182fe366c1ac")
+			(uuid "24e34c7d-0ffb-4ebe-b83c-0ce3fed14d75")
 		)
 		(pad "48" thru_hole roundrect
 			(at 5.715 -12.7)
@@ -4695,7 +4727,7 @@
 			(net 2 "+1V8")
 			(pinfunction "+1V8")
 			(pintype "passive")
-			(uuid "4f83cc32-33bc-461a-875e-09a4827176df")
+			(uuid "8b715cd7-702b-42e0-a5a5-8bd7c534bd0e")
 		)
 		(pad "49" thru_hole roundrect
 			(at 4.445 -12.7)
@@ -4708,7 +4740,7 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "a29b9def-fd4b-4e9e-a6c1-dc919023190c")
+			(uuid "75a4be0c-ba33-47c4-b83a-c6968097d8af")
 		)
 		(pad "50" thru_hole roundrect
 			(at 3.175 -12.7)
@@ -4721,7 +4753,7 @@
 			(net 42 "GPIO_8")
 			(pinfunction "GPIO_8")
 			(pintype "passive")
-			(uuid "4a0c60dd-2dfc-4fd4-bb6b-be08f820af0e")
+			(uuid "0451c84a-423f-483a-9483-1e5867a21806")
 		)
 		(pad "51" thru_hole roundrect
 			(at 1.905 -12.7)
@@ -4734,7 +4766,7 @@
 			(net 39 "GPIO_7")
 			(pinfunction "GPIO_7")
 			(pintype "passive")
-			(uuid "5e44c913-113f-4b64-9183-0546d20df9d8")
+			(uuid "112a7ff0-9f73-41ec-bb23-1ad33d5cb2f2")
 		)
 		(pad "52" thru_hole roundrect
 			(at 0.635 -12.7 180)
@@ -4747,7 +4779,7 @@
 			(net 40 "GPIO_6")
 			(pinfunction "GPIO_6")
 			(pintype "passive")
-			(uuid "71ac14fe-5d97-4460-b7d0-9dad9d29a3ac")
+			(uuid "2a2c521e-2d4a-45f5-91f8-beae759d2b50")
 		)
 		(pad "53" thru_hole roundrect
 			(at -0.635 -12.7 180)
@@ -4760,7 +4792,7 @@
 			(net 34 "GPIO_5")
 			(pinfunction "GPIO_5")
 			(pintype "passive")
-			(uuid "7c81abcd-deb5-489e-9d7e-908e335b5f3c")
+			(uuid "69fe8841-d67a-4763-a794-3733266c4bce")
 		)
 		(pad "54" thru_hole roundrect
 			(at -1.905 -12.7 180)
@@ -4773,7 +4805,7 @@
 			(net 33 "GPIO_4")
 			(pinfunction "GPIO_4")
 			(pintype "passive")
-			(uuid "d16b6314-9791-43cd-8944-6b619095054b")
+			(uuid "9abfdedc-b2ba-43bc-a0a6-f131f798d74b")
 		)
 		(pad "55" thru_hole roundrect
 			(at -3.175 -12.7 180)
@@ -4786,7 +4818,7 @@
 			(net 38 "GPIO_3")
 			(pinfunction "GPIO_3")
 			(pintype "passive")
-			(uuid "d927faf4-0b5e-48f0-a0a9-aee5a21686fa")
+			(uuid "36632266-fde7-4c02-856c-ae0495f7f14f")
 		)
 		(pad "56" thru_hole roundrect
 			(at -4.445 -12.7 180)
@@ -4799,7 +4831,7 @@
 			(net 23 "GPIO_2")
 			(pinfunction "GPIO_2")
 			(pintype "passive")
-			(uuid "10d4f53e-066c-4da0-8a59-17afb660c53a")
+			(uuid "e4b35d57-b869-4ed2-b6b1-233ec267b23e")
 		)
 		(pad "57" thru_hole roundrect
 			(at -5.715 -12.7 180)
@@ -4812,7 +4844,7 @@
 			(net 11 "GPIO_1")
 			(pinfunction "GPIO_1")
 			(pintype "passive")
-			(uuid "a51f8b25-f61a-4024-856b-8c5e6b87108a")
+			(uuid "72512b05-1afe-4222-90c0-b1be1a249565")
 		)
 		(pad "58" thru_hole roundrect
 			(at -6.985 -12.7 180)
@@ -4825,52 +4857,52 @@
 			(net 30 "GPIO_0")
 			(pinfunction "GPIO_0")
 			(pintype "passive")
-			(uuid "e1d1a683-7311-44bd-bac7-7f7226404d70")
+			(uuid "6c037003-35a1-46fe-a61c-29d156c7de43")
 		)
 		(group ""
-			(uuid "c2e1f6bd-7002-488d-82be-e73ce113bb77")
-			(members "10d4f53e-066c-4da0-8a59-17afb660c53a" "4a0c60dd-2dfc-4fd4-bb6b-be08f820af0e"
-				"4f83cc32-33bc-461a-875e-09a4827176df" "5e44c913-113f-4b64-9183-0546d20df9d8"
-				"71ac14fe-5d97-4460-b7d0-9dad9d29a3ac" "7c81abcd-deb5-489e-9d7e-908e335b5f3c"
-				"8d0f6763-cb7d-4731-a36c-182fe366c1ac" "a29b9def-fd4b-4e9e-a6c1-dc919023190c"
-				"a51f8b25-f61a-4024-856b-8c5e6b87108a" "d16b6314-9791-43cd-8944-6b619095054b"
-				"d927faf4-0b5e-48f0-a0a9-aee5a21686fa" "e1d1a683-7311-44bd-bac7-7f7226404d70"
+			(uuid "7df0e539-2c2c-4dc8-a253-a58566030785")
+			(members "0181fd13-e500-4af8-8a70-e34b6ef3822f" "1ada4477-d6bb-463d-8762-2ddbdd551625"
+				"1d529732-eb78-4049-81a1-b940c985652d" "2a0cdb0d-d8c0-4e5e-bb5b-8ca712acf039"
+				"51b9ca02-d802-4c6f-98ed-3f92dcff7ec1" "6533eea6-39d8-4453-8e67-44f593f785c7"
+				"733fdf8b-4744-4edf-9d28-e09f20ec9d6a" "78b60e0a-6fcd-4b10-b461-0a19fd7c6b50"
+				"81761198-c15b-405c-a543-1b292a988c80" "82133c3f-f417-4e87-8e96-f75d1046480a"
+				"87612761-2bd6-45f1-8495-1b39110ea535" "96c2c911-b7aa-48a3-98c9-1b3b55524a66"
+				"a416f913-a067-4a67-9515-1832d65a42cf" "b8beee3d-4de0-4f20-a2ee-79cd05cd1f22"
+				"bb9ffe13-2ff0-4217-abb8-931272107f35" "d48a4f5c-ba43-4d22-b577-68faf182cba2"
+				"fa12dd7c-3e8a-4f9f-8bea-2bad73e92b80"
 			)
 		)
 		(group ""
-			(uuid "c515d36f-6f00-4413-af3d-d1e7e545f5f6")
-			(members "1a67abe8-75cc-4898-bed3-f281d2c5285e" "1eaf82e2-69a8-41bd-8986-63006070e0fe"
-				"3e45a3c3-32e3-426b-b459-f15c1f5c96c0" "50c13c54-1dea-483d-8225-ea223242f505"
-				"5c681a42-60e1-4905-9d08-3f45422628f8" "5fc40b77-d404-4f26-8e81-91210d10a5d7"
-				"7bd25b34-e2dd-4e76-8ead-c28d848edc38" "a0dedbab-36ba-4012-ba47-5de083526aec"
-				"a6a67128-7d91-4576-8c2d-920d6c85e674" "a77c38ed-8793-4dec-bb86-dba7167d602e"
-				"b9130793-85d9-46de-bf0e-2bf53f298a54" "bf18e9f8-6b90-445d-a22d-721accdfdaac"
+			(uuid "7f9232c2-322e-491b-91a5-69d20fe9c2ac")
+			(members "08e702fe-d6f2-4228-8977-169b0f1d7de9" "0f05c733-e559-4f41-9ae2-60b4b5097c23"
+				"1cca8ec3-71b8-47c8-bcb4-10279d44d371" "2364658f-2097-45b0-8093-c608990bb3db"
+				"2ef4dc24-9350-467a-a1a4-5f5a3561286b" "41edaa73-ba7c-42d3-96af-797636f636ea"
+				"4645e7da-8b6e-4fad-8958-a1527f4257ab" "4c99addc-a1e8-48c9-8c5b-b6f0efb002fe"
+				"52364a60-9f90-4297-9703-0c24460cf902" "71b8d058-1eb4-43c1-95d3-710d145aef64"
+				"84ff27a3-2941-4102-9449-0df4bfd671ed" "91d693b9-f7db-4f6f-a26c-ace74592d021"
+				"96f6fa05-86d1-4d17-ad54-53fab89e3a9c" "97f2367a-14b5-4ef3-8795-ebe83da418b3"
+				"cf1462c7-fbff-44ec-a098-d5b94edec459" "d18c8731-d2f7-4b10-ac7d-12cc30170bc3"
+				"fc29119f-89c9-4f97-82ba-7ed9efc06d69"
 			)
 		)
 		(group ""
-			(uuid "e7d1bd1a-7ea1-4380-81e6-8a0110f5fa8e")
-			(members "16cebe3f-6023-4209-84d4-c01894674a2b" "2f21d06b-c2c1-47b2-aaef-4e259cd4fc04"
-				"404505c2-fcf9-46af-a504-df2ed989854a" "4556816f-668f-495a-9360-e7700ba1805a"
-				"4c32fd6a-f171-41a8-8444-a25c7d9cb17d" "574306d1-1b70-4d73-9d43-e30d279ecf56"
-				"5b50d8ac-fcff-4c5e-9e57-59b84a60c6ea" "6eeb4f91-7547-4f5a-966f-a0d907ff588a"
-				"7e04e7a5-1eff-4287-92fd-d8dd0d79533b" "8370a0af-0512-4236-b9f6-e7f28a1966ac"
-				"98d7a7ce-80bc-4d20-8722-4249138688ee" "9eae6a0f-fded-4d28-b47a-41b91e8f8cf5"
-				"c3ffae0d-042e-4995-b82c-db6f0fe1e95b" "d576a66d-649b-4f31-80ea-97b55c5634fe"
-				"e6ef848a-0eb1-47cd-bbb0-e443aeb1f329" "f3fab6f9-02e0-4c10-8b91-89604d23c6df"
-				"fe9a4ff0-fa18-4f31-83dd-6c15cdd0eee2"
+			(uuid "d64b5e77-306d-42da-9204-4c0b1c555f25")
+			(members "0451c84a-423f-483a-9483-1e5867a21806" "112a7ff0-9f73-41ec-bb23-1ad33d5cb2f2"
+				"24e34c7d-0ffb-4ebe-b83c-0ce3fed14d75" "2a2c521e-2d4a-45f5-91f8-beae759d2b50"
+				"36632266-fde7-4c02-856c-ae0495f7f14f" "69fe8841-d67a-4763-a794-3733266c4bce"
+				"6c037003-35a1-46fe-a61c-29d156c7de43" "72512b05-1afe-4222-90c0-b1be1a249565"
+				"75a4be0c-ba33-47c4-b83a-c6968097d8af" "8b715cd7-702b-42e0-a5a5-8bd7c534bd0e"
+				"9abfdedc-b2ba-43bc-a0a6-f131f798d74b" "e4b35d57-b869-4ed2-b6b1-233ec267b23e"
 			)
 		)
 		(group ""
-			(uuid "f2382e0c-9ef0-4788-8d57-4eee0bb5b0db")
-			(members "1a3af32e-0161-4284-96a2-7a7912427f58" "2dd49cfd-43de-4037-ac66-c26f61166ad7"
-				"33a1be42-ea29-4dac-b338-ce2e4be05926" "3edb2e50-86a1-4219-ade5-38ca52e7d4d3"
-				"4659f618-9010-4f20-aa70-ee6a7b42aad5" "4d732b18-dab5-4ab2-a166-db70db862356"
-				"6f1d7242-7c6e-40c0-a013-2b8255aaff32" "8259b92c-5cf8-4f27-82a8-f6d683a4d87f"
-				"8e6252e3-7774-4c28-8226-8225cdb1b68c" "933235e1-3fb9-4b83-a9ff-f863b58cf9f4"
-				"ab311c9f-0550-47de-afcc-720f4fd39869" "dbc84c30-c093-4860-a3f2-51e72c1e01f1"
-				"e4747629-1a19-4931-9a24-cee6b51ea600" "ef088f5d-792e-464d-8e5b-3a4bfd947541"
-				"efc10ba0-d834-4542-9e4e-fc534949eb86" "f2154a61-c4ea-47b3-be91-76c4a6128246"
-				"f497a455-c57c-42d6-8bcb-cd1a2c90a0b2"
+			(uuid "d71e9d1a-99a1-47a8-ab47-a4e48abaf3e6")
+			(members "08e89079-525f-4ff1-a803-8a892930b15b" "0b712a5b-eb9a-4b9a-9b49-54707cab17d3"
+				"206330d4-60da-411f-bae1-0a1187e11bf2" "42534332-7315-41b5-b9bf-7061fe2e148c"
+				"4a5bd798-6992-418e-a8b5-4df0ec2c0ec0" "4c052391-d684-4c37-b020-ce6d1dedea7f"
+				"6c14bba3-406f-4700-8259-e38dac61b4fd" "70a4a12e-58bc-44a4-852c-64e64f232d63"
+				"85780719-d7c9-4504-ab15-ab270de0d7ea" "988dfabf-80fd-4e07-91e4-100c974264ed"
+				"c440a077-1d1b-422b-bd10-6bbda3b70e24" "fd27f055-7c19-4bf4-a09d-b6879dfc1999"
 			)
 		)
 	)
@@ -4883,7 +4915,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c73d1f80-aaa7-43ce-94f0-6b2269cbd34f")
+			(uuid "ccfec193-31f2-4d03-aeb0-f6ed9b1a0b50")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -4896,7 +4928,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2378ef9f-8188-4104-8ea4-f2f20a8bd633")
+			(uuid "36ff5252-70cb-4870-8ed4-86192e803160")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -4909,7 +4941,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e43c9943-8b6d-4dc5-844a-1f99e01723db")
+			(uuid "00cd9480-1086-43fe-933d-7972aaf04282")
 			(effects
 				(font
 					(size 1 1)
@@ -4922,7 +4954,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "279f39ef-9256-4cc4-981c-468a158fd25d")
+			(uuid "86a6ba37-010a-491d-8c77-e1f0331923dc")
 			(effects
 				(font
 					(size 1 1)
@@ -4935,7 +4967,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6fdc0e1d-5575-449b-abef-2d430e15f926")
+			(uuid "d40f0a2a-54ee-4c1e-8bbb-419f39977fd2")
 			(effects
 				(font
 					(size 1 1)
@@ -4968,7 +5000,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "069607bf-6137-49ec-9d47-b598668c6e63")
+			(uuid "b50b1bb7-5225-4cf8-bca7-f49302245512")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -4978,7 +5010,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "970ff69c-50d0-4f32-8e80-23aad1124c3b")
+			(uuid "e1d8c181-4e50-4c7a-8ffd-b9ea2b3c2486")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -4989,13 +5021,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ce6d1ec8-05e0-4985-9f77-226efb138d96")
+			(uuid "6caf66c7-f7b6-4614-af6b-65c5d33414ad")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "cdaf427d-c3c4-44bb-a8cb-65d883f21e31")
+			(uuid "bc554fc3-8e13-42c1-80f0-8b4c64484be4")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5010,7 +5042,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "852cc241-03ae-4749-9a9a-2200f6e610fd")
+			(solder_mask_margin 0.05)
+			(uuid "ddb540ae-c64f-4352-87c7-9db64ed3c0cc")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -5019,7 +5052,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "1c3bdd84-6a55-4fc3-b8cf-1a89f519ef80")
+			(solder_mask_margin 0.05)
+			(uuid "eb2063fa-2ca8-4618-b775-ba40f3267158")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -5042,7 +5076,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ee581f72-37ba-44ef-aa7d-8005b5142b2a")
+			(uuid "22d0167c-0213-4f34-ba47-abe9f534425f")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5055,7 +5089,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ec24d9b4-7c6c-4f83-a16d-3f556937b5ed")
+			(uuid "c521f8c0-0188-452f-8a16-1732315b68a9")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5068,7 +5102,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5a2b556e-fb5b-4d76-b200-d8c7c92dedf6")
+			(uuid "61e8d138-7f37-4e0f-bde4-f90e9bf64207")
 			(effects
 				(font
 					(size 1 1)
@@ -5081,7 +5115,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a8ee9dfc-a021-4587-a475-57aae18b206b")
+			(uuid "030ec41b-a0a5-4de3-b73c-85113eb23516")
 			(effects
 				(font
 					(size 1 1)
@@ -5094,7 +5128,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cbf4ddba-326f-4800-93db-08668f2afd73")
+			(uuid "9abb569f-968a-4827-a3db-e1988bedd2b9")
 			(effects
 				(font
 					(size 1 1)
@@ -5127,7 +5161,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "e09c8080-09bf-49bb-994b-226f8a9f718e")
+			(uuid "c56957df-ba80-4278-b297-d63e5670f458")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -5137,7 +5171,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d18ccaba-4612-4e30-acec-fbdf6005ae03")
+			(uuid "2d610f64-e410-4df5-9a6a-7d08fd4be0d1")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -5148,13 +5182,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ac21f221-3892-4e22-8216-a045772fe298")
+			(uuid "5f3be653-f4ec-4526-ae76-75849bd0a124")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "fcb847e9-dbd4-461b-895e-301b9b01a74b")
+			(uuid "0ce35ee8-e107-4d79-b66e-6ed9ef0f8ec1")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5169,7 +5203,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "f887796f-2efe-44ed-bd00-198c7a02ba4e")
+			(solder_mask_margin 0.05)
+			(uuid "8a46cf45-aff0-4145-ac98-65444240fd0c")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -5178,7 +5213,8 @@
 			(roundrect_rratio 0.25)
 			(net 3 "VCORE")
 			(pintype "passive")
-			(uuid "38857fc3-c4ad-4f28-8075-dac5185fc754")
+			(solder_mask_margin 0.05)
+			(uuid "71eba548-2095-44b9-b205-57fe6c31a07e")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -5201,7 +5237,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4a7a6bb0-8c98-4f93-807c-c4ef13c1d191")
+			(uuid "dd51e6d1-71ef-417e-89a8-01d35688dd19")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5214,7 +5250,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "22c60433-9acc-4205-b428-72421645c676")
+			(uuid "0b48271e-5eba-4d8f-895c-2f027746b926")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5227,7 +5263,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6dde2ce5-ab8f-4950-a615-2d4756b0a25c")
+			(uuid "608b0702-f5ba-4b0a-9f91-eafb16465710")
 			(effects
 				(font
 					(size 1 1)
@@ -5240,7 +5276,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0bf92674-4b8b-421f-a714-f79d3806de53")
+			(uuid "89b8a303-41ce-406d-87a9-bdbc6c5e41eb")
 			(effects
 				(font
 					(size 1 1)
@@ -5253,7 +5289,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "625f52ae-8c74-4e97-8b35-27459ee3fb93")
+			(uuid "f40ef8ac-fda7-46a6-a5e8-18486588758e")
 			(effects
 				(font
 					(size 1 1)
@@ -5286,7 +5322,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3be25794-2d5f-4bf8-b972-6ab6053dbda6")
+			(uuid "76d32f9c-aa59-4bfe-8bcc-740e26176d72")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -5296,7 +5332,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d83bb428-7471-44e9-b57c-d87d2ff401fe")
+			(uuid "bd5c87e4-a377-45be-9538-359c6191d925")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -5307,13 +5343,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "26c1aaee-067e-40db-bd10-5c194b0f084b")
+			(uuid "de3eb5a3-03f8-4846-b87a-f2f81e5d1611")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6dea9b88-0a47-4b49-9b34-7cddc8708dbf")
+			(uuid "3285c4cf-43e9-48c0-a58a-be6eee5baf68")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5328,7 +5364,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "7718f6b2-31dc-4ab5-91e4-73f8ec992e48")
+			(solder_mask_margin 0.05)
+			(uuid "1ff613cc-ec81-4413-8575-b784cddc494a")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -5337,7 +5374,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "8d73fc1d-8199-4e60-a2ed-2de0dcd4f593")
+			(solder_mask_margin 0.05)
+			(uuid "087c8da8-56a6-4585-9e67-d7a72b59c7ac")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -5355,12 +5393,12 @@
 		(layer "F.Cu")
 		(uuid "82c1d0f0-d296-40af-b223-bfa4884620ca")
 		(at 111.336 109.047 -90)
-		(property "Reference" "C17"
+		(property "Reference" "C16"
 			(at 0.02 -0.635 90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "c696d77e-5955-4d19-b909-b2d3f2354632")
+			(uuid "51300306-2b6d-4aa7-a4e8-da712d237c68")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5373,7 +5411,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "9dc00b9f-410c-4d4d-8b4a-037f2f32b178")
+			(uuid "d11c9f02-a6f0-4dc3-942d-8d6d4ad2806b")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5386,7 +5424,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a6c1a475-3eda-4375-951e-d1f20a5eed5e")
+			(uuid "eff6ee27-99f9-44ee-a323-d8cc058c99de")
 			(effects
 				(font
 					(size 1 1)
@@ -5399,7 +5437,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a279a77-6ee6-4b6c-a7d0-a5d93a2a985b")
+			(uuid "b513c5ab-e695-4c40-9e58-8e787daeaa92")
 			(effects
 				(font
 					(size 1 1)
@@ -5412,7 +5450,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "663c53d9-5de4-4530-800c-2178a7161d2d")
+			(uuid "bdd26d4c-d1c5-418c-b088-098183222e1b")
 			(effects
 				(font
 					(size 1 1)
@@ -5445,7 +5483,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "82c81303-26ae-4c2d-be6f-58652b12f18a")
+			(uuid "7e0b41cb-53aa-4f47-89e4-66b739d45ead")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -5455,7 +5493,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7a9acd24-7c0b-46e0-90b1-c74550bd1c6e")
+			(uuid "30f4d31d-6381-4e14-b4f3-1605cb025224")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -5466,13 +5504,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "a92e25af-772b-4a63-9659-0a4b4243d7d6")
+			(uuid "85e65df0-57d2-4db4-b625-885231bf8d7b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3fd3c543-b052-4061-b2a0-146da29a5e37")
+			(uuid "5e077da5-3a9a-4bf1-9a45-1f69c45931af")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5487,7 +5525,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "38a82b13-35fe-4765-8d5f-8b8cec0539d2")
+			(solder_mask_margin 0.05)
+			(uuid "c4205250-5292-4375-9915-fcfc22a6d60b")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -5496,7 +5535,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "a1af65a3-edd6-4369-b698-edac0327cc7f")
+			(solder_mask_margin 0.05)
+			(uuid "fdfaaf31-38b3-4e2c-9df7-8c9729da8262")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -5519,7 +5559,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "590b9856-3d77-4122-b3c3-d4f3331293ce")
+			(uuid "27dc7237-257a-4baa-b897-bac18f0ee8be")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5532,7 +5572,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7681a371-8e4d-42d1-9653-e91beaee6bcc")
+			(uuid "ae57b029-5627-4e3f-8dc1-f604283ca4ed")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5545,7 +5585,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e88885fa-9fda-4446-82bc-dfac105a9369")
+			(uuid "a2605c86-b8d8-4726-b33f-2b993fdb62cb")
 			(effects
 				(font
 					(size 1 1)
@@ -5558,7 +5598,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "05a53d30-5cd5-4bf1-8b64-674396b428d1")
+			(uuid "148610e4-34c1-4203-add0-6edb262286d0")
 			(effects
 				(font
 					(size 1 1)
@@ -5571,7 +5611,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "69041b45-ec7a-4464-994b-4a4856d3cf58")
+			(uuid "11f24627-8699-41f1-8d39-67b36d9561f1")
 			(effects
 				(font
 					(size 1 1)
@@ -5604,7 +5644,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "c080f17e-f7b4-4973-bd0a-f16ee2367167")
+			(uuid "e440c0e5-5c29-4466-a789-282c00c8c830")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -5614,7 +5654,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "7ba11fc4-9392-4395-a08a-2eda41e94a3f")
+			(uuid "7fd0373d-827c-4bb3-974a-2640754e66e7")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -5625,13 +5665,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "939b4760-ec6c-48d6-8e09-a06934413402")
+			(uuid "6af09d51-49bc-40ec-b586-500e2e1f450c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "89cfdb7f-eb9a-46ac-85b9-4634bce8b7fb")
+			(uuid "0787e1fd-c73b-440d-91d5-68c98a2d10b9")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5646,7 +5686,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "11285d56-ffe6-42ee-93e4-b2ab570d549d")
+			(solder_mask_margin 0.05)
+			(uuid "8a352b69-6330-46ed-9d18-2574b513a4ad")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -5655,7 +5696,8 @@
 			(roundrect_rratio 0.25)
 			(net 3 "VCORE")
 			(pintype "passive")
-			(uuid "b7829ac3-8613-4ff7-be50-56f20b6094b8")
+			(solder_mask_margin 0.05)
+			(uuid "d5a795f6-c162-4b8a-8716-b0d88e094fb0")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -5673,12 +5715,12 @@
 		(layer "F.Cu")
 		(uuid "9068fc56-313c-47a8-91ae-4ba19fec72d6")
 		(at 111.868 111.545 -90)
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at -0.6571 1.4837 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d9811362-2c43-43f5-b0ed-7f79dcb13cbd")
+			(uuid "9e5442cc-40d6-4e3e-8beb-54f1d00957cd")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5691,7 +5733,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "964ede52-9db5-425c-abb7-a09e3052451a")
+			(uuid "81204b12-e767-43ca-bfcc-121bb6fd387e")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5704,7 +5746,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6d130e3e-88e7-4b45-a4a8-bef2815da048")
+			(uuid "a1ae8a87-1653-4a7e-b1b4-0ad9f569d07c")
 			(effects
 				(font
 					(size 1 1)
@@ -5717,7 +5759,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3b590758-cbf6-4b06-8404-96b92d75ce74")
+			(uuid "1b08dd1f-892e-42f0-b15e-6b226ed96cc1")
 			(effects
 				(font
 					(size 1 1)
@@ -5730,7 +5772,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "77b2c5cf-3285-47b0-bb67-962a6556b508")
+			(uuid "89e38b9d-3491-4fe2-91e6-858f7f2384f3")
 			(effects
 				(font
 					(size 1 1)
@@ -5765,7 +5807,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "1b4c64ee-75d9-4a16-b9ec-d2c4a237f705")
+			(uuid "2efdd20c-c84a-44b5-a318-27494a763775")
 		)
 		(fp_rect
 			(start -0.5 -0.7)
@@ -5776,13 +5818,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "09cc057d-4c2f-429f-9b5e-f500b67003f2")
+			(uuid "fb0ce734-e483-4eac-8f39-a8d35a7efbb4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "7b50e68c-101d-4723-9182-08bffed5213a")
+			(uuid "1c884928-378f-4e4a-962c-448545eda05d")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5797,7 +5839,8 @@
 			(roundrect_rratio 0.25)
 			(net 48 "Manual_RST")
 			(pintype "passive")
-			(uuid "22279040-4c68-4644-a9c4-445b2c544cf4")
+			(solder_mask_margin 0.05)
+			(uuid "e05982e7-fe48-47f7-95a9-0bd93047babc")
 		)
 		(pad "2" smd roundrect
 			(at -0.45 -0.175 270)
@@ -5806,7 +5849,8 @@
 			(roundrect_rratio 0.25)
 			(net 14 "JTAG_TRST")
 			(pintype "passive")
-			(uuid "6bdde1ab-30a3-42a4-a19b-d50e8337b824")
+			(solder_mask_margin 0.05)
+			(uuid "2000d83a-6b0e-4280-9c18-695b40a2b149")
 		)
 		(pad "3" smd roundrect
 			(at -0.45 0.175 270)
@@ -5815,7 +5859,8 @@
 			(roundrect_rratio 0.25)
 			(net 79 "/[2] Connectors & Flash/RST_B")
 			(pintype "passive")
-			(uuid "4646156c-5e3f-4665-8981-e46a952dbddb")
+			(solder_mask_margin 0.05)
+			(uuid "f88e53c3-0a34-4f74-8fbb-fcb0eed334fe")
 		)
 		(pad "4" smd roundrect
 			(at -0.45 0.525 270)
@@ -5825,7 +5870,8 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "cd3da09c-c12c-4d15-9458-71b336a10fec")
+			(solder_mask_margin 0.05)
+			(uuid "2237be95-4a74-4ebb-ba4c-10e989a47e12")
 		)
 		(pad "5" smd roundrect
 			(at 0.45 0.525 270)
@@ -5834,7 +5880,8 @@
 			(roundrect_rratio 0.25)
 			(net 77 "PMIC_nRST")
 			(pintype "passive")
-			(uuid "637ea425-53e6-4652-9109-625d41701af4")
+			(solder_mask_margin 0.05)
+			(uuid "b1572127-bf93-4154-a887-c0a61487483a")
 		)
 		(pad "6" smd roundrect
 			(at 0.45 0.175 270)
@@ -5843,7 +5890,8 @@
 			(roundrect_rratio 0.25)
 			(net 72 "/[2] Connectors & Flash/nSOC_RST")
 			(pintype "passive")
-			(uuid "2903b104-7c0f-4512-8db5-8e261936a83e")
+			(solder_mask_margin 0.05)
+			(uuid "e52592a6-ba73-4f95-ac3f-184e83530fa5")
 		)
 		(pad "7" smd roundrect
 			(at 0.45 -0.175 270)
@@ -5852,7 +5900,8 @@
 			(roundrect_rratio 0.25)
 			(net 78 "/[2] Connectors & Flash/RST_A")
 			(pintype "passive")
-			(uuid "ef460a20-3d36-4fee-b441-d311e926f733")
+			(solder_mask_margin 0.05)
+			(uuid "8649eef8-94b7-4ba3-a329-2f4f818b9446")
 		)
 		(pad "8" smd roundrect
 			(at 0.45 -0.525 270)
@@ -5862,7 +5911,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VCC")
 			(pintype "passive")
-			(uuid "1dc2507e-fb72-4693-b470-fc5e99299944")
+			(solder_mask_margin 0.05)
+			(uuid "6125f4fd-7c96-46e6-b68c-959e688f0068")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/IC/SN74AUP2G08DQER.stp"
 			(offset
@@ -5880,12 +5930,12 @@
 		(layer "F.Cu")
 		(uuid "9959ce40-8a4d-46c0-bac1-3dfe44026dd1")
 		(at 113.186 111.545 -90)
-		(property "Reference" "C16"
+		(property "Reference" "C15"
 			(at 0.0033 -0.4495 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "1aaa3257-dd94-444b-b4ec-061e26c1a676")
+			(uuid "ba61ec91-25de-4695-9dcd-5d1d7a2aba92")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -5898,7 +5948,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a31aeb34-33cb-455f-8099-e2f99a904c4b")
+			(uuid "b9ca4e9d-27bb-4114-8dc0-73fb8cf57c61")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -5911,7 +5961,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3aae8b86-dd07-4734-8d94-95c4421bc6b6")
+			(uuid "ef3a1384-6654-43aa-a40b-97ddf36eea5e")
 			(effects
 				(font
 					(size 1 1)
@@ -5924,7 +5974,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0fa96535-d357-49d4-b69e-367fd6bdd211")
+			(uuid "1e7cbbf9-bab4-4f30-bbf8-415ac8b7675f")
 			(effects
 				(font
 					(size 1 1)
@@ -5937,7 +5987,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "2c18d9ea-f3fb-431b-aa12-32705d18fdc6")
+			(uuid "cb3c668a-2722-4eac-93ae-afb062309c2a")
 			(effects
 				(font
 					(size 1 1)
@@ -5970,7 +6020,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "ab7b532c-f73e-49f2-b3bc-7411ad6012d1")
+			(uuid "b95dce46-b836-48f6-87b7-5efff0b3d11a")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -5980,7 +6030,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1a6e03d7-d5c3-4d79-8467-84bdb2136ecc")
+			(uuid "501cb378-47f2-4b08-9105-9095c5785c10")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -5991,13 +6041,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "3130be6e-0c49-4a37-8487-04eb1f0a40e7")
+			(uuid "7c2d6e87-d00a-4680-b7ee-72066400892c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "cf06bc92-b9c0-4726-8cb7-bade91da0f35")
+			(uuid "f324c5d1-4070-457f-a5fe-5287927b449c")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6012,7 +6062,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "fb4c9434-8cdf-4086-b814-5f1971c0dc85")
+			(solder_mask_margin 0.05)
+			(uuid "b5518412-eb62-4643-b521-c8ed1b18b9b2")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -6021,7 +6072,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "be5a658c-c481-4511-a774-b8d987c89a8e")
+			(solder_mask_margin 0.05)
+			(uuid "0e12a7e8-2976-47ab-a537-477679f6d5bb")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -6044,7 +6096,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e4c247f0-a00b-4708-9b2c-975e1aaa524d")
+			(uuid "9490d8c4-34c9-4763-a172-a3768591d497")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6057,7 +6109,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f98834c3-d0cf-46d4-a2f9-b9618de6465c")
+			(uuid "27beca68-934e-4189-b28c-b32955e2fd43")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6070,7 +6122,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4585e9f-f73f-44e3-8588-edfa991d02c2")
+			(uuid "ec5399b0-1808-4a0b-9e39-9a640bc5c24d")
 			(effects
 				(font
 					(size 1 1)
@@ -6083,7 +6135,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "650d3119-b51f-439f-b611-4723b35cd8d2")
+			(uuid "29ceade9-3452-4d3a-9198-d5ff0549e400")
 			(effects
 				(font
 					(size 1 1)
@@ -6096,7 +6148,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5cd1efe8-b18d-4e7d-8ac9-8f34f78a7b25")
+			(uuid "bef31953-7669-4473-bb32-4befdb1a95f2")
 			(effects
 				(font
 					(size 1 1)
@@ -6129,7 +6181,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d8acd627-166c-48f3-9337-e98ae026d711")
+			(uuid "81004e03-abca-406c-a8d1-10b196dabb3b")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -6139,7 +6191,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "88a235d4-0f65-454e-9556-1ab12207147d")
+			(uuid "01434304-bd15-4ad0-a3c2-2704472240ff")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -6150,13 +6202,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "7d40577e-6b97-46b8-8707-ef0143ccc29f")
+			(uuid "d327deff-d35c-419c-8edf-74c4cefeceaf")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "6e71eeed-45a6-4364-9620-01850253ed51")
+			(uuid "8d1dec83-5b6d-458d-b25f-4e59f9fc72a5")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6171,7 +6223,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "db1ae71a-aa53-401a-ad00-9964223c992a")
+			(solder_mask_margin 0.05)
+			(uuid "63a964bc-5eda-420e-93b5-47fede6bd80a")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -6180,7 +6233,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "45d3bf74-6e7d-4dc3-9e7f-7f0bb37449f8")
+			(solder_mask_margin 0.05)
+			(uuid "378676d8-92b9-4f66-8156-f143c9c42431")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -6203,7 +6257,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "119b4192-19e7-4ecc-91a0-8ca26bdb17db")
+			(uuid "c0dede04-ecf6-400a-bcd6-3f4c9fc526c6")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6216,7 +6270,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "843e5021-140f-47b1-b346-3dd1b849a39b")
+			(uuid "868e79d1-1d17-44a1-961a-6b87127c428c")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6229,7 +6283,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1127a49e-0d0d-4c10-b28c-fd899339a2d3")
+			(uuid "184c3ba0-12ca-4957-a653-00f02c1d7a97")
 			(effects
 				(font
 					(size 1 1)
@@ -6242,7 +6296,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3f6c39f3-6b80-4407-8947-8725b2ca6707")
+			(uuid "d7dc1220-18d0-4e1c-b450-109ed151fd97")
 			(effects
 				(font
 					(size 1 1)
@@ -6255,7 +6309,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "dfa74b17-4332-4875-bb14-1673bd669a49")
+			(uuid "c57074c2-fba8-4204-9301-3652e956b570")
 			(effects
 				(font
 					(size 1 1)
@@ -6288,7 +6342,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "1b0c2bea-488d-4f31-90cd-d871dab3574f")
+			(uuid "1f7a22b9-9911-41e5-9da4-410d050e2207")
 		)
 		(fp_line
 			(start -0.2 0.4)
@@ -6298,7 +6352,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "12e3dc4c-da29-4c8d-8ec7-8732de56b8aa")
+			(uuid "16935d8b-bf99-457f-ac60-027f7affd202")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -6309,13 +6363,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ae2b472d-420f-47de-bc8e-481bcd2fc0f5")
+			(uuid "f4199366-fccc-4edd-8acb-9b318d27221a")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "3b2c68e8-1021-4b45-8f2f-1f7e13a45199")
+			(uuid "4ea49117-6002-4995-8929-ddceca0f97fb")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6330,7 +6384,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "32ebc3ff-6065-4761-b5e9-fcbd28de5f38")
+			(solder_mask_margin 0.05)
+			(uuid "cf279d68-c040-48e6-a0cc-233f4ee1b4b5")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0)
@@ -6339,7 +6394,8 @@
 			(roundrect_rratio 0.25)
 			(net 3 "VCORE")
 			(pintype "passive")
-			(uuid "4a53d9c5-bb27-4f33-867c-ec57533a0a15")
+			(solder_mask_margin 0.05)
+			(uuid "13d3d38f-b0c4-479f-8c1e-a8e97529b1b0")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -6362,7 +6418,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "b93a7df3-d690-4f6e-96ff-5c93ba5bdd89")
+			(uuid "dbb7a476-608a-4e28-8a4d-0ce5392c5ea7")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6375,7 +6431,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d0fe9a1b-8eaf-430f-9849-9128b8883a32")
+			(uuid "a5ed2d6c-d843-4156-a96d-f5255d33f315")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6388,7 +6444,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0796cc43-78e2-46c5-871b-bd3508fe6d7e")
+			(uuid "25284424-2479-44e8-8057-8a9f5d9ebe6a")
 			(effects
 				(font
 					(size 1 1)
@@ -6401,7 +6457,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8b59965b-f1a4-48d1-a19c-be943fe1f034")
+			(uuid "baa99d52-93c2-4b66-80df-31343f7618c1")
 			(effects
 				(font
 					(size 1 1)
@@ -6414,7 +6470,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1bbed733-1d7a-4072-a41d-f36002783122")
+			(uuid "5430c1e9-e740-4269-bcba-083f0c07f6ae")
 			(effects
 				(font
 					(size 1 1)
@@ -6447,7 +6503,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6d32acdb-e5c7-48b8-94bc-76205fa0ddaa")
+			(uuid "2f977b89-d8b9-4e08-a36e-73b0da953869")
 		)
 		(fp_line
 			(start -0.2 0.4)
@@ -6457,7 +6513,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "95e17234-9b9f-4aec-b741-9529224ac1d0")
+			(uuid "d65d6496-c075-41d4-b079-c7aa0c7ebe48")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -6468,13 +6524,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "2d00e120-ea5d-422c-b637-c73d71879d50")
+			(uuid "bc078908-eefc-41f7-95e2-1a3b38fdffc2")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ac5415c6-f5c4-4dad-9a71-29339d3ecfe2")
+			(uuid "842d7390-a643-4ee9-92e9-8b42419fb478")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6489,7 +6545,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "f9624f74-e1fe-410e-9c63-aaec8b925852")
+			(solder_mask_margin 0.05)
+			(uuid "0304c3ff-f1c4-4828-9ad9-ed76f806910d")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 90)
@@ -6498,7 +6555,8 @@
 			(roundrect_rratio 0.25)
 			(net 45 "FLASH_SCK")
 			(pintype "passive")
-			(uuid "c9a3b985-1cf9-4a44-a290-536ca4db5f64")
+			(solder_mask_margin 0.05)
+			(uuid "7bb64ac7-99db-497f-97ba-cbe2ee239b2c")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -6731,7 +6789,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "2c17b478-009c-4744-adae-381fff64c7a3")
+			(uuid "d5af0b6a-a7cc-4a83-80f0-74bfa916e9c6")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -6744,7 +6802,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8c1fab19-0076-48d0-ab57-ce07c1f49670")
+			(uuid "0ad7a455-e1b8-456e-a86f-e7ea6d876fed")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6757,7 +6815,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3a26e82d-6898-450e-912a-ee9f1ba1e928")
+			(uuid "0f56daa1-7748-4458-9eba-dd8e1ef6b049")
 			(effects
 				(font
 					(size 1 1)
@@ -6770,7 +6828,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "26fd7019-b562-4808-80f4-c1e666c0a5d9")
+			(uuid "71472dd3-2639-47a4-a6f2-3e7f320142dd")
 			(effects
 				(font
 					(size 1 1)
@@ -6783,7 +6841,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a21f060c-cea1-4d0e-aeb4-881ff6a2b176")
+			(uuid "a5341197-49ea-47d9-815f-31aea2b7f9a4")
 			(effects
 				(font
 					(size 1 1)
@@ -6816,7 +6874,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "379e095f-9512-43c7-a3fd-4391614b1ba9")
+			(uuid "aadebbc4-058e-44b8-970f-5abd95e69458")
 		)
 		(fp_line
 			(start -0.2 0.4)
@@ -6826,7 +6884,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cfd2a09f-b10f-4a44-96aa-392eacf0af14")
+			(uuid "b58a7ccf-7ae1-4278-846b-9ec2427d21aa")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -6837,13 +6895,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ffc04647-a535-4e5e-b46f-8bcb04b32a86")
+			(uuid "9fe04608-c1f2-4ad3-b1b4-9801020bf7ae")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "ccbe38bc-af00-440a-924b-e80e3b23bde2")
+			(uuid "4edcb826-e2ae-4015-8946-c392c6aa379f")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -6858,7 +6916,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "72296b9a-7b25-46c0-8d32-43c5ab54ba9d")
+			(solder_mask_margin 0.05)
+			(uuid "3e290d5b-5e5c-45e8-a7c6-d9bf2c1c7b86")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 90)
@@ -6867,7 +6926,8 @@
 			(roundrect_rratio 0.25)
 			(net 7 "I2C_SCL_HEEP")
 			(pintype "passive")
-			(uuid "cb3d8209-003e-4c20-951c-5034e2075264")
+			(solder_mask_margin 0.05)
+			(uuid "a40791e0-a678-4e94-852c-ea6b601c1f91")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -7007,7 +7067,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "a227fe20-1b0c-4ec9-a48e-ded3d918c52e")
+			(uuid "6380f684-3938-4524-a588-70e9db0b4fc2")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -7020,7 +7080,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "68eb7c53-1fa8-4243-8ffc-dce2ab665819")
+			(uuid "45902680-5edc-4f0d-a2f2-dfe577993c03")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -7033,7 +7093,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc0bb6be-aa19-4a00-aa58-587e1371512b")
+			(uuid "18309224-fdff-480e-bf4a-7d19be3f8460")
 			(effects
 				(font
 					(size 1 1)
@@ -7046,7 +7106,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "415c8a9b-2aae-447e-89e4-38293c5b1f3f")
+			(uuid "522c7529-9844-424a-9c1d-6aeda455bde3")
 			(effects
 				(font
 					(size 1 1)
@@ -7059,7 +7119,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d8be3023-e6b9-48df-9cdc-018759436087")
+			(uuid "7df56bea-3759-4f1b-b078-175506dc72be")
 			(effects
 				(font
 					(size 1 1)
@@ -7092,7 +7152,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "98dd9ab6-2dfc-4ccf-8ff3-55abca97bda8")
+			(uuid "a87745e5-f26e-4d6e-aad8-af8451ba3930")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -7102,7 +7162,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "860b04dc-04db-4126-996f-0039d025a848")
+			(uuid "4a77e356-91e2-41b2-82c0-d787d6087d30")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -7113,13 +7173,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "7fa92b3d-4f37-4437-ade7-e249bad8c50c")
+			(uuid "2049ec36-87ff-432a-a72f-9f0c2cdbb21b")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "560e0652-6efa-45a7-9d1d-f9af0f6cfc74")
+			(uuid "0add54ba-09e8-41ee-b173-1a829ef48a17")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -7134,7 +7194,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "0269d852-d3ca-4ad6-81a9-cdbff1a9db74")
+			(solder_mask_margin 0.05)
+			(uuid "d8198f9c-85a2-45a8-9651-bb1ec51d283a")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 270)
@@ -7143,7 +7204,8 @@
 			(roundrect_rratio 0.25)
 			(net 47 "FLASH_nHLD_nRST")
 			(pintype "passive")
-			(uuid "6ddac1ef-bb95-41d7-8d71-ba164c1701bc")
+			(solder_mask_margin 0.05)
+			(uuid "7b53304b-5983-4f72-8bcc-445e23d95c60")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Resistors/R0402.step"
 			(offset
@@ -7161,12 +7223,12 @@
 		(layer "F.Cu")
 		(uuid "df6a1a9f-c9cb-4317-81c4-03dd95504c3f")
 		(at 104.797 112.025 180)
-		(property "Reference" "C15"
+		(property "Reference" "C14"
 			(at -1.3916 -0.0254 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "f7deef88-3d34-46a5-aa43-06520e74021a")
+			(uuid "264be06f-12b6-4d5a-9d75-ad57799b1bea")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -7179,7 +7241,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e2c14a9e-54bb-4bed-92f7-934693a8e967")
+			(uuid "6661106d-20f5-40b8-9ef6-89033d096df2")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -7192,7 +7254,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e3e32596-159d-441b-8c1c-c02f21bc6d1c")
+			(uuid "40d892f1-ed9f-48c2-ac65-d99f1a149978")
 			(effects
 				(font
 					(size 1 1)
@@ -7205,7 +7267,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "bb29599a-3b49-4746-891e-d342bded6ee1")
+			(uuid "dafe530f-bc53-49b3-a61d-78f9e467b6a0")
 			(effects
 				(font
 					(size 1 1)
@@ -7218,7 +7280,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "a24e3cea-00a8-4325-aece-e6f441bbb792")
+			(uuid "318a207d-305c-467f-82ee-2d04dac1ac35")
 			(effects
 				(font
 					(size 1 1)
@@ -7251,7 +7313,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "d2fee1c1-7f5a-45ca-b910-32d89f6bd05e")
+			(uuid "192936a4-7b4d-491f-98c1-75734282daaf")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -7261,7 +7323,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "3e545b7e-6aef-43f0-ae32-24296126d43d")
+			(uuid "a5094588-db1d-4336-b67a-27071cb538a8")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -7272,13 +7334,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "898476bd-d1ae-472d-8457-4752f509837f")
+			(uuid "f6cba35a-a6d4-4f07-9744-dd3f5d1a0dd6")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "56eb43d2-6647-480c-ac49-2f81ec6ad147")
+			(uuid "dfaeb5e5-0031-4d5f-af22-9a7de9a700bb")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -7293,7 +7355,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "a5521722-357b-4e07-8b8f-0f1bc21c4cdf")
+			(solder_mask_margin 0.05)
+			(uuid "5eb29b69-a6d0-4d0d-9fb6-9e35913630cd")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -7302,7 +7365,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "065ba75b-0977-4d39-b29e-23476e45cf59")
+			(solder_mask_margin 0.05)
+			(uuid "95e8bbe3-a4f4-4ee3-b582-e7c84c2274fa")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -7320,12 +7384,12 @@
 		(layer "F.Cu")
 		(uuid "e1d42443-7175-4a93-9d1b-eb7087c8478e")
 		(at 107.569 100.965 90)
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 5.5118 -4.8514 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "4dcc2096-c3fe-40c7-be0b-bbad0e31fcc4")
+			(uuid "4f75a0b5-e676-46cd-b52c-557b6ee1f1c8")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -7338,7 +7402,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3c876ce5-3c3d-41de-bb55-25d62f3fde52")
+			(uuid "18d38290-56e4-4b3b-9266-5a280e29dd6b")
 			(effects
 				(font
 					(size 1 1)
@@ -7351,7 +7415,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5310f4ab-9b72-4330-85d1-f0fe2f23e59a")
+			(uuid "58c567ae-1bca-4898-b864-081e8025fe44")
 			(effects
 				(font
 					(size 1 1)
@@ -7364,7 +7428,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6f00beba-8139-41a1-a22a-094bdb34cd18")
+			(uuid "a0e6e735-dd20-44d1-901d-b0aeed80666e")
 			(effects
 				(font
 					(size 1 1)
@@ -7377,7 +7441,19 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "3945909c-147c-4c5c-bf77-95bbc5511fc3")
+			(uuid "f791e5e1-bcc5-46d0-a112-70bd93aeca55")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "exclude_from_bom" ""
+			(at 18.125 0.475 90)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dcb37e9d-2ea3-4aad-bdaa-8b266c2f22c7")
 			(effects
 				(font
 					(size 1 1)
@@ -7410,7 +7486,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "58239803-2669-4c8c-ada1-82b50b991450")
+			(uuid "d4df5856-0f96-4a1d-b143-9dd61fe9e2b9")
 		)
 		(fp_line
 			(start 4.45 -5.125)
@@ -7420,7 +7496,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6ac00b67-b761-44a4-bc63-c993bd6c88d1")
+			(uuid "0cb5af96-b5b6-4852-9b32-f15b91aa170d")
 		)
 		(fp_line
 			(start -4.45 -5.1)
@@ -7430,7 +7506,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a1b537d6-3fbc-49a0-bc80-e2af180b3dbe")
+			(uuid "055ffc1f-171f-454f-b515-3475086d73ad")
 		)
 		(fp_line
 			(start -5.1 -4.45)
@@ -7440,7 +7516,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "ab962478-6b29-423a-9b22-57959d86da41")
+			(uuid "ffee7522-c708-44bd-8860-e9cff4c2814f")
 		)
 		(fp_line
 			(start -4.475 5.1)
@@ -7450,7 +7526,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "155ffa1f-359d-4f94-ad81-40176289691b")
+			(uuid "1510c685-2532-4788-b476-f6ceeab8b9cd")
 		)
 		(fp_line
 			(start -5.125 5.1)
@@ -7460,7 +7536,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b7ea2db2-0635-48e6-af3e-b4aceee48a62")
+			(uuid "878ca735-ab2f-47a8-b424-623b8cf3d023")
 		)
 		(fp_line
 			(start 5.1 5.125)
@@ -7470,7 +7546,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "00254dbe-1fbb-467e-8331-bb214f3d4c33")
+			(uuid "06d879eb-88d2-4a10-8ec1-65d6af659421")
 		)
 		(fp_line
 			(start 4.45 5.125)
@@ -7480,7 +7556,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "7e1b77f3-11d4-4f91-9eac-bd4af3740484")
+			(uuid "40095680-b377-4467-b55e-d8d024ac669c")
 		)
 		(fp_poly
 			(pts
@@ -7492,7 +7568,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "2d87a1d6-9ead-458a-ab0f-197e88a7bd79")
+			(uuid "98167450-f1cf-435f-a7ef-4da8ef9149f5")
 		)
 		(fp_line
 			(start 5.1 -5.1)
@@ -7502,7 +7578,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "e4789789-5dd0-4ec7-9be7-37fdc910d52f")
+			(uuid "9d9a530d-6277-44e5-933a-de6d282244d6")
 		)
 		(fp_line
 			(start -5.1 -5.1)
@@ -7512,7 +7588,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "9620947b-558f-4422-bc41-ae3631500eb4")
+			(uuid "e11faeeb-d7c1-4b95-af50-9a13df8b0e00")
 		)
 		(fp_line
 			(start 5.1 5.1)
@@ -7522,7 +7598,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "35115a4c-fb9c-46b7-923a-2eb58432a5e2")
+			(uuid "93f3b7dd-95c6-4de7-be84-2eb3641399a5")
 		)
 		(fp_line
 			(start -5.1 5.1)
@@ -7532,7 +7608,7 @@
 				(type solid)
 			)
 			(layer "F.CrtYd")
-			(uuid "bbdae2b9-e9b9-4be4-a8ee-7f99d76a3297")
+			(uuid "0a2e38fd-d383-41ee-a972-a01dcbd97527")
 		)
 		(fp_line
 			(start 5 -5)
@@ -7542,7 +7618,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "a9886b09-4c81-4209-8222-49138a97eb30")
+			(uuid "1649371c-0abe-4b82-9ab4-1f3d28f96a30")
 		)
 		(fp_line
 			(start -4 -5)
@@ -7552,7 +7628,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "5aaa9431-609d-4f57-a722-ed48c4e62f1d")
+			(uuid "af6a6e0f-f4a0-44bb-af71-29af0083d318")
 		)
 		(fp_line
 			(start -5 -4)
@@ -7562,7 +7638,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "4f8f3721-11d6-4a17-bcf0-f516a1e5d843")
+			(uuid "6f425e15-9cfa-4f50-b352-e0048326ce51")
 		)
 		(fp_line
 			(start 5 5)
@@ -7572,7 +7648,7 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "b264978d-8acf-49a4-b5c3-a34d05c983ef")
+			(uuid "cc5b4656-9661-43f8-b6ee-4106fb1d0a09")
 		)
 		(fp_line
 			(start -5 5)
@@ -7582,13 +7658,13 @@
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "7c260eaf-59b0-422b-a384-d9a4f9b83a3d")
+			(uuid "abe02047-19fd-4d64-a368-e158ba761ad4")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0.1 90)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "45214b82-685f-41db-a3e9-1374a48f91b5")
+			(uuid "a703534e-d0c7-4012-8cb2-76ab1d220107")
 			(effects
 				(font
 					(size 1 1)
@@ -7601,63 +7677,72 @@
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "34fc53b3-7fd2-4e7b-a8ce-31be8ccd80d7")
+			(solder_mask_margin 0.05)
+			(uuid "de80a416-50bc-47d1-a3c1-cbb568167ac4")
 		)
 		(pad "" smd roundrect
 			(at -1.27 0 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "b97f7a32-e538-438c-9132-18da487a7596")
+			(solder_mask_margin 0.05)
+			(uuid "497f5de5-dc0b-4b96-ac6a-14a96354d9ce")
 		)
 		(pad "" smd roundrect
 			(at -1.27 1.27 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "da9e692c-df96-4d46-8523-4e3595490480")
+			(solder_mask_margin 0.05)
+			(uuid "50834a16-1a06-4fde-a045-afd006003e62")
 		)
 		(pad "" smd roundrect
 			(at 0 -1.27 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "a30ab901-8799-4dc6-841e-d203e7aa507d")
+			(solder_mask_margin 0.05)
+			(uuid "28721fd8-ec06-4eef-9845-a6dd8be5dcca")
 		)
 		(pad "" smd roundrect
 			(at 0 0 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "6a7a3e0e-91be-48b2-b346-c591a4384dda")
+			(solder_mask_margin 0.05)
+			(uuid "0b7ccd1d-b1a5-4e02-b87d-e9fb3aafdca8")
 		)
 		(pad "" smd roundrect
 			(at 0 1.27 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "8d2a0e02-5057-4d2c-ae5e-447b641f2d78")
+			(solder_mask_margin 0.05)
+			(uuid "e263599c-cf10-4218-8c9d-8089a0bb25e5")
 		)
 		(pad "" smd roundrect
 			(at 1.27 -1.27 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "5337dac4-b8c9-4173-80d5-58fb66f79126")
+			(solder_mask_margin 0.05)
+			(uuid "4ccc51c1-2446-4719-93c3-fb7fe4df8cb3")
 		)
 		(pad "" smd roundrect
 			(at 1.27 0 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "49581c31-4176-4080-be3f-8fd073b9eec4")
+			(solder_mask_margin 0.05)
+			(uuid "336bb2f1-acbd-462c-acd4-d83d3c43761f")
 		)
 		(pad "" smd roundrect
 			(at 1.27 1.27 90)
 			(size 1.02 1.02)
 			(layers "F.Paste")
 			(roundrect_rratio 0.245098)
-			(uuid "f7c6b764-129a-4132-b3b7-5c8c73337257")
+			(solder_mask_margin 0.05)
+			(uuid "654a3fb8-dab5-461b-9b67-5d550345d828")
 		)
 		(pad "1" smd roundrect
 			(at -4.95 -4.2 90)
@@ -7667,7 +7752,8 @@
 			(net 3 "VCORE")
 			(pinfunction "VDD_HEEP1")
 			(pintype "power_in")
-			(uuid "a5796267-da6d-4e9d-90d1-f83d9e971c05")
+			(solder_mask_margin 0.05)
+			(uuid "654532db-ee97-43b7-9108-15302b3f84ec")
 		)
 		(pad "2" smd roundrect
 			(at -4.95 -3.8 90)
@@ -7677,7 +7763,8 @@
 			(net 1 "GND")
 			(pinfunction "VSS_HEEP1")
 			(pintype "power_in")
-			(uuid "99923d0a-4bad-4f1c-b209-0989de2dc006")
+			(solder_mask_margin 0.05)
+			(uuid "dabeb5c3-3fc4-499a-b97e-6975a6b9391c")
 		)
 		(pad "3" smd roundrect
 			(at -4.95 -3.4 90)
@@ -7687,7 +7774,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDDIO6")
 			(pintype "power_in")
-			(uuid "4fdc5e83-c460-429c-8d89-0314c357bd74")
+			(solder_mask_margin 0.05)
+			(uuid "6b3296fd-ba40-4f86-abcb-aa0694344465")
 		)
 		(pad "4" smd roundrect
 			(at -4.95 -3 90)
@@ -7697,7 +7785,8 @@
 			(net 1 "GND")
 			(pinfunction "VSSIO6")
 			(pintype "power_in")
-			(uuid "20db367b-e0aa-4f18-8ca5-e10d2133f513")
+			(solder_mask_margin 0.05)
+			(uuid "511097cc-d8d9-4459-81bd-815e476e5299")
 		)
 		(pad "5" smd roundrect
 			(at -4.95 -2.6 90)
@@ -7707,7 +7796,8 @@
 			(net 52 "FLASH_MOSI")
 			(pinfunction "SPI_FLASH_SD_0_IO")
 			(pintype "bidirectional")
-			(uuid "9e364e00-dc30-4d69-9935-8b7b75a37f9f")
+			(solder_mask_margin 0.05)
+			(uuid "23a6ded7-e7c4-4e37-a308-7e5964db87ab")
 		)
 		(pad "6" smd roundrect
 			(at -4.95 -2.2 90)
@@ -7717,7 +7807,8 @@
 			(net 51 "FLASH_MISO")
 			(pinfunction "SPI_FLASH_SD_1_IO")
 			(pintype "bidirectional")
-			(uuid "ecb66de2-8274-4a5c-8ac0-e53f088f57a8")
+			(solder_mask_margin 0.05)
+			(uuid "8b694aac-d11e-4c7b-95dd-5eb4578689c5")
 		)
 		(pad "7" smd roundrect
 			(at -4.95 -1.8 90)
@@ -7727,7 +7818,8 @@
 			(net 46 "FLASH_nWP")
 			(pinfunction "SPI_FLASH_SD_2_IO")
 			(pintype "bidirectional")
-			(uuid "a9224632-9f3b-4db5-bd10-545de3bcae14")
+			(solder_mask_margin 0.05)
+			(uuid "447f10dc-757c-4851-8c83-b5aeeb2d4aaa")
 		)
 		(pad "8" smd roundrect
 			(at -4.95 -1.4 90)
@@ -7737,7 +7829,8 @@
 			(net 47 "FLASH_nHLD_nRST")
 			(pinfunction "SPI_FLASH_SD_3_IO")
 			(pintype "bidirectional")
-			(uuid "139b41e2-c65d-4320-940c-f79a1886adda")
+			(solder_mask_margin 0.05)
+			(uuid "18548054-e89f-4f6a-b7d3-1b33be260054")
 		)
 		(pad "9" smd roundrect
 			(at -4.95 -1 90)
@@ -7747,7 +7840,8 @@
 			(net 44 "FLASH_CS")
 			(pinfunction "SPI_FLASH_CS_0_IO")
 			(pintype "bidirectional")
-			(uuid "a66e73df-1190-4891-aa26-0cf109c27966")
+			(solder_mask_margin 0.05)
+			(uuid "ea6a7408-9951-417b-9b93-6fc40c20282a")
 		)
 		(pad "10" smd roundrect
 			(at -4.95 -0.6 90)
@@ -7757,7 +7851,8 @@
 			(net 45 "FLASH_SCK")
 			(pinfunction "SPI_FLASH_SCK_IO")
 			(pintype "bidirectional")
-			(uuid "9bbe3957-1e43-4649-a727-b137237525b5")
+			(solder_mask_margin 0.05)
+			(uuid "4aa1bbd7-8527-434d-804e-83501864ed1b")
 		)
 		(pad "11" smd roundrect
 			(at -4.95 -0.2 90)
@@ -7767,7 +7862,8 @@
 			(net 49 "nRST_HEEP")
 			(pinfunction "~{RST_I}")
 			(pintype "input")
-			(uuid "13e1dd87-db69-4f66-95db-ffbb88e2633d")
+			(solder_mask_margin 0.05)
+			(uuid "7e6ca032-4bdd-4c2b-adde-22b2499bd6cf")
 		)
 		(pad "12" smd roundrect
 			(at -4.95 0.2 90)
@@ -7777,7 +7873,8 @@
 			(net 80 "/[1] HEEPocrates/REF_CLK_IN")
 			(pinfunction "REF_CLK_I")
 			(pintype "input")
-			(uuid "68f250ec-db4c-42d6-8fa2-75bff6179eac")
+			(solder_mask_margin 0.05)
+			(uuid "cd957b69-4dae-4c60-b0bf-6bbc54b31a18")
 		)
 		(pad "13" smd roundrect
 			(at -4.95 0.6 90)
@@ -7787,7 +7884,8 @@
 			(net 10 "UART_RX_HEEP")
 			(pinfunction "UART_RX_I")
 			(pintype "bidirectional")
-			(uuid "7c22e26d-fe40-4a66-ab0a-a52c2e3cb76c")
+			(solder_mask_margin 0.05)
+			(uuid "ee9fcc37-852e-4861-a774-5e4aa89bcb8e")
 		)
 		(pad "14" smd roundrect
 			(at -4.95 1 90)
@@ -7797,37 +7895,41 @@
 			(net 35 "UART_TX_HEEP")
 			(pinfunction "UART_TX_O")
 			(pintype "bidirectional")
-			(uuid "21d75bba-916f-46aa-ba3c-2e6c14261a55")
+			(solder_mask_margin 0.05)
+			(uuid "0299e85b-84fd-4d7a-9116-90c02756b299")
 		)
 		(pad "15" smd roundrect
 			(at -4.95 1.4 90)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 56 "unconnected-(U2-FLL_CLK_DIV_IO-Pad15)")
+			(net 56 "unconnected-(U1-FLL_CLK_DIV_IO-Pad15)")
 			(pinfunction "FLL_CLK_DIV_IO")
 			(pintype "bidirectional+no_connect")
-			(uuid "8a57836a-ae9f-4c3a-ac4f-d9ae99a23b19")
+			(solder_mask_margin 0.05)
+			(uuid "419e5eb7-0624-4c85-8e87-15cd4c4ddf54")
 		)
 		(pad "16" smd roundrect
 			(at -4.95 1.8 90)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 55 "unconnected-(U2-EXIT_VALID_O-Pad16)")
+			(net 60 "unconnected-(U1-EXIT_VALID_O-Pad16)")
 			(pinfunction "EXIT_VALID_O")
 			(pintype "bidirectional+no_connect")
-			(uuid "fcbe4375-95ca-4067-9f00-541e34905684")
+			(solder_mask_margin 0.05)
+			(uuid "21902cb0-bd40-4de9-af9a-4db58bd6670a")
 		)
 		(pad "17" smd roundrect
 			(at -4.95 2.2 90)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 54 "unconnected-(U2-EXIT_VALUE_O-Pad17)")
+			(net 55 "unconnected-(U1-EXIT_VALUE_O-Pad17)")
 			(pinfunction "EXIT_VALUE_O")
 			(pintype "bidirectional+no_connect")
-			(uuid "5754d1b6-36bd-49de-a750-ebd725417bd8")
+			(solder_mask_margin 0.05)
+			(uuid "ec0b2146-24be-4adb-9f4c-852ce6fda245")
 		)
 		(pad "18" smd roundrect
 			(at -4.95 2.6 90)
@@ -7837,7 +7939,8 @@
 			(net 19 "GPIO_23")
 			(pinfunction "GPIO_23_IO")
 			(pintype "bidirectional")
-			(uuid "4b5690dc-7de5-4b4d-b9ef-cb8b5afc7093")
+			(solder_mask_margin 0.05)
+			(uuid "a0b04c90-0e75-419a-8ffb-45cfe20762be")
 		)
 		(pad "19" smd roundrect
 			(at -4.95 3 90)
@@ -7847,7 +7950,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDDIO5")
 			(pintype "power_in")
-			(uuid "36aebf86-8a11-4d25-9b22-eeab5bc9594d")
+			(solder_mask_margin 0.05)
+			(uuid "a024868e-339f-48a9-89b3-eda026d7744a")
 		)
 		(pad "20" smd roundrect
 			(at -4.95 3.4 90)
@@ -7857,7 +7961,8 @@
 			(net 1 "GND")
 			(pinfunction "VSSIO5")
 			(pintype "power_in")
-			(uuid "5fd55c24-fe0a-4384-804f-49aa0c47d110")
+			(solder_mask_margin 0.05)
+			(uuid "424a7d20-3622-4065-b87b-bc809b6490f1")
 		)
 		(pad "21" smd roundrect
 			(at -4.95 3.8 90)
@@ -7867,7 +7972,8 @@
 			(net 3 "VCORE")
 			(pinfunction "VDD_HEEP4")
 			(pintype "power_in")
-			(uuid "24a00e1e-caef-4956-be8a-8c2dd7673ed5")
+			(solder_mask_margin 0.05)
+			(uuid "86b451e2-d3a8-429c-bc41-4f860814d809")
 		)
 		(pad "22" smd roundrect
 			(at -4.95 4.2 90)
@@ -7877,7 +7983,8 @@
 			(net 1 "GND")
 			(pinfunction "VSS_HEEP4")
 			(pintype "power_in")
-			(uuid "e4eb4041-52fb-4d70-8093-5279b1d6ed07")
+			(solder_mask_margin 0.05)
+			(uuid "ac8f32c2-35b0-468b-8cdb-85f667859abd")
 		)
 		(pad "23" smd roundrect
 			(at -4.2 4.95 90)
@@ -7887,7 +7994,8 @@
 			(net 12 "SPI_MOSI_HEEP")
 			(pinfunction "SPI_SD_0_IO")
 			(pintype "bidirectional")
-			(uuid "2dcf4b66-deeb-42bd-9813-341e591f8d81")
+			(solder_mask_margin 0.05)
+			(uuid "8c05373b-ed2d-4df0-b207-5c5ba828c1e6")
 		)
 		(pad "24" smd roundrect
 			(at -3.8 4.95 90)
@@ -7897,7 +8005,8 @@
 			(net 5 "SPI_MISO_HEEP")
 			(pinfunction "SPI_SD_1_IO")
 			(pintype "bidirectional")
-			(uuid "37d7ed84-605f-47c8-bc62-70368264abff")
+			(solder_mask_margin 0.05)
+			(uuid "cbc09399-6dd8-466e-b73d-f01622dc3cd6")
 		)
 		(pad "25" smd roundrect
 			(at -3.4 4.95 90)
@@ -7907,7 +8016,8 @@
 			(net 32 "SPI_SD2_HEEP")
 			(pinfunction "SPI_SD_2_IO")
 			(pintype "bidirectional")
-			(uuid "c991f6bb-67a0-4c6c-9f08-5a47c3478eff")
+			(solder_mask_margin 0.05)
+			(uuid "b45f39fb-3169-4c09-86df-3fb7fe4fa8ae")
 		)
 		(pad "26" smd roundrect
 			(at -3 4.95 90)
@@ -7917,7 +8027,8 @@
 			(net 27 "SPI_SD3_HEEP")
 			(pinfunction "SPI_SD_3_IO")
 			(pintype "bidirectional")
-			(uuid "73ab26e5-7380-4565-92e6-35fef6f2db70")
+			(solder_mask_margin 0.05)
+			(uuid "8600657d-7337-4b3b-a464-4ec7ef152886")
 		)
 		(pad "27" smd roundrect
 			(at -2.6 4.95 90)
@@ -7927,7 +8038,8 @@
 			(net 18 "SPI_CS1_HEEP")
 			(pinfunction "SPI_CS_1_IO")
 			(pintype "bidirectional")
-			(uuid "ee18f759-6b21-4e74-821c-cfcbd3d1d1a6")
+			(solder_mask_margin 0.05)
+			(uuid "30b2a2a1-ca9b-4488-80ab-72076adde7b1")
 		)
 		(pad "28" smd roundrect
 			(at -2.2 4.95 90)
@@ -7937,7 +8049,8 @@
 			(net 20 "SPI_CS0_HEEP")
 			(pinfunction "SPI_CS_0_IO")
 			(pintype "bidirectional")
-			(uuid "34b895b3-9b51-425d-b37b-a41ad97ee50c")
+			(solder_mask_margin 0.05)
+			(uuid "9f8025f4-cb24-4cdc-9b0d-6bf63b6cd15a")
 		)
 		(pad "29" smd roundrect
 			(at -1.8 4.95 90)
@@ -7947,7 +8060,8 @@
 			(net 31 "SPI_SCK_HEEP")
 			(pinfunction "SPI_SCK_IO")
 			(pintype "bidirectional")
-			(uuid "b5af42cc-ede9-414b-a71b-9e809a212028")
+			(solder_mask_margin 0.05)
+			(uuid "563cce80-fce5-4978-8601-8977b57acd5f")
 		)
 		(pad "30" smd roundrect
 			(at -1.4 4.95 90)
@@ -7957,7 +8071,8 @@
 			(net 17 "GPIO_22")
 			(pinfunction "GPIO_22_IO")
 			(pintype "bidirectional")
-			(uuid "2d328c2c-94ac-400c-a258-e4b188a64170")
+			(solder_mask_margin 0.05)
+			(uuid "7a9eb32b-9162-4f21-bba2-cb0add0869da")
 		)
 		(pad "31" smd roundrect
 			(at -1 4.95 90)
@@ -7967,7 +8082,8 @@
 			(net 36 "GPIO_21")
 			(pinfunction "GPIO_21_IO")
 			(pintype "bidirectional")
-			(uuid "b77a7f65-69d0-4591-bddf-8cd6825eca0f")
+			(solder_mask_margin 0.05)
+			(uuid "20747826-eafb-4853-99e2-b21cfb4b6fd8")
 		)
 		(pad "32" smd roundrect
 			(at -0.6 4.95 90)
@@ -7977,7 +8093,8 @@
 			(net 22 "GPIO_20")
 			(pinfunction "GPIO_20_IO")
 			(pintype "bidirectional")
-			(uuid "d42f45d1-81b0-4ed6-9845-0b6fea4cf792")
+			(solder_mask_margin 0.05)
+			(uuid "b79d6377-7184-47d5-bb13-e3cdb24cfac1")
 		)
 		(pad "33" smd roundrect
 			(at -0.2 4.95 90)
@@ -7987,7 +8104,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDDIO4")
 			(pintype "power_in")
-			(uuid "b61f7abd-33a3-4c9f-8bba-e35e5cf657b6")
+			(solder_mask_margin 0.05)
+			(uuid "5aad13fc-110e-4be0-8c6c-2328e6c91194")
 		)
 		(pad "34" smd roundrect
 			(at 0.2 4.95 90)
@@ -7997,7 +8115,8 @@
 			(net 1 "GND")
 			(pinfunction "VSSIO4")
 			(pintype "power_in")
-			(uuid "3fffdf56-016b-4b36-a0b3-98b31c468167")
+			(solder_mask_margin 0.05)
+			(uuid "240b6d7e-6873-473f-884e-cc66ac3c1fe5")
 		)
 		(pad "35" smd roundrect
 			(at 0.6 4.95 90)
@@ -8007,7 +8126,8 @@
 			(net 3 "VCORE")
 			(pinfunction "VDD_HEEP3")
 			(pintype "power_in")
-			(uuid "53403c74-5b8e-4e06-a94a-29085a1b1bf3")
+			(solder_mask_margin 0.05)
+			(uuid "2bce7e6b-7c32-4e9a-a0b0-2a1b20ed1c07")
 		)
 		(pad "36" smd roundrect
 			(at 1 4.95 90)
@@ -8017,7 +8137,8 @@
 			(net 1 "GND")
 			(pinfunction "VSS_HEEP3")
 			(pintype "power_in")
-			(uuid "68b4b1c5-fc25-49f9-b0d5-15d45670e18a")
+			(solder_mask_margin 0.05)
+			(uuid "6a60d933-9785-47ca-b274-642e40c0124b")
 		)
 		(pad "37" smd roundrect
 			(at 1.4 4.95 90)
@@ -8027,7 +8148,8 @@
 			(net 37 "GPIO_19")
 			(pinfunction "GPIO_19_IO")
 			(pintype "bidirectional")
-			(uuid "bf93ee64-e066-49e0-a470-c1d50301382f")
+			(solder_mask_margin 0.05)
+			(uuid "99b77a04-4fa3-47d8-901e-67e5fabaa284")
 		)
 		(pad "38" smd roundrect
 			(at 1.8 4.95 90)
@@ -8037,7 +8159,8 @@
 			(net 28 "GPIO_18")
 			(pinfunction "GPIO_18_IO")
 			(pintype "bidirectional")
-			(uuid "d2f4e562-6073-4b18-979e-1bd113e8f7b5")
+			(solder_mask_margin 0.05)
+			(uuid "729fa048-23b0-44b5-b812-dc9d07e42d01")
 		)
 		(pad "39" smd roundrect
 			(at 2.2 4.95 90)
@@ -8047,7 +8170,8 @@
 			(net 25 "GPIO_17")
 			(pinfunction "GPIO_17_IO")
 			(pintype "bidirectional")
-			(uuid "e6ede629-6484-4340-bf3e-1b79d19ad843")
+			(solder_mask_margin 0.05)
+			(uuid "23d43006-4fec-40c8-9fc0-d53e2dfda240")
 		)
 		(pad "40" smd roundrect
 			(at 2.6 4.95 90)
@@ -8057,67 +8181,74 @@
 			(net 8 "GPIO_16")
 			(pinfunction "GPIO_16_IO")
 			(pintype "bidirectional")
-			(uuid "2b6be124-ec69-4cc1-ad49-b36a47d3ebd1")
+			(solder_mask_margin 0.05)
+			(uuid "0eec5f97-44ce-40ec-947f-2edbb8fb37a6")
 		)
 		(pad "41" smd roundrect
 			(at 3 4.95 90)
 			(size 0.2 0.825)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 60 "unconnected-(U2-BLADETEST_OSC_EN_I-Pad41)")
+			(net 59 "unconnected-(U1-BLADETEST_OSC_EN_I-Pad41)")
 			(pinfunction "BLADETEST_OSC_EN_I")
 			(pintype "input+no_connect")
-			(uuid "ee92a939-61d4-4705-a87d-80db343c8736")
+			(solder_mask_margin 0.05)
+			(uuid "c2ff06b1-a332-492a-9236-669fda7aed12")
 		)
 		(pad "42" smd roundrect
 			(at 3.4 4.95)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 50 "unconnected-(U2-BLADETEST_OSC_OUT_O-Pad42)")
+			(net 54 "unconnected-(U1-BLADETEST_OSC_OUT_O-Pad42)")
 			(pinfunction "BLADETEST_OSC_OUT_O")
 			(pintype "output+no_connect")
-			(uuid "4f2e8c37-2265-44f6-927d-25746aa61cb0")
+			(solder_mask_margin 0.05)
+			(uuid "e4511d92-bf66-4644-b426-f948d6e21b46")
 		)
 		(pad "43" smd roundrect
 			(at 3.8 4.95)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 53 "unconnected-(U2-BLADETEST_CK_I-Pad43)")
+			(net 57 "unconnected-(U1-BLADETEST_CK_I-Pad43)")
 			(pinfunction "BLADETEST_CK_I")
 			(pintype "input+no_connect")
-			(uuid "a51717f8-202d-499c-9b32-65e0d138f245")
+			(solder_mask_margin 0.05)
+			(uuid "85924387-3807-4ae0-91d3-554c2c27366a")
 		)
 		(pad "44" smd roundrect
 			(at 4.2 4.95)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 58 "unconnected-(U2-BLADETEST_SC_EN_I-Pad44)")
+			(net 50 "unconnected-(U1-BLADETEST_SC_EN_I-Pad44)")
 			(pinfunction "BLADETEST_SC_EN_I")
 			(pintype "input+no_connect")
-			(uuid "369859b7-d4a6-48d1-8aa9-bf412f5cae0c")
+			(solder_mask_margin 0.05)
+			(uuid "e09a06d7-ad8f-4a5b-ab5e-e76679a51b5c")
 		)
 		(pad "45" smd roundrect
 			(at 4.95 4.2 90)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 57 "unconnected-(U2-BLADETEST_SC_OUT_O-Pad45)")
+			(net 53 "unconnected-(U1-BLADETEST_SC_OUT_O-Pad45)")
 			(pinfunction "BLADETEST_SC_OUT_O")
 			(pintype "output+no_connect")
-			(uuid "46578658-dd81-4862-8499-43c876bc200d")
+			(solder_mask_margin 0.05)
+			(uuid "26b08e97-7403-4d50-8f66-45b7487b0f4a")
 		)
 		(pad "46" smd roundrect
 			(at 4.95 3.8 90)
 			(size 0.825 0.2)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 59 "unconnected-(U2-BLADETEST_SC_IN_I-Pad46)")
+			(net 58 "unconnected-(U1-BLADETEST_SC_IN_I-Pad46)")
 			(pinfunction "BLADETEST_SC_IN_I")
 			(pintype "input+no_connect")
-			(uuid "d8eb6731-49ae-4791-add2-fa24287577ea")
+			(solder_mask_margin 0.05)
+			(uuid "801af777-5d0c-4da4-869d-f18eafb54450")
 		)
 		(pad "47" smd roundrect
 			(at 4.95 3.4 90)
@@ -8127,7 +8258,8 @@
 			(net 1 "GND")
 			(pinfunction "VSSIO3")
 			(pintype "power_in")
-			(uuid "08d0dae8-b5c7-479b-8a50-6806aed15aca")
+			(solder_mask_margin 0.05)
+			(uuid "cb080f18-5844-45bf-8211-310509d75958")
 		)
 		(pad "48" smd roundrect
 			(at 4.95 3 90)
@@ -8137,7 +8269,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDDIO3")
 			(pintype "power_in")
-			(uuid "ac3da9ec-54e0-45cc-b827-27db7782a118")
+			(solder_mask_margin 0.05)
+			(uuid "45fac744-7ac4-4609-be7e-54c7277bd368")
 		)
 		(pad "49" smd roundrect
 			(at 4.95 2.6 90)
@@ -8147,7 +8280,8 @@
 			(net 1 "GND")
 			(pinfunction "BLADETEST_GND")
 			(pintype "power_in")
-			(uuid "6e863bf5-9fd1-42f5-9dd5-fc8723f14b11")
+			(solder_mask_margin 0.05)
+			(uuid "9ec4dbc7-d017-4187-8436-c9916ef84acd")
 		)
 		(pad "50" smd roundrect
 			(at 4.95 2.2 90)
@@ -8157,7 +8291,8 @@
 			(net 1 "GND")
 			(pinfunction "BLADETEST_VDD3")
 			(pintype "power_in")
-			(uuid "da3254de-c404-4e21-81fe-25e77f1f06b9")
+			(solder_mask_margin 0.05)
+			(uuid "83d44e84-8783-44d6-b11f-e82210998a9d")
 		)
 		(pad "51" smd roundrect
 			(at 4.95 1.8 90)
@@ -8167,7 +8302,8 @@
 			(net 1 "GND")
 			(pinfunction "BLADETEST_VDD2")
 			(pintype "power_in")
-			(uuid "271ff718-40a5-4d64-ad3e-250f9e47ef7b")
+			(solder_mask_margin 0.05)
+			(uuid "7714eeb1-deb8-4cf8-8445-983e35ebe7d1")
 		)
 		(pad "52" smd roundrect
 			(at 4.95 1.4 90)
@@ -8177,7 +8313,8 @@
 			(net 1 "GND")
 			(pinfunction "BLADETEST_VDD1")
 			(pintype "power_in")
-			(uuid "c8bd7375-5ae0-4daa-84f5-2a568226691e")
+			(solder_mask_margin 0.05)
+			(uuid "9fffce3e-f37d-4a08-ba49-3e95215ae1e9")
 		)
 		(pad "53" smd roundrect
 			(at 4.95 1 90)
@@ -8187,7 +8324,8 @@
 			(net 43 "GPIO_15")
 			(pinfunction "GPIO_15_IO")
 			(pintype "bidirectional")
-			(uuid "93337d9b-26ea-41f8-a166-a02f4a7eece9")
+			(solder_mask_margin 0.05)
+			(uuid "476026a8-21b8-4d59-b124-375671dc127c")
 		)
 		(pad "54" smd roundrect
 			(at 4.95 0.6 90)
@@ -8197,7 +8335,8 @@
 			(net 4 "GPIO_14")
 			(pinfunction "GPIO_14_IO")
 			(pintype "bidirectional")
-			(uuid "336ba0a5-74c9-4323-8279-e6428d7caaff")
+			(solder_mask_margin 0.05)
+			(uuid "46f0e3f4-3731-40f3-abdd-df2546efa959")
 		)
 		(pad "55" smd roundrect
 			(at 4.95 0.2 90)
@@ -8207,7 +8346,8 @@
 			(net 15 "GPIO_13")
 			(pinfunction "GPIO_13_IO")
 			(pintype "bidirectional")
-			(uuid "27e7ef42-4226-4bed-aaa5-991c0bb567e0")
+			(solder_mask_margin 0.05)
+			(uuid "10da1b20-f49c-402d-8909-25fa19fb749c")
 		)
 		(pad "56" smd roundrect
 			(at 4.95 -0.2 90)
@@ -8217,7 +8357,8 @@
 			(net 26 "GPIO_12")
 			(pinfunction "GPIO_12_IO")
 			(pintype "bidirectional")
-			(uuid "4988cefb-7048-4bff-bfdc-982cc2fd408e")
+			(solder_mask_margin 0.05)
+			(uuid "86f5d833-6f1e-4de9-a264-32538e8c6331")
 		)
 		(pad "57" smd roundrect
 			(at 4.95 -0.6 90)
@@ -8227,7 +8368,8 @@
 			(net 29 "GPIO_11")
 			(pinfunction "GPIO_11_IO")
 			(pintype "bidirectional")
-			(uuid "a36a1a6a-67aa-4f36-9b6e-aec0e1a240e1")
+			(solder_mask_margin 0.05)
+			(uuid "c9c6dd25-3a2e-42c6-8777-35680089e2a0")
 		)
 		(pad "58" smd roundrect
 			(at 4.95 -1 90)
@@ -8237,7 +8379,8 @@
 			(net 16 "GPIO_10")
 			(pinfunction "GPIO_10_IO")
 			(pintype "bidirectional")
-			(uuid "01b5e8a0-150d-427b-890b-530032fdbc01")
+			(solder_mask_margin 0.05)
+			(uuid "6b893d19-84a5-4de3-9a29-a4b334d00ea0")
 		)
 		(pad "59" smd roundrect
 			(at 4.95 -1.4 90)
@@ -8247,7 +8390,8 @@
 			(net 1 "GND")
 			(pinfunction "CGRA_GND2")
 			(pintype "power_in")
-			(uuid "76fb15c5-9f5c-4db6-bc59-cca5a2e7fb1a")
+			(solder_mask_margin 0.05)
+			(uuid "cbf09703-1f05-4362-8445-ecd384565313")
 		)
 		(pad "60" smd roundrect
 			(at 4.95 -1.8 90)
@@ -8257,7 +8401,8 @@
 			(net 3 "VCORE")
 			(pinfunction "CGRA_VDD2")
 			(pintype "power_in")
-			(uuid "8bb1ff02-6ace-47ee-8624-d9e87f01ee64")
+			(solder_mask_margin 0.05)
+			(uuid "05e5653b-523d-4558-b500-9135ab371e9a")
 		)
 		(pad "61" smd roundrect
 			(at 4.95 -2.2 90)
@@ -8267,7 +8412,8 @@
 			(net 24 "GPIO_9")
 			(pinfunction "GPIO_9_IO")
 			(pintype "bidirectional")
-			(uuid "f4925dc7-90f5-4a65-8944-c3554d444095")
+			(solder_mask_margin 0.05)
+			(uuid "d9f6ef7c-034e-4b7e-9e76-e0c28e38fde1")
 		)
 		(pad "62" smd roundrect
 			(at 4.95 -2.6 90)
@@ -8277,7 +8423,8 @@
 			(net 42 "GPIO_8")
 			(pinfunction "GPIO_8_IO")
 			(pintype "bidirectional")
-			(uuid "87d00832-5566-457f-b907-9f4e4f2aac23")
+			(solder_mask_margin 0.05)
+			(uuid "db146c7a-6c89-4f16-8e0c-16e629459b02")
 		)
 		(pad "63" smd roundrect
 			(at 4.95 -3 90)
@@ -8287,7 +8434,8 @@
 			(net 1 "GND")
 			(pinfunction "VSSIO2")
 			(pintype "power_in")
-			(uuid "f84e934c-e479-4302-81d9-2333d0e34a2f")
+			(solder_mask_margin 0.05)
+			(uuid "5c17df10-c2fe-4711-b71f-3726e4d073b9")
 		)
 		(pad "64" smd roundrect
 			(at 4.95 -3.4 90)
@@ -8297,7 +8445,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDDIO2")
 			(pintype "power_in")
-			(uuid "b6373549-edc8-467f-9072-47cb77222525")
+			(solder_mask_margin 0.05)
+			(uuid "471bf609-9986-4a9f-a41f-eeef400cdfb8")
 		)
 		(pad "65" smd roundrect
 			(at 4.95 -3.8 90)
@@ -8307,7 +8456,8 @@
 			(net 39 "GPIO_7")
 			(pinfunction "GPIO_7_IO")
 			(pintype "bidirectional")
-			(uuid "bb0aef6b-7272-412a-acde-89bf30089f33")
+			(solder_mask_margin 0.05)
+			(uuid "71998831-e189-4e15-aaec-d26c618250ea")
 		)
 		(pad "66" smd roundrect
 			(at 4.95 -4.2 90)
@@ -8317,7 +8467,8 @@
 			(net 40 "GPIO_6")
 			(pinfunction "GPIO_6_IO")
 			(pintype "bidirectional")
-			(uuid "337bbdb7-b2bf-4987-9e9b-1c6ed362a87d")
+			(solder_mask_margin 0.05)
+			(uuid "da7604e7-91a1-4058-b9b3-ece0d7ffb832")
 		)
 		(pad "67" smd roundrect
 			(at 4.2 -4.95 90)
@@ -8327,7 +8478,8 @@
 			(net 34 "GPIO_5")
 			(pinfunction "GPIO_5_IO")
 			(pintype "bidirectional")
-			(uuid "49da6153-9527-4577-8228-42e2a8be01a5")
+			(solder_mask_margin 0.05)
+			(uuid "13e4d023-a531-4f62-807c-6a186b9e3af8")
 		)
 		(pad "68" smd roundrect
 			(at 3.8 -4.95 90)
@@ -8337,7 +8489,8 @@
 			(net 33 "GPIO_4")
 			(pinfunction "GPIO_4_IO")
 			(pintype "bidirectional")
-			(uuid "0602290c-6960-4429-9267-ef5e151ef56e")
+			(solder_mask_margin 0.05)
+			(uuid "a6530792-ca0e-4488-afeb-eef285bacda3")
 		)
 		(pad "69" smd roundrect
 			(at 3.4 -4.95 90)
@@ -8347,7 +8500,8 @@
 			(net 1 "GND")
 			(pinfunction "CGRA_GND1")
 			(pintype "power_in")
-			(uuid "d08f59fd-177b-430d-9617-c9b2c82df862")
+			(solder_mask_margin 0.05)
+			(uuid "eef56d13-2c24-4969-bcb1-1929792003f6")
 		)
 		(pad "70" smd roundrect
 			(at 3 -4.95 90)
@@ -8357,7 +8511,8 @@
 			(net 3 "VCORE")
 			(pinfunction "CGRA_VDD1")
 			(pintype "power_in")
-			(uuid "84d7e664-d0f0-45b9-801a-f2e3d875b188")
+			(solder_mask_margin 0.05)
+			(uuid "ad7870c6-928e-44b3-99a2-2874647ae3f1")
 		)
 		(pad "71" smd roundrect
 			(at 2.6 -4.95 90)
@@ -8367,7 +8522,8 @@
 			(net 38 "GPIO_3")
 			(pinfunction "GPIO_3_IO")
 			(pintype "bidirectional")
-			(uuid "b4dea4c5-0149-4b1c-9959-6aef590e559a")
+			(solder_mask_margin 0.05)
+			(uuid "bb243052-bd4a-4e46-80d1-b3c82318d463")
 		)
 		(pad "72" smd roundrect
 			(at 2.2 -4.95 90)
@@ -8377,7 +8533,8 @@
 			(net 23 "GPIO_2")
 			(pinfunction "GPIO_2_IO")
 			(pintype "bidirectional")
-			(uuid "0051d2e1-d752-4bc3-84bb-29563c4852d3")
+			(solder_mask_margin 0.05)
+			(uuid "52ca0e7c-590e-4efd-a345-e6b7fa29edd8")
 		)
 		(pad "73" smd roundrect
 			(at 1.8 -4.95 90)
@@ -8387,7 +8544,8 @@
 			(net 11 "GPIO_1")
 			(pinfunction "GPIO_1_IO")
 			(pintype "bidirectional")
-			(uuid "ff2ae5f2-b5da-4fc6-8907-d4ed16994955")
+			(solder_mask_margin 0.05)
+			(uuid "1fcac768-3562-481d-a255-6a7e692b7ef2")
 		)
 		(pad "74" smd roundrect
 			(at 1.4 -4.95 90)
@@ -8397,7 +8555,8 @@
 			(net 30 "GPIO_0")
 			(pinfunction "GPIO_0_IO")
 			(pintype "bidirectional")
-			(uuid "4419d365-af9d-49d2-8559-f7c4b190a76f")
+			(solder_mask_margin 0.05)
+			(uuid "99706033-c065-49d5-9921-9f6d9f2c5322")
 		)
 		(pad "75" smd roundrect
 			(at 1 -4.95 90)
@@ -8407,7 +8566,8 @@
 			(net 1 "GND")
 			(pinfunction "VSS_HEEP2")
 			(pintype "power_in")
-			(uuid "ae40a07a-409a-4657-8650-98643b912182")
+			(solder_mask_margin 0.05)
+			(uuid "68f25df6-1417-4d1d-9162-b3112c84cc47")
 		)
 		(pad "76" smd roundrect
 			(at 0.6 -4.95 90)
@@ -8417,7 +8577,8 @@
 			(net 3 "VCORE")
 			(pinfunction "VDD_HEEP2")
 			(pintype "power_in")
-			(uuid "09bc2d0e-a5cd-4b8a-9f9f-f17a0217f83e")
+			(solder_mask_margin 0.05)
+			(uuid "63045fc6-de70-44c8-9990-d6825799c857")
 		)
 		(pad "77" smd roundrect
 			(at 0.2 -4.95 90)
@@ -8427,7 +8588,8 @@
 			(net 1 "GND")
 			(pinfunction "VSSIO1")
 			(pintype "power_in")
-			(uuid "3e924136-ec23-4751-8ec7-9db8266b04d1")
+			(solder_mask_margin 0.05)
+			(uuid "333d3b0c-92c3-485d-9764-e12301e57dd1")
 		)
 		(pad "78" smd roundrect
 			(at -0.2 -4.95 90)
@@ -8437,7 +8599,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VDDIO1")
 			(pintype "power_in")
-			(uuid "985f1bb7-ac79-4392-ae0c-5b8a404fcfba")
+			(solder_mask_margin 0.05)
+			(uuid "c328baaa-f300-4b0f-a1a0-c999bf191736")
 		)
 		(pad "79" smd roundrect
 			(at -0.6 -4.95 90)
@@ -8447,7 +8610,8 @@
 			(net 41 "JTAG_TDO")
 			(pinfunction "JTAG_TDO_O")
 			(pintype "output")
-			(uuid "9345b47b-f895-445d-88c2-ca0c4c08632e")
+			(solder_mask_margin 0.05)
+			(uuid "f261c691-8895-48c4-beb2-e2e5a6eea56a")
 		)
 		(pad "80" smd roundrect
 			(at -1 -4.95 90)
@@ -8457,7 +8621,8 @@
 			(net 6 "JTAG_TDI")
 			(pinfunction "JTAG_TDI_I")
 			(pintype "input")
-			(uuid "db18be9d-9b22-4319-bb17-1d17b1b877a4")
+			(solder_mask_margin 0.05)
+			(uuid "99d3f87b-e26d-4ec9-80f9-3dc4f27f1d0d")
 		)
 		(pad "81" smd roundrect
 			(at -1.4 -4.95 90)
@@ -8467,7 +8632,8 @@
 			(net 14 "JTAG_TRST")
 			(pinfunction "~{JTAG_TRST_I}")
 			(pintype "input")
-			(uuid "3bc8e863-194a-4a87-af52-179a4c24aeeb")
+			(solder_mask_margin 0.05)
+			(uuid "f2050775-115e-4149-a370-a94207ed3dd3")
 		)
 		(pad "82" smd roundrect
 			(at -1.8 -4.95 90)
@@ -8477,7 +8643,8 @@
 			(net 13 "JTAG_TMS")
 			(pinfunction "JTAG_TMS_I")
 			(pintype "input")
-			(uuid "bbeec306-bc74-47fa-a347-4424ebbd5b74")
+			(solder_mask_margin 0.05)
+			(uuid "1f4dc0c0-d697-4e67-a2da-1f5b3f0f882b")
 		)
 		(pad "83" smd roundrect
 			(at -2.2 -4.95 90)
@@ -8487,7 +8654,8 @@
 			(net 9 "JTAG_TCK")
 			(pinfunction "JTAG_TCK_I")
 			(pintype "input")
-			(uuid "88ccf8a4-8365-4c9c-b07c-54eabf5ef12d")
+			(solder_mask_margin 0.05)
+			(uuid "934b0c93-506d-48d3-bdcd-45e89a7944e3")
 		)
 		(pad "84" smd roundrect
 			(at -2.6 -4.95 90)
@@ -8497,7 +8665,8 @@
 			(net 1 "GND")
 			(pinfunction "BYPASS_FLL_I")
 			(pintype "input")
-			(uuid "a85177a5-2582-447f-b490-c6def25c104a")
+			(solder_mask_margin 0.05)
+			(uuid "ba2e3b0b-9c6e-4ba7-9d39-bb44872f3ecf")
 		)
 		(pad "85" smd roundrect
 			(at -3 -4.95 90)
@@ -8507,7 +8676,8 @@
 			(net 1 "GND")
 			(pinfunction "EXECUTE_FROM_FLASH_I")
 			(pintype "input")
-			(uuid "6d8da40a-d4c3-49bc-ab6d-2305de5d1abd")
+			(solder_mask_margin 0.05)
+			(uuid "76b76189-2734-478b-af02-5f6fadb21e6d")
 		)
 		(pad "86" smd roundrect
 			(at -3.4 -4.95 90)
@@ -8517,7 +8687,8 @@
 			(net 81 "BOOT_SEL_EXT")
 			(pinfunction "BOOT_SELECT_I")
 			(pintype "input")
-			(uuid "a9af93c5-bae6-4051-864d-84a1547f9054")
+			(solder_mask_margin 0.05)
+			(uuid "ba864e69-d056-4f58-aa7d-0666cbf8956e")
 		)
 		(pad "87" smd roundrect
 			(at -3.8 -4.95 90)
@@ -8527,7 +8698,8 @@
 			(net 21 "I2C_SDA_HEEP")
 			(pinfunction "I2C_SDA_IO")
 			(pintype "bidirectional")
-			(uuid "47474f6b-b294-4ac2-8aa9-cd2b8f34d7a2")
+			(solder_mask_margin 0.05)
+			(uuid "bcee5622-20f8-45c1-82a6-c30a9c66bd9f")
 		)
 		(pad "88" smd roundrect
 			(at -4.2 -4.95 90)
@@ -8537,7 +8709,8 @@
 			(net 7 "I2C_SCL_HEEP")
 			(pinfunction "I2C_SCL_IO")
 			(pintype "bidirectional")
-			(uuid "ae8619c2-23e8-4f96-b60d-9ca907e10a7e")
+			(solder_mask_margin 0.05)
+			(uuid "851757d7-83a1-4887-a06b-764e4a98d585")
 		)
 		(pad "89" smd rect
 			(at 0 0 90)
@@ -8547,8 +8720,9 @@
 			(net 1 "GND")
 			(pinfunction "EPAD")
 			(pintype "power_in")
+			(solder_mask_margin 0.05)
 			(zone_connect 2)
-			(uuid "c4c32559-c65c-4371-88b7-55732eb85954")
+			(uuid "d1aa35ea-c785-453d-8ee2-d172f89ff97b")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/IC/QFN-88-1EP_10X10_Pitch0_4mm_HEEPocrates.step"
 			(offset
@@ -8566,12 +8740,12 @@
 		(layer "F.Cu")
 		(uuid "e7251c3d-e107-4291-a353-14528388af6a")
 		(at 104.052 109.563 180)
-		(property "Reference" "U4"
+		(property "Reference" "U2"
 			(at 0.5628 -2.1122 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8b342c06-165d-43f1-9bff-880012079c42")
+			(uuid "d6e7051c-18a9-41f0-a874-4bb80972a108")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -8584,7 +8758,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58f89ffd-907b-41de-b94f-6a48d5118500")
+			(uuid "43a822c2-ea49-480a-84a2-ff998894e90e")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -8597,7 +8771,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fc776da0-cd2b-495b-9f82-f6ce083e7d67")
+			(uuid "030dcbf6-5a66-4427-aaa3-c724784a257f")
 			(effects
 				(font
 					(size 1 1)
@@ -8610,7 +8784,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f44507f5-1bd7-46e2-9571-10194f0f51fb")
+			(uuid "b7eaba17-135d-4121-b64a-72402e42827e")
 			(effects
 				(font
 					(size 1 1)
@@ -8623,7 +8797,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c0715c7a-854b-4a94-bf25-ef411ee04817")
+			(uuid "96719106-3e39-4dc4-87b6-2fae26b049d5")
 			(effects
 				(font
 					(size 1 1)
@@ -8657,7 +8831,7 @@
 			)
 			(fill none)
 			(layer "F.SilkS")
-			(uuid "97c8e4c9-a6cb-407f-8fe1-bd11d583d4ef")
+			(uuid "df01510e-2f7e-42e2-848c-7fd69e067769")
 		)
 		(fp_poly
 			(pts
@@ -8669,7 +8843,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "6d946a20-1760-436f-9358-27006ddc0b88")
+			(uuid "68884d8a-e164-49cf-bdf9-a4625adcf777")
 		)
 		(fp_rect
 			(start -1.615 -1.615)
@@ -8680,13 +8854,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "6db064cb-2f89-48ed-a9c2-a9e302353c9d")
+			(uuid "381ce453-713f-4be1-b816-80e30830545c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b120396f-bbc3-4d6f-9aaa-578334391229")
+			(uuid "8985fdb7-7751-4e4d-846a-08f29ecb25de")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -8698,41 +8872,41 @@
 			(at -0.75 -1.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 66 "unconnected-(U4-NC-PadA2)")
+			(net 71 "unconnected-(U2-NC-PadA2)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "c9ceb4d6-9896-4cb0-8edd-d5b618abe439")
+			(solder_mask_margin 0.05)
+			(uuid "2a81bdd0-a6c1-4756-ac0f-b3587dbb6ffc")
 		)
 		(pad "A5" smd circle
 			(at 0.75 -1.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 68 "unconnected-(U4-NC-PadA5)")
+			(net 66 "unconnected-(U2-NC-PadA5)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "5e1bcbb6-8e1b-412e-adf6-f842d0951fb3")
+			(solder_mask_margin 0.05)
+			(uuid "c4ee6734-2686-4b61-8886-a8315b8aa455")
 		)
 		(pad "A6" smd circle
 			(at 1.25 -1.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 74 "unconnected-(U4-NC-PadA6)")
+			(net 74 "unconnected-(U2-NC-PadA6)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "d88c371a-c460-4d45-82dd-76ba2e4fa0d5")
+			(solder_mask_margin 0.05)
+			(uuid "bb684d92-244f-4b97-8b6f-a08455ce5f56")
 		)
 		(pad "B1" smd circle
 			(at -1.25 -0.75 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 69 "unconnected-(U4-NC-PadB1)")
+			(net 63 "unconnected-(U2-NC-PadB1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "4866c596-1e76-4c66-85d5-b80ee3977648")
+			(solder_mask_margin 0.05)
+			(uuid "b21c27bd-be86-4201-86e8-9b039003475f")
 		)
 		(pad "B3" smd circle
 			(at -0.25 -0.75 180)
@@ -8741,8 +8915,8 @@
 			(net 2 "+1V8")
 			(pinfunction "VCC")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "0de772ae-d84b-42c7-9bd5-de52a2e8c476")
+			(solder_mask_margin 0.05)
+			(uuid "a443800b-0fe2-4eb2-b27d-774360c8e85b")
 		)
 		(pad "B4" smd circle
 			(at 0.25 -0.75 180)
@@ -8751,28 +8925,28 @@
 			(net 44 "FLASH_CS")
 			(pinfunction "~{CS}")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "ccfe33f7-4997-4510-8d78-d9d057c886ed")
+			(solder_mask_margin 0.05)
+			(uuid "6e855c22-8a04-4fc7-b97d-39c4fe2b3f63")
 		)
 		(pad "B6" smd circle
 			(at 1.25 -0.75 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 63 "unconnected-(U4-NC-PadB6)")
+			(net 62 "unconnected-(U2-NC-PadB6)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "2b4fd4d3-19fe-4c5e-8c1b-6a564a861ca1")
+			(solder_mask_margin 0.05)
+			(uuid "390e1efd-cd3e-44cb-ae9d-dd0c738205df")
 		)
 		(pad "C1" smd circle
 			(at -1.25 -0.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 61 "unconnected-(U4-NC-PadC1)")
+			(net 64 "unconnected-(U2-NC-PadC1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "5a3d43c8-5aab-453c-8390-93d99ec64e84")
+			(solder_mask_margin 0.05)
+			(uuid "e1729a08-6e9e-4c32-9574-d8a2078e1525")
 		)
 		(pad "C3" smd circle
 			(at -0.25 -0.25 180)
@@ -8781,8 +8955,8 @@
 			(net 47 "FLASH_nHLD_nRST")
 			(pinfunction "~{HLD_RST}_(IO3)")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "c5ed1260-2f4a-4c3c-a791-a02a97d9f2c8")
+			(solder_mask_margin 0.05)
+			(uuid "d14dee00-7514-4ea2-b84e-cc1096ea1caf")
 		)
 		(pad "C4" smd circle
 			(at 0.25 -0.25 180)
@@ -8791,28 +8965,28 @@
 			(net 51 "FLASH_MISO")
 			(pinfunction "DO_(IO1)")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "29f4ee05-80ff-4494-b502-be6e5e3c3bcf")
+			(solder_mask_margin 0.05)
+			(uuid "f0e07a9f-ceff-4162-a370-b80984971e7f")
 		)
 		(pad "C6" smd circle
 			(at 1.25 -0.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 71 "unconnected-(U4-NC-PadC6)")
+			(net 73 "unconnected-(U2-NC-PadC6)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "d2043373-852f-4dcf-a29c-0fce10373504")
+			(solder_mask_margin 0.05)
+			(uuid "19ae3437-aafa-4dc1-805f-50d2ee19f06d")
 		)
 		(pad "D1" smd circle
 			(at -1.25 0.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 73 "unconnected-(U4-NC-PadD1)")
+			(net 69 "unconnected-(U2-NC-PadD1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "bbeb6d9c-54f5-4742-9ac7-47753ba5cee7")
+			(solder_mask_margin 0.05)
+			(uuid "4cb02882-cc3e-4c1f-887b-4db644335724")
 		)
 		(pad "D3" smd circle
 			(at -0.25 0.25 180)
@@ -8821,8 +8995,8 @@
 			(net 45 "FLASH_SCK")
 			(pinfunction "CLK")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "00cbe0c8-9409-4fbe-9fa2-37d237eb5c75")
+			(solder_mask_margin 0.05)
+			(uuid "041b32b2-e146-4969-8a11-f8ad88181109")
 		)
 		(pad "D4" smd circle
 			(at 0.25 0.25 180)
@@ -8831,28 +9005,28 @@
 			(net 46 "FLASH_nWP")
 			(pinfunction "~{WP}_(IO2)")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "27f9c20d-59a6-4aa9-b211-ed357b475855")
+			(solder_mask_margin 0.05)
+			(uuid "c8b6ee83-9653-412b-895b-0a115c2a4b31")
 		)
 		(pad "D6" smd circle
 			(at 1.25 0.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 62 "unconnected-(U4-NC-PadD6)")
+			(net 70 "unconnected-(U2-NC-PadD6)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "bd3e7b24-f078-4fb5-90f6-2a00beaa7c20")
+			(solder_mask_margin 0.05)
+			(uuid "0c128228-1b28-4c16-a025-87a2e1e33cd5")
 		)
 		(pad "E1" smd circle
 			(at -1.25 0.75 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 65 "unconnected-(U4-NC-PadE1)")
+			(net 61 "unconnected-(U2-NC-PadE1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "28b285f1-1659-4d4e-9fdb-f66246c110d6")
+			(solder_mask_margin 0.05)
+			(uuid "d697860d-f192-4c1e-9baf-d10199c7a8e0")
 		)
 		(pad "E3" smd circle
 			(at -0.25 0.75 180)
@@ -8861,8 +9035,8 @@
 			(net 52 "FLASH_MOSI")
 			(pinfunction "DI_(IO0)")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "cd3e3824-bde3-45ad-a3c8-86ce1c16b763")
+			(solder_mask_margin 0.05)
+			(uuid "0fc75b35-1bfe-4040-9f1b-42e21923cef0")
 		)
 		(pad "E4" smd circle
 			(at 0.25 0.75 180)
@@ -8871,38 +9045,38 @@
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(solder_paste_margin 0.05)
-			(uuid "dc033168-9229-4831-a359-509609491028")
+			(solder_mask_margin 0.05)
+			(uuid "adc95224-172b-45ab-9b74-945bf9722d5d")
 		)
 		(pad "E6" smd circle
 			(at 1.25 0.75 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 64 "unconnected-(U4-NC-PadE6)")
+			(net 67 "unconnected-(U2-NC-PadE6)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "a5988bbd-34d6-4957-b70a-1dc390c54f28")
+			(solder_mask_margin 0.05)
+			(uuid "1922a668-8dcb-4422-81f3-92d8d2615baf")
 		)
 		(pad "F2" smd circle
 			(at -0.75 1.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 70 "unconnected-(U4-NC-PadF2)")
+			(net 68 "unconnected-(U2-NC-PadF2)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "ae2a5f5e-6192-4c02-86c0-a12c13164f4e")
+			(solder_mask_margin 0.05)
+			(uuid "a21ed1c3-26f6-4bd4-b365-d49e1ff06d87")
 		)
 		(pad "F5" smd circle
 			(at 0.75 1.25 180)
 			(size 0.25 0.25)
 			(layers "F.Cu" "F.Paste" "F.Mask")
-			(net 67 "unconnected-(U4-NC-PadF5)")
+			(net 65 "unconnected-(U2-NC-PadF5)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_paste_margin 0.05)
-			(uuid "5aae7851-7033-4ebb-92fc-cb30f89908b5")
+			(solder_mask_margin 0.05)
+			(uuid "760f6792-b905-4225-a59c-54aa7b994f6e")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/IC/W25Q128JWYIQ_TR.stp"
 			(offset
@@ -8925,7 +9099,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "820cd865-096e-4d38-8cb7-10e8e57fad31")
+			(uuid "2490ca6b-34ca-42ca-a9f1-7616a69de6a7")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -8938,7 +9112,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "fbcee21f-6c59-4297-b198-c8ada415bf05")
+			(uuid "0c3b81e9-f6c2-483e-9414-7ecb7353f547")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -8951,7 +9125,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "31981b1c-eb1c-41ea-acb1-0914ba20b497")
+			(uuid "719c20b4-b735-4138-ae6f-246350ea6351")
 			(effects
 				(font
 					(size 1 1)
@@ -8964,7 +9138,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "47334498-5767-4028-bff2-e193f388617e")
+			(uuid "f20b21dc-433f-4d2b-8b30-c3b348416f83")
 			(effects
 				(font
 					(size 1 1)
@@ -8977,7 +9151,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b93d76ed-bb40-4e35-aac7-8f1024042a5d")
+			(uuid "1aef6bf1-4d2a-4152-b78b-8f3148091c8b")
 			(effects
 				(font
 					(size 1 1)
@@ -9010,7 +9184,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "23647468-05f4-4134-89ed-7b1f9dd34893")
+			(uuid "f67c0113-2ace-4ccc-85f1-d32d9fdd5848")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -9020,7 +9194,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "16ca3071-342b-4d1c-bbb7-5d43641147cc")
+			(uuid "4a7c0db6-623d-4372-bee7-d3f5bcc53083")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -9031,13 +9205,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "0dc03bb1-8928-4cf6-97a9-3aaafae6feee")
+			(uuid "9923a2ea-6efa-4da0-ab09-d6abca78dc22")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "a81df311-5a1d-4df0-8739-dc128f0ae0cb")
+			(uuid "fb49cdc1-08d9-4563-8eb0-9cd8a965d98d")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -9052,7 +9226,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "9e97fc8f-7d4a-4fdf-a219-5b5d4dc9d79d")
+			(solder_mask_margin 0.05)
+			(uuid "5c7b0d1c-6646-4bf9-b91b-6cd484dd122a")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -9061,7 +9236,8 @@
 			(roundrect_rratio 0.25)
 			(net 3 "VCORE")
 			(pintype "passive")
-			(uuid "89052ae2-ae26-430d-a0bd-b5b300028839")
+			(solder_mask_margin 0.05)
+			(uuid "c826aa1d-7d4d-492e-8a7d-4219e1bba28c")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -9079,12 +9255,12 @@
 		(layer "F.Cu")
 		(uuid "f310812e-5550-4a97-9a68-66d7ad9afd25")
 		(at 110.193 109.047 -90)
-		(property "Reference" "U7"
+		(property "Reference" "U5"
 			(at 1.0868 -0.8128 180)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "8b1ec611-9aca-4f21-9352-e3d4cb6bf1dc")
+			(uuid "902ba459-1edf-4573-913b-7f37192de2cf")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -9097,7 +9273,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "764da0b3-d208-475c-a4c5-f0f3484b9967")
+			(uuid "9937ed57-d1c1-4923-82a4-cc54290ccede")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -9110,7 +9286,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8bf3adab-b8e1-4ce3-8f91-f74d74ceff17")
+			(uuid "09b70b97-499c-40b2-aa17-05ac22f214cf")
 			(effects
 				(font
 					(size 1 1)
@@ -9123,7 +9299,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca98c5bf-c796-447a-85b7-e341c2081df1")
+			(uuid "e2f06b1b-145a-4798-9284-c26bd5d33093")
 			(effects
 				(font
 					(size 1 1)
@@ -9136,7 +9312,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d3460836-e3dd-4656-9149-f39c4a6ad192")
+			(uuid "e55093b6-7c4b-4908-9f73-4d3b84fa1778")
 			(effects
 				(font
 					(size 1 1)
@@ -9163,7 +9339,7 @@
 		(attr smd)
 		(fp_poly
 			(pts
-				(xy -0.8 -0.5) (xy -0.8 -0.7) (xy -1 -0.5)
+				(xy -0.8 -0.525) (xy -0.8 -0.725) (xy -1 -0.525)
 			)
 			(stroke
 				(width 0.1)
@@ -9171,7 +9347,7 @@
 			)
 			(fill solid)
 			(layer "F.SilkS")
-			(uuid "25d24614-d62b-438c-923f-f38ba0f04c3a")
+			(uuid "0da508ac-a63c-41f4-945a-888e9bc995ae")
 		)
 		(fp_rect
 			(start -0.5 -0.5)
@@ -9182,13 +9358,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "ab194150-145b-43ef-b3f9-ef2ba1e3cfa1")
+			(uuid "3ebce319-4d11-476d-89c4-c94c0208975c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "1b5a46e2-6bab-43d6-90e4-5e342a816f9c")
+			(uuid "de7192b6-6dff-4a72-bbd8-5ea7c235fcb5")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -9198,59 +9374,65 @@
 		)
 		(pad "1" smd roundrect
 			(at -0.4 -0.35 270)
-			(size 0.6 0.175)
+			(size 0.6 0.17)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 82 "unconnected-(U7-Pad1)")
+			(net 82 "unconnected-(U5-Pad1)")
 			(pintype "no_connect")
-			(uuid "401a9498-809f-45f0-b0ba-82fb8924135f")
+			(solder_mask_margin 0.05)
+			(uuid "3cce6e48-c4d6-476a-a952-f8415a932568")
 		)
 		(pad "2" smd roundrect
 			(at -0.4 0 270)
-			(size 0.6 0.175)
+			(size 0.6 0.17)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 75 "SOC_RST_OUT")
 			(pintype "passive")
-			(uuid "296700fd-17e8-4a16-9ae8-c09515042013")
+			(solder_mask_margin 0.05)
+			(uuid "4a5ff124-4ebf-46ee-99d4-1d66acf38289")
 		)
 		(pad "3" smd roundrect
 			(at -0.4 0.35 270)
-			(size 0.6 0.175)
+			(size 0.6 0.17)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pinfunction "GND")
 			(pintype "passive")
-			(uuid "e74a3a21-ea12-49da-8ef9-cdfbc3cab6ab")
+			(solder_mask_margin 0.05)
+			(uuid "403f77d2-a216-4abd-85fe-8fc015ea3ef9")
 		)
 		(pad "4" smd roundrect
 			(at 0.4 0.35 270)
-			(size 0.6 0.175)
+			(size 0.6 0.17)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 72 "/[2] Connectors & Flash/nSOC_RST")
 			(pintype "passive")
-			(uuid "6b0da668-81d7-4472-893f-46d462778cff")
+			(solder_mask_margin 0.05)
+			(uuid "d13e63f3-d709-48e0-ae1d-759fa68e24e7")
 		)
 		(pad "5" smd roundrect
 			(at 0.4 0 270)
-			(size 0.6 0.175)
+			(size 0.6 0.17)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
-			(net 83 "unconnected-(U7-Pad5)")
+			(net 83 "unconnected-(U5-Pad5)")
 			(pintype "no_connect")
-			(uuid "ccfbc3d6-82fa-4b00-9d44-2fa7afc18bd3")
+			(solder_mask_margin 0.05)
+			(uuid "ca0b1dcf-c251-4b6c-8176-1a0f451cb365")
 		)
 		(pad "6" smd roundrect
 			(at 0.4 -0.35 270)
-			(size 0.6 0.175)
+			(size 0.6 0.17)
 			(layers "F.Cu" "F.Paste" "F.Mask")
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pinfunction "VCC")
 			(pintype "passive")
-			(uuid "27160c97-1e18-45a3-a2b2-f0cd1aa5413b")
+			(solder_mask_margin 0.05)
+			(uuid "88abdaad-37b7-4487-a1ca-46f1c1e9377c")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/IC/SN74AUP1G14DSFR.stp"
 			(offset
@@ -9273,7 +9455,7 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "d4396782-0075-42d2-be7e-6ec71d2eb6d5")
+			(uuid "40e22c02-8282-4c59-a6c6-2294dc656fab")
 			(effects
 				(font
 					(size 0.4 0.4)
@@ -9286,7 +9468,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "031d4fd8-462b-42f3-81a7-f20051b3f1ba")
+			(uuid "674d14b0-2317-4111-b09d-eb38fdfff4a8")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -9299,7 +9481,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b4544238-5b10-4c89-a81a-713331aed623")
+			(uuid "529f14e1-77e4-4080-af9a-13c4495aa25a")
 			(effects
 				(font
 					(size 1 1)
@@ -9312,7 +9494,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "d9d40acd-9556-4b05-8941-076b693ef8c1")
+			(uuid "faf2ded9-d1f3-44e2-8557-54b1fa3ef2da")
 			(effects
 				(font
 					(size 1 1)
@@ -9325,7 +9507,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "43675a1e-9a99-437a-909f-7263baa0dd62")
+			(uuid "d404da91-83c7-414e-9067-c4e7a6faa221")
 			(effects
 				(font
 					(size 1 1)
@@ -9358,7 +9540,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "6216d407-1b60-4903-9200-54ef6f593baa")
+			(uuid "905e35b5-c5cf-4231-8665-227d8515202b")
 		)
 		(fp_line
 			(start -0.2 -0.4)
@@ -9368,7 +9550,7 @@
 				(type default)
 			)
 			(layer "F.SilkS")
-			(uuid "cc82aa95-f404-4bf3-9347-a61a9225fcfa")
+			(uuid "cd3c6ba6-e4b3-458b-92b3-975e8edf14ea")
 		)
 		(fp_rect
 			(start -0.5 -0.25)
@@ -9379,13 +9561,13 @@
 			)
 			(fill none)
 			(layer "F.Fab")
-			(uuid "e012b4aa-7d99-4962-8a4d-3a3c091b737a")
+			(uuid "a96f910c-efac-486f-a856-3ba35086c7dc")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
-			(uuid "b1633fd8-01ce-4d9b-bbb0-c1e27dc23119")
+			(uuid "98553dda-8959-481c-9195-64d0f9216ed8")
 			(effects
 				(font
 					(size 0.28 0.28)
@@ -9400,7 +9582,8 @@
 			(roundrect_rratio 0.25)
 			(net 1 "GND")
 			(pintype "passive")
-			(uuid "6245e091-db40-4d0e-add1-885e7fe69dfc")
+			(solder_mask_margin 0.05)
+			(uuid "69773637-9dbf-4c17-9ef9-0ba4c96271a6")
 		)
 		(pad "2" smd roundrect
 			(at 0.48 0 180)
@@ -9409,7 +9592,8 @@
 			(roundrect_rratio 0.25)
 			(net 2 "+1V8")
 			(pintype "passive")
-			(uuid "b399e4c8-9529-4e43-acfc-4e7cfb1cae42")
+			(solder_mask_margin 0.05)
+			(uuid "2cf127ca-38a0-4bf4-add2-c76fd1a6a6e7")
 		)
 		(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
 			(offset
@@ -10681,16 +10865,6 @@
 		)
 	)
 	(gr_line
-		(start 111.916371 93.090657)
-		(end 112.170371 93.090657)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "143cd46e-745a-4647-89b1-b7995ff694f3")
-	)
-	(gr_line
 		(start 114.554 109.601)
 		(end 114.554 93.853)
 		(stroke
@@ -10724,35 +10898,16 @@
 		(layer "F.SilkS")
 		(uuid "2ca86679-32a5-4025-a307-ff0717f474e7")
 	)
-	(gr_line
-		(start 114.529886 112.549)
-		(end 114.529886 113.311)
+	(gr_rect
+		(start 102.614 112.697905)
+		(end 103.634 114.3)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "2de9fca3-d06c-44ee-8633-2996df94b587")
-	)
-	(gr_line
-		(start 114.275886 112.803)
-		(end 114.275886 113.057)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "3abc61dc-f394-4f54-bbf5-cb4429699a2d")
-	)
-	(gr_line
-		(start 111.662371 92.836657)
-		(end 112.424371 92.836657)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "5fb5f334-346c-4ec7-a25a-435f4644da4d")
+		(uuid "6178532c-f358-4881-9b9c-a165f51e2178")
 	)
 	(gr_line
 		(start 100.199062 113.228133)
@@ -10869,76 +11024,6 @@
 		(layer "F.SilkS")
 		(uuid "a2cb27a6-555a-45b3-a10a-875bdbc6aab6")
 	)
-	(gr_line
-		(start 103.646101 113.1824)
-		(end 102.630101 113.1824)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "a5bbc349-e3c8-4496-8ed2-86216b372df9")
-	)
-	(gr_line
-		(start 111.535371 92.582657)
-		(end 112.551371 92.582657)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "b0d9e390-4646-40c3-ac6c-adbfb7f0042e")
-	)
-	(gr_line
-		(start 103.265101 112.6744)
-		(end 103.011101 112.6744)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "bab64817-1bb0-49e8-80ab-9153308a156a")
-	)
-	(gr_line
-		(start 103.138101 113.1824)
-		(end 103.138101 113.4364)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "c9d0783a-884b-40a4-bd28-eec0e6ceffe7")
-	)
-	(gr_line
-		(start 112.043371 92.582657)
-		(end 112.043371 92.328657)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d39634db-244e-44d0-bcd1-3baa2a13262e")
-	)
-	(gr_line
-		(start 114.783886 112.93)
-		(end 115.037886 112.93)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d5534a3e-c8c5-449c-b4ee-905c4568b84f")
-	)
-	(gr_line
-		(start 103.519101 112.9284)
-		(end 102.757101 112.9284)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d6aeb81d-a188-4875-a437-68557d18e316")
-	)
 	(gr_poly
 		(pts
 			(xy 113.49 113.342861) (xy 113.707139 113.56) (xy 114.1 113.56) (xy 114.1 113.296426) (xy 113.5 112.559385)
@@ -10984,15 +11069,27 @@
 		(layer "F.SilkS")
 		(uuid "e991be47-7a8c-4eb7-8d59-aa599f4df9ef")
 	)
-	(gr_line
-		(start 114.783886 112.422)
-		(end 114.783886 113.438)
+	(gr_rect
+		(start 114.473952 112.52)
+		(end 115.826047 113.54)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "ee7c3b96-e20b-480a-9e21-d2fe340debe5")
+		(uuid "f070ad29-2c87-42ad-9173-b4b2409b5ae6")
+	)
+	(gr_rect
+		(start 111.504 91.448953)
+		(end 112.524 93.051048)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "f9b20f23-0022-4e31-83b8-3fa9f9f02576")
 	)
 	(gr_line
 		(start 115.316 90.94)
@@ -23536,27 +23633,9 @@
 		)
 	)
 	(group ""
-		(uuid "403a162e-d5ca-43d3-bc7e-aee12e020767")
-		(members "59ca2ec3-678f-4ff7-b69d-616ce173bf32" "b2e261d1-b5be-498f-9639-9979590ca6ab"
-			"e199b171-62ae-44e0-8a54-8abfbb7238dd"
-		)
-	)
-	(group ""
-		(uuid "b72c1ecb-9b35-4234-9e0b-f8504981b53f")
-		(members "09013417-5133-4fa2-82a1-ea8ba84f64f9" "24afda9a-6972-40cc-9936-331a2cfaa1e9"
-			"b9d83dcf-0756-4067-ae10-25aff964068d"
-		)
-	)
-	(group ""
 		(uuid "09013417-5133-4fa2-82a1-ea8ba84f64f9")
 		(members "64c1e8fb-075c-44e3-be6c-0f3d7f28245b" "7a34b10c-5e91-4726-baab-228b7fd6d35c"
 			"e991be47-7a8c-4eb7-8d59-aa599f4df9ef"
-		)
-	)
-	(group ""
-		(uuid "59ca2ec3-678f-4ff7-b69d-616ce173bf32")
-		(members "143cd46e-745a-4647-89b1-b7995ff694f3" "5fb5f334-346c-4ec7-a25a-435f4644da4d"
-			"b0d9e390-4646-40c3-ac6c-adbfb7f0042e" "d39634db-244e-44d0-bcd1-3baa2a13262e"
 		)
 	)
 	(group ""
@@ -23566,21 +23645,9 @@
 		)
 	)
 	(group ""
-		(uuid "b9d83dcf-0756-4067-ae10-25aff964068d")
-		(members "a5bbc349-e3c8-4496-8ed2-86216b372df9" "bab64817-1bb0-49e8-80ab-9153308a156a"
-			"c9d0783a-884b-40a4-bd28-eec0e6ceffe7" "d6aeb81d-a188-4875-a437-68557d18e316"
-		)
-	)
-	(group ""
 		(uuid "e199b171-62ae-44e0-8a54-8abfbb7238dd")
 		(members "8fad3ac2-d4c0-430f-9504-28acc24ecca7" "a292287a-43b4-49ac-b1f1-42f4edf5b1de"
 			"e5e112fe-8582-4c4c-a6fe-e9e9656d3f19"
-		)
-	)
-	(group ""
-		(uuid "e20d0768-d0ad-4e15-abcb-67573a25a345")
-		(members "2de9fca3-d06c-44ee-8633-2996df94b587" "3abc61dc-f394-4f54-bbf5-cb4429699a2d"
-			"d5534a3e-c8c5-449c-b4ee-905c4568b84f" "ee7c3b96-e20b-480a-9e21-d2fe340debe5"
 		)
 	)
 )

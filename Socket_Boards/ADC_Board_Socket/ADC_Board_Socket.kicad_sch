@@ -5,6 +5,279 @@
 	(uuid "f43d7462-f6c1-4a4b-8e4f-6d3aba277fa4")
 	(paper "A4")
 	(lib_symbols
+		(symbol "ADC_Board_Socket_Conn_1.27mm_1"
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0.508 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "X-MODs_PcbLib:ADC_Board_Socket_Conn_1.27mm"
+				(at 9.144 -19.304 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ADC_Board_Socket_Conn_1.27mm"
+				(at 1.27 -17.526 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "MPN" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ADC_Board_Socket_Conn_1.27mm_1_1_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "SPI_SCK_1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "SPI_MISO_1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "SPI_CS_1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "ADC_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ADC_Board_Socket_Conn_1.27mm_1_2_1"
+				(rectangle
+					(start 0 0)
+					(end 17.78 -15.24)
+					(stroke
+						(width 0)
+						(type default)
+						(color 128 0 0 1)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -12.7 0)
+					(length 2.54)
+					(name "MUX_A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 2.54)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -5.08 0)
+					(length 2.54)
+					(name "+1V8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -7.62 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "MUX_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "X-MODs_SchLib:ADC_Board_Header_Conn_2.54mm"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -189,7 +462,7 @@
 				(pin passive line
 					(at -2.54 -12.7 0)
 					(length 2.54)
-					(name "MUX_A1"
+					(name "MUX_A0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -261,7 +534,7 @@
 				(pin passive line
 					(at -2.54 -10.16 0)
 					(length 2.54)
-					(name "MUX_A0"
+					(name "MUX_A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -462,7 +735,7 @@
 				(pin passive line
 					(at -2.54 -12.7 0)
 					(length 2.54)
-					(name "MUX_A1"
+					(name "MUX_A0"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -534,7 +807,7 @@
 				(pin passive line
 					(at -2.54 -10.16 0)
 					(length 2.54)
-					(name "MUX_A0"
+					(name "MUX_A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,6 +1401,28 @@
 		)
 		(uuid "d06bded6-a706-4e0b-97c1-8c3627d2a859")
 	)
+	(label "MUX_A0"
+		(at 181.61 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa1d2e68-5df6-4dc3-9894-ec442e2002d3")
+	)
+	(label "MUX_A1"
+		(at 181.61 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e3f3fa1b-eb31-4e54-a8a8-0ba3bdc3de99")
+	)
 	(symbol
 		(lib_id "X-MODs_SchLib:ADC_Board_Socket_Conn_1.27mm")
 		(at 128.27 88.9 0)
@@ -1633,6 +1928,7 @@
 		)
 	)
 	(symbol
+		(lib_name "ADC_Board_Socket_Conn_1.27mm_1")
 		(lib_id "X-MODs_SchLib:ADC_Board_Socket_Conn_1.27mm")
 		(at 176.53 104.14 180)
 		(unit 2)

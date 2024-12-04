@@ -1,4 +1,4 @@
-24119515514632893
+24123065485695384
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97881,6 +97881,34 @@ C0805
 2
 2
 X-MODs_PcbLib
+CHEEP_Board_Castellated_Conn_1.27mm
+
+
+0
+58
+58
+X-MODs_PcbLib
+CHEEP_Board_Header_Conn_2.54mm
+
+
+0
+56
+56
+X-MODs_PcbLib
+CHEEP_Board_Socket_Conn_1.27mm
+
+
+0
+116
+58
+X-MODs_PcbLib
+DFN-6
+
+
+0
+7
+6
+X-MODs_PcbLib
 DSBGA-4_0.74x0.74mm
 
 
@@ -97908,27 +97936,6 @@ GSR_Electrodes_Conn
 0
 2
 2
-X-MODs_PcbLib
-HEEP_Board_Castellated_Conn_1.27mm
-
-
-0
-62
-62
-X-MODs_PcbLib
-HEEP_Board_Header_Conn_1.27mm
-
-
-0
-54
-54
-X-MODs_PcbLib
-HEEP_Board_Socket_Conn_1.27mm
-
-
-0
-124
-62
 X-MODs_PcbLib
 HEEPocrates
 
@@ -98020,6 +98027,13 @@ R0402
 0
 2
 2
+X-MODs_PcbLib
+SC70
+
+
+0
+6
+6
 X-MODs_PcbLib
 SIT1532AC
 

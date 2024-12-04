@@ -6,8 +6,11 @@
 	(paper "A4")
 	(title_block
 		(title "HeepoMind Power Board")
-		(rev "0.1")
+		(rev "1.0")
 		(company "Embedded Systems Laboratory - EPFL")
+		(comment 1 "Author: José Angel Miranda Calero")
+		(comment 2 "Author: Juan Sapriza")
+		(comment 3 "Author: Alejandro López Rodriguez")
 	)
 	(lib_symbols)
 	(image

@@ -137,7 +137,7 @@
 		(size 0.7 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
+		(solder_mask_margin 0.05)
 		(uuid "f223f10d-613b-432e-9ea5-72a7f4b3a4f8")
 	)
 	(pad "2" smd roundrect
@@ -145,7 +145,7 @@
 		(size 0.7 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
+		(solder_mask_margin 0.05)
 		(uuid "8843bb21-f495-43c4-b57d-3c882bb58343")
 	)
 	(pad "3" smd roundrect
@@ -153,7 +153,7 @@
 		(size 0.7 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
+		(solder_mask_margin 0.05)
 		(uuid "7be85887-0dca-4bb3-b63e-45f5b29d88fc")
 	)
 	(pad "4" smd roundrect
@@ -161,7 +161,7 @@
 		(size 0.55 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
+		(solder_mask_margin 0.05)
 		(uuid "0a67fa8c-a058-4913-ae81-b3eb0145bc8a")
 	)
 	(pad "4" smd roundrect
@@ -169,7 +169,7 @@
 		(size 0.55 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
-		(solder_mask_margin 0.07)
+		(solder_mask_margin 0.05)
 		(uuid "3c507882-3857-468b-a637-c27487766375")
 	)
 	(model "${HEEP_DIR}/Libraries/3D_Models/Connectors/2121340003.step"

@@ -11701,6 +11701,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
 		(property "MPN" "SIT1532AC-J5-DCC-32.768D"

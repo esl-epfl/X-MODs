@@ -4289,7 +4289,7 @@
 	)
 	(rectangle
 		(start 24.13 87.63)
-		(end 142.24 172.72)
+		(end 142.24 186.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -4298,6 +4298,29 @@
 			(type none)
 		)
 		(uuid ea54539e-5fbf-4415-b5d2-feaa4f275d3c)
+	)
+	(text_box "HEEP can be reset from:\n	- Pushbutton (On-board AND external if needed)\n	- JTAG Programmer (1.8 V)\n	- PMIC (When resetting or during power-up/down)\n	- Nordic SoC"
+		(exclude_from_sim no)
+		(at 53.34 172.72 0)
+		(size 58.42 11.43)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type color)
+			(color 255 255 150 1)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+				(color 255 2 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "951bb548-15a2-47fe-9a4b-5a23eaefb9fc")
 	)
 	(text "HEEP Reset Circuit"
 		(exclude_from_sim no)
@@ -4313,18 +4336,6 @@
 			(justify left)
 		)
 		(uuid "14e08bd6-01d8-4d1a-b82c-750d2828748e")
-	)
-	(text "HEEP can be reset from:\n	- Pushbutton (On-board AND external if needed)\n	- JTAG Programmer (1.8 V)\n	- Nordic SoC"
-		(exclude_from_sim no)
-		(at 29.21 180.848 0)
-		(effects
-			(font
-				(face "KiCad Font")
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "245b4951-d06c-4d52-90cc-0986db24a6a0")
 	)
 	(text "1.27 mm Castellated Connector"
 		(exclude_from_sim no)

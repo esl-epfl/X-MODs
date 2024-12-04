@@ -70,7 +70,7 @@
 	(attr smd)
 	(fp_poly
 		(pts
-			(xy -0.8 -0.5) (xy -0.8 -0.7) (xy -1 -0.5)
+			(xy -0.8 -0.525) (xy -0.8 -0.725) (xy -1 -0.525)
 		)
 		(stroke
 			(width 0.1)
@@ -78,7 +78,7 @@
 		)
 		(fill solid)
 		(layer "F.SilkS")
-		(uuid "c8b7c459-cbb1-49b5-b0b6-f75f9bf19125")
+		(uuid "8a614fcf-d46d-4492-9205-7dff118aa30f")
 	)
 	(fp_rect
 		(start -0.5 -0.5)
@@ -92,7 +92,7 @@
 		(uuid "95ddd1e4-e3c8-46d6-ae10-73d705fe8c5b")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 90)
+		(at 0 0.175 90)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "f31409b2-37a8-46e5-bf2d-532043cfff3a")
@@ -105,44 +105,50 @@
 	)
 	(pad "1" smd roundrect
 		(at -0.4 -0.35)
-		(size 0.6 0.175)
+		(size 0.6 0.17)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "69b40a37-d040-4f94-b582-6a031ef6c7ed")
 	)
 	(pad "2" smd roundrect
 		(at -0.4 0)
-		(size 0.6 0.175)
+		(size 0.6 0.17)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "7a4d46d1-64a9-4644-a09c-ee6f67424cfe")
 	)
 	(pad "3" smd roundrect
 		(at -0.4 0.35)
-		(size 0.6 0.175)
+		(size 0.6 0.17)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "1115fa77-9c82-49af-ab70-327a756f3e12")
 	)
 	(pad "4" smd roundrect
 		(at 0.4 0.35)
-		(size 0.6 0.175)
+		(size 0.6 0.17)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "6311214e-e90b-45a7-9f1e-6ebee44cad16")
 	)
 	(pad "5" smd roundrect
 		(at 0.4 0)
-		(size 0.6 0.175)
+		(size 0.6 0.17)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "fc45be57-f432-4732-9887-0b5c00e15c92")
 	)
 	(pad "6" smd roundrect
 		(at 0.4 -0.35)
-		(size 0.6 0.175)
+		(size 0.6 0.17)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
+		(solder_mask_margin 0.05)
 		(uuid "499a4d8d-1533-42fb-8682-18d6f473f8b6")
 	)
 	(model "${HEEP_DIR}/Libraries/3D_Models/IC/SN74AUP1G14DSFR.stp"

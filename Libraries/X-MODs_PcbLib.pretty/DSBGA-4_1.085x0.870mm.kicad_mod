@@ -1,10 +1,10 @@
-(footprint "L0402"
+(footprint "DSBGA-4_1.085x0.870mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.975 0)
+		(at 0 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
@@ -15,8 +15,8 @@
 			)
 		)
 	)
-	(property "Value" "L0402"
-		(at 0 0.65 0)
+	(property "Value" "DSBGA-4_1.085x0.870mm"
+		(at 0 1.15 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -68,29 +68,32 @@
 		)
 	)
 	(attr smd)
-	(fp_line
-		(start -0.2 -0.4)
-		(end 0.2 -0.4)
+	(fp_rect
+		(start -0.684 -0.574)
+		(end 0.684 0.574)
 		(stroke
-			(width 0.1)
-			(type default)
+			(width 0.15)
+			(type solid)
 		)
+		(fill none)
 		(layer "F.SilkS")
-		(uuid "bfa168c3-9a3c-4793-ac3b-19bd41206bff")
+		(uuid "2dc2a3aa-71e6-4516-9fb8-b8a1eb434dba")
 	)
-	(fp_line
-		(start -0.2 0.4)
-		(end 0.2 0.4)
+	(fp_poly
+		(pts
+			(xy -0.85 -0.7) (xy -0.85 -0.9) (xy -1.05 -0.7)
+		)
 		(stroke
 			(width 0.1)
-			(type default)
+			(type solid)
 		)
+		(fill solid)
 		(layer "F.SilkS")
-		(uuid "1de8193f-0286-43bf-a5ed-98d602e1adbf")
+		(uuid "12762692-484e-4597-928f-5a3e84b24751")
 	)
 	(fp_rect
-		(start -0.5 -0.25)
-		(end 0.5 0.25)
+		(start -0.5425 -0.435)
+		(end 0.5425 0.435)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -111,31 +114,43 @@
 			)
 		)
 	)
-	(pad "1" smd roundrect
-		(at -0.48 0)
-		(size 0.57 0.62)
+	(pad "A1" smd circle
+		(at -0.2 -0.2)
+		(size 0.2 0.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(uuid "a0f04085-0c58-4336-bc45-8aa588321be7")
 	)
-	(pad "2" smd roundrect
-		(at 0.48 0)
-		(size 0.57 0.62)
+	(pad "A2" smd circle
+		(at 0.2 -0.2)
+		(size 0.2 0.2)
 		(layers "F.Cu" "F.Paste" "F.Mask")
-		(roundrect_rratio 0.25)
 		(solder_mask_margin 0.05)
 		(uuid "314a0d59-85cb-41ea-918b-98e1241a5e7a")
 	)
-	(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0402_h20mil.step"
+	(pad "B1" smd circle
+		(at -0.2 0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "aad9b156-ce70-4bf4-ae54-a518d2b56aeb")
+	)
+	(pad "B2" smd circle
+		(at 0.2 0.2)
+		(size 0.2 0.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_mask_margin 0.05)
+		(uuid "23c70952-e583-461f-b49a-01cc1809210c")
+	)
+	(model "${HEEP_DIR}/Libraries/3D_Models/IC/DSBGA-4_1.085x0.870mm v2.step"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.1)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz -90 0 0)
 		)
 	)
 )
