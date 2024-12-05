@@ -1517,7 +1517,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:ADC_Board_Castellated_Conn_1.27mm"
-			(at 9.144 -19.304 0)
+			(at 8.636 -21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1535,7 +1535,7 @@
 			)
 		)
 		(property "Description" "ADC_Board_Castellated_Conn_1.27mm"
-			(at 1.27 -17.526 0)
+			(at 0.762 -19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1563,7 +1563,7 @@
 		(symbol "ADC_Board_Castellated_Conn_1.27mm_1_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -15.24)
+				(end 17.78 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -1576,7 +1576,7 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "SPI_SCK_1V8"
+				(name "~{ADC_CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1594,7 +1594,7 @@
 			(pin passive line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "SPI_MISO_1V8"
+				(name "ADC_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1612,7 +1612,7 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "SPI_CS_1V8"
+				(name "ADC_MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1630,7 +1630,7 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "GND"
+				(name "ADC_CONV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1648,7 +1648,7 @@
 			(pin passive line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "ADC_EN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1663,11 +1663,29 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "ADC_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "ADC_Board_Castellated_Conn_1.27mm_2_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -15.24)
+				(end 17.78 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -1675,6 +1693,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "MUX_A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin passive line
@@ -1687,7 +1723,25 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1705,7 +1759,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1723,7 +1777,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1735,24 +1789,6 @@
 				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "MUX_A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1790,7 +1826,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:ADC_Board_Header_Conn_2.54mm"
-			(at 9.144 -19.304 0)
+			(at 7.874 -22.352 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1808,7 +1844,7 @@
 			)
 		)
 		(property "Description" "ADC_Board_Header_Conn_2.54mm"
-			(at 1.27 -17.526 0)
+			(at 0 -20.574 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1836,7 +1872,7 @@
 		(symbol "ADC_Board_Header_Conn_2.54mm_1_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -15.24)
+				(end 17.78 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -1849,7 +1885,7 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "SPI_SCK_1V8"
+				(name "~{ADC_CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1867,7 +1903,7 @@
 			(pin passive line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "SPI_MISO_1V8"
+				(name "ADC_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1885,7 +1921,7 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "SPI_CS_1V8"
+				(name "ADC_MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1903,7 +1939,7 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "GND"
+				(name "ADC_CONV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1921,7 +1957,7 @@
 			(pin passive line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "ADC_EN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1936,11 +1972,29 @@
 					)
 				)
 			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "ADC_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 		)
 		(symbol "ADC_Board_Header_Conn_2.54mm_2_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -15.24)
+				(end 17.78 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -1948,6 +2002,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "MUX_A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin passive line
@@ -1960,7 +2032,25 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1978,7 +2068,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -1996,7 +2086,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2008,24 +2098,6 @@
 				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "MUX_A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2063,7 +2135,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:ADC_Board_Socket_Conn_1.27mm"
-			(at 9.144 -19.304 0)
+			(at 8.636 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2153,7 @@
 			)
 		)
 		(property "Description" "ADC_Board_Socket_Conn_1.27mm"
-			(at 1.27 -17.526 0)
+			(at 0.762 -21.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2109,7 +2181,7 @@
 		(symbol "ADC_Board_Socket_Conn_1.27mm_1_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -15.24)
+				(end 17.78 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -2122,7 +2194,7 @@
 			(pin passive line
 				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "SPI_SCK_1V8"
+				(name "~{ADC_CS}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2140,7 +2212,7 @@
 			(pin passive line
 				(at -2.54 -5.08 0)
 				(length 2.54)
-				(name "SPI_MISO_1V8"
+				(name "ADC_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2158,7 +2230,7 @@
 			(pin passive line
 				(at -2.54 -7.62 0)
 				(length 2.54)
-				(name "SPI_CS_1V8"
+				(name "ADC_MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2176,7 +2248,7 @@
 			(pin passive line
 				(at -2.54 -10.16 0)
 				(length 2.54)
-				(name "GND"
+				(name "ADC_CONV"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2194,7 +2266,7 @@
 			(pin passive line
 				(at -2.54 -12.7 0)
 				(length 2.54)
-				(name "ADC_EN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2202,6 +2274,24 @@
 					)
 				)
 				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "ADC_EN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2338,7 +2428,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:VSON-10_3x3mm_P0.5"
-			(at -21.082 -38.354 0)
+			(at -21.082 -36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,7 +2438,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads8860.pdf?ts=1733301306578&ref_url=https%253A%252F%252Fwww.mouser.de%252F"
-			(at -21.336 -36.322 0)
+			(at -21.336 -34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2358,7 +2448,7 @@
 			)
 		)
 		(property "Description" "Analog to Digital Converters - ADC 16B 1MSPS Pseud-Diff inpt Micro Pwr Mini "
-			(at -21.082 -34.036 0)
+			(at -21.082 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2368,7 +2458,7 @@
 			)
 		)
 		(property "MPN" " ADS8860IDRCT "
-			(at -14.224 -40.386 0)
+			(at -14.224 -38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2388,7 +2478,7 @@
 		(symbol "ADS8860IDRCT_0_1"
 			(rectangle
 				(start 0 0)
-				(end 21.59 -27.94)
+				(end 21.59 -25.4)
 				(stroke
 					(width 0)
 					(type default)
@@ -2437,7 +2527,7 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -24.13 0)
+				(at 24.13 -21.59 180)
 				(length 2.54)
 				(name "EPAD"
 					(effects
@@ -2527,7 +2617,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -24.13 180)
+				(at 24.13 -16.51 180)
 				(length 2.54)
 				(name "CONVST"
 					(effects
@@ -2545,7 +2635,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -13.97 180)
+				(at 24.13 -11.43 180)
 				(length 2.54)
 				(name "DOUT"
 					(effects
@@ -2563,7 +2653,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -16.51 180)
+				(at 24.13 -13.97 180)
 				(length 2.54)
 				(name "SCLK"
 					(effects
@@ -2581,7 +2671,7 @@
 				)
 			)
 			(pin passive line
-				(at 24.13 -11.43 180)
+				(at 24.13 -8.89 180)
 				(length 2.54)
 				(name "DIN"
 					(effects
@@ -9021,6 +9111,252 @@
 			)
 		)
 	)
+	(symbol "ERA-2ARC102X"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -4.064 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1K00"
+			(at -4.064 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:R0402"
+			(at -14.986 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at -14.986 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors 1K OHM .25% 10PPM 1/16W "
+			(at -14.986 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERA-2ARC102X"
+			(at -7.366 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ERA-2ARC102X_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ERA-2ARC102X_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "ERA-2ARC203X"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -4.064 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "20K0"
+			(at -4.064 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:R0402"
+			(at -14.986 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf"
+			(at -14.986 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thin Film Resistors 20K OHM .25% 10PPM 1/16W "
+			(at -14.986 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" " ERA-2ARC203X "
+			(at -7.366 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "ERA-2ARC203X_0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "ERA-2ARC203X_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "ERJ-2BQJR30X"
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9249,6 +9585,164 @@
 			)
 			(pin passive line
 				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
+	(symbol "GCM1555C1H681FA16J "
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at -4.064 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "680p 50V"
+			(at -4.064 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:C0402"
+			(at -26.416 -8.636 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.es/datasheet/2/281/1/GCM1555C1H681FA16_01A-3142201.pdf"
+			(at 4.064 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 680 pF 50 VDC 1% 0402 C0G (NP0) AEC-Q200 "
+			(at 10.16 -4.318 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" " GCM1555C1H681FA16J "
+			(at -26.416 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "cap"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "GCM1555C1H681FA16J _1_1"
+			(polyline
+				(pts
+					(xy -1.27 0) (xy -0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.508 2.032) (xy -0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.508 2.032) (xy 0.508 -2.032)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy 0.508 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
 				(length 2.54)
 				(name ""
 					(effects
@@ -16624,6 +17118,129 @@
 			)
 		)
 	)
+	(symbol "KDV04FR150ET "
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at -4.064 5.588 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0R15"
+			(at -4.064 3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "X-MODs_PcbLib:R0402"
+			(at -15.748 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ohmite.com/assets/images/res-kdv.pdf"
+			(at -15.748 -7.112 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "Current Sense Resistors - SMD .15 OHM 1% 1/8W "
+			(at -15.748 -5.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "KDV04FR150ET "
+			(at -8.128 -9.144 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "res"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "KDV04FR150ET _0_1"
+			(rectangle
+				(start -2.54 1.016)
+				(end 2.54 -1.016)
+				(stroke
+					(width 0)
+					(type default)
+					(color 0 0 255 1)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "KDV04FR150ET _1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+	)
 	(symbol "LI0402B301R-10"
 		(pin_numbers hide)
 		(pin_names
@@ -17311,7 +17928,7 @@
 			)
 		)
 	)
-	(symbol "LTC6255IDC#TRMPBF"
+	(symbol "LTC6255CS6#TRMPBF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -17324,7 +17941,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTC6255IDC#TRMPBF"
+		(property "Value" " LTC6255CS6#TRMPBF "
 			(at 6.604 -14.478 0)
 			(effects
 				(font
@@ -17333,7 +17950,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X-MODs_PcbLib:DFN-6"
+		(property "Footprint" "X-MODs_PcbLib:SOT_23_6"
 			(at -21.59 -21.082 0)
 			(effects
 				(font
@@ -17363,7 +17980,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "LTC6255IDC#TRMPBF"
+		(property "MPN" " LTC6255CS6#TRMPBF "
 			(at -11.43 -27.686 0)
 			(effects
 				(font
@@ -17381,7 +17998,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "LTC6255IDC#TRMPBF_0_1"
+		(symbol "LTC6255CS6#TRMPBF_0_1"
 			(polyline
 				(pts
 					(xy 0 0) (xy 0 -10.16) (xy 10.16 -5.08) (xy 0 0)
@@ -17395,7 +18012,7 @@
 				)
 			)
 		)
-		(symbol "LTC6255IDC#TRMPBF_1_1"
+		(symbol "LTC6255CS6#TRMPBF_1_1"
 			(polyline
 				(pts
 					(xy 10.16 -8.89) (xy 7.62 -6.35)
@@ -17435,10 +18052,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 5.08 1.27 270)
-				(length 3.81)
-				(name "V+"
+			(pin output line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "VOUT"
 					(effects
 						(font
 							(size 0 0)
@@ -17446,24 +18063,6 @@
 					)
 				)
 				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -2.54 -2.54 0)
-				(length 2.54)
-				(name "+"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17481,7 +18080,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17489,17 +18088,17 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 -8.89 180)
+			(pin input line
+				(at -2.54 -2.54 0)
 				(length 2.54)
-				(name "~{SH}"
+				(name "+"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "4"
+				(number "3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17517,7 +18116,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -17526,9 +18125,27 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -5.08 180)
+				(at 12.7 -8.89 180)
 				(length 2.54)
-				(name "VOUT"
+				(name "~{SH}"
+					(effects
+						(font
+							(size 0 0)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 1.27 270)
+				(length 3.81)
+				(name "V+"
 					(effects
 						(font
 							(size 0 0)
@@ -20274,7 +20891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X-MODs_PcbLib:SOT_23_5"
+		(property "Footprint" "X-MODs_PcbLib:SOT_23_5_SHDN"
 			(at -21.59 -21.082 0)
 			(effects
 				(font
@@ -20469,7 +21086,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "X-MODs_PcbLib:SOT_23_5"
+		(property "Footprint" "X-MODs_PcbLib:SOT_23_5_SHDN"
 			(at -21.59 -21.082 0)
 			(effects
 				(font
@@ -23618,7 +24235,7 @@
 			)
 		)
 	)
-	(symbol "REF35250YBHR"
+	(symbol "REF35250YBHR "
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -23631,8 +24248,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" " REF35250YBHR "
-			(at -1.27 1.016 0)
+		(property "Value" "REF35250YBHR "
+			(at -0.254 1.016 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23641,7 +24258,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:DSBGA-4_1.085x0.870mm"
-			(at -18.034 -17.018 0)
+			(at -18.034 -16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23651,7 +24268,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/ref35"
-			(at -18.034 -14.732 0)
+			(at -18.034 -13.716 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23661,7 +24278,7 @@
 			)
 		)
 		(property "Description" " Voltage References 650-nA quiescent current, 12-ppm/C drift, ultra-low-power precision voltage reference "
-			(at -19.05 -12.446 0)
+			(at -19.05 -11.43 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23670,8 +24287,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" " REF35250YBHR "
-			(at -10.922 -19.304 0)
+		(property "MPN" "REF35250YBHR "
+			(at -10.16 -18.288 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23688,7 +24305,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "REF35250YBHR_0_1"
+		(symbol "REF35250YBHR _0_1"
 			(rectangle
 				(start 0 0)
 				(end 16.51 -8.89)
@@ -23702,11 +24319,11 @@
 				)
 			)
 		)
-		(symbol "REF35250YBHR_1_1"
+		(symbol "REF35250YBHR _1_1"
 			(pin passive line
 				(at 19.05 -2.54 180)
 				(length 2.54)
-				(name "VOUT"
+				(name "VREF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -23760,7 +24377,7 @@
 			(pin passive line
 				(at -2.54 -6.35 0)
 				(length 2.54)
-				(name "ON"
+				(name "EN"
 					(effects
 						(font
 							(size 1.27 1.27)

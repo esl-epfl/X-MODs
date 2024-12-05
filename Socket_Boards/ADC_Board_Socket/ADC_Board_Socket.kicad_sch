@@ -5,279 +5,6 @@
 	(uuid "f43d7462-f6c1-4a4b-8e4f-6d3aba277fa4")
 	(paper "A4")
 	(lib_symbols
-		(symbol "ADC_Board_Socket_Conn_1.27mm_1"
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0.508 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "X-MODs_PcbLib:ADC_Board_Socket_Conn_1.27mm"
-				(at 9.144 -19.304 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "ADC_Board_Socket_Conn_1.27mm"
-				(at 1.27 -17.526 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "MPN" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ADC_Board_Socket_Conn_1.27mm_1_1_1"
-				(rectangle
-					(start 0 0)
-					(end 17.78 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "SPI_SCK_1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "SPI_MISO_1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "SPI_CS_1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "ADC_EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "ADC_Board_Socket_Conn_1.27mm_1_2_1"
-				(rectangle
-					(start 0 0)
-					(end 17.78 -15.24)
-					(stroke
-						(width 0)
-						(type default)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -2.54 -12.7 0)
-					(length 2.54)
-					(name "MUX_A0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "+3V3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 0)
-					(length 2.54)
-					(name "+1V8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -7.62 0)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "MUX_A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "X-MODs_SchLib:ADC_Board_Header_Conn_2.54mm"
 			(exclude_from_sim no)
 			(in_bom no)
@@ -299,7 +26,7 @@
 				)
 			)
 			(property "Footprint" "X-MODs_PcbLib:ADC_Board_Header_Conn_2.54mm"
-				(at 9.144 -19.304 0)
+				(at 7.874 -22.352 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -317,7 +44,7 @@
 				)
 			)
 			(property "Description" "ADC_Board_Header_Conn_2.54mm"
-				(at 1.27 -17.526 0)
+				(at 0 -20.574 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -345,7 +72,7 @@
 			(symbol "ADC_Board_Header_Conn_2.54mm_1_1"
 				(rectangle
 					(start 0 0)
-					(end 17.78 -15.24)
+					(end 17.78 -17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -358,7 +85,7 @@
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "SPI_SCK_1V8"
+					(name "~{ADC_CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -376,7 +103,7 @@
 				(pin passive line
 					(at -2.54 -5.08 0)
 					(length 2.54)
-					(name "SPI_MISO_1V8"
+					(name "ADC_SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -394,7 +121,7 @@
 				(pin passive line
 					(at -2.54 -7.62 0)
 					(length 2.54)
-					(name "SPI_CS_1V8"
+					(name "ADC_MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -412,7 +139,7 @@
 				(pin passive line
 					(at -2.54 -10.16 0)
 					(length 2.54)
-					(name "GND"
+					(name "ADC_CONV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -430,7 +157,7 @@
 				(pin passive line
 					(at -2.54 -12.7 0)
 					(length 2.54)
-					(name "ADC_EN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -445,11 +172,29 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "ADC_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "ADC_Board_Header_Conn_2.54mm_2_1"
 				(rectangle
 					(start 0 0)
-					(end 17.78 -15.24)
+					(end 17.78 -17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -457,6 +202,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "MUX_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -469,7 +232,25 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -487,7 +268,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -505,7 +286,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -517,24 +298,6 @@
 					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "MUX_A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -572,7 +335,7 @@
 				)
 			)
 			(property "Footprint" "X-MODs_PcbLib:ADC_Board_Socket_Conn_1.27mm"
-				(at 9.144 -19.304 0)
+				(at 8.636 -22.86 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -590,7 +353,7 @@
 				)
 			)
 			(property "Description" "ADC_Board_Socket_Conn_1.27mm"
-				(at 1.27 -17.526 0)
+				(at 0.762 -21.082 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -618,7 +381,7 @@
 			(symbol "ADC_Board_Socket_Conn_1.27mm_1_1"
 				(rectangle
 					(start 0 0)
-					(end 17.78 -15.24)
+					(end 17.78 -17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -631,7 +394,7 @@
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 2.54)
-					(name "SPI_SCK_1V8"
+					(name "~{ADC_CS}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -649,7 +412,7 @@
 				(pin passive line
 					(at -2.54 -5.08 0)
 					(length 2.54)
-					(name "SPI_MISO_1V8"
+					(name "ADC_SCK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -667,7 +430,7 @@
 				(pin passive line
 					(at -2.54 -7.62 0)
 					(length 2.54)
-					(name "SPI_CS_1V8"
+					(name "ADC_MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -685,7 +448,7 @@
 				(pin passive line
 					(at -2.54 -10.16 0)
 					(length 2.54)
-					(name "GND"
+					(name "ADC_CONV"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -703,7 +466,7 @@
 				(pin passive line
 					(at -2.54 -12.7 0)
 					(length 2.54)
-					(name "ADC_EN"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -718,11 +481,29 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "ADC_EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(symbol "ADC_Board_Socket_Conn_1.27mm_2_1"
 				(rectangle
 					(start 0 0)
-					(end 17.78 -15.24)
+					(end 17.78 -17.78)
 					(stroke
 						(width 0)
 						(type default)
@@ -730,6 +511,24 @@
 					)
 					(fill
 						(type background)
+					)
+				)
+				(pin passive line
+					(at -2.54 -10.16 0)
+					(length 2.54)
+					(name "MUX_A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
@@ -742,7 +541,25 @@
 							)
 						)
 					)
-					(number "10"
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -15.24 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -760,7 +577,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -778,7 +595,7 @@
 							)
 						)
 					)
-					(number "7"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -790,24 +607,6 @@
 					(at -2.54 -7.62 0)
 					(length 2.54)
 					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -10.16 0)
-					(length 2.54)
-					(name "MUX_A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1198,28 +997,44 @@
 		)
 	)
 	(junction
-		(at 198.12 101.6)
+		(at 204.47 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "321c3549-9862-427c-bac2-12982bf3c2f6")
 	)
 	(junction
-		(at 182.88 96.52)
+		(at 114.3 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3d2c03e6-bfab-4e14-be2f-0dd0f708156c")
+	)
+	(junction
+		(at 179.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59d80519-4855-4471-85a8-84b6e2724c34")
 	)
 	(junction
-		(at 114.3 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa6fe2d9-55b2-4e95-980c-e4d2a5dac6ad")
-	)
-	(junction
-		(at 190.5 99.06)
+		(at 196.85 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c675b2df-5f26-4052-87e5-6526611b30e8")
+	)
+	(junction
+		(at 179.07 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e3745a15-3afb-4086-b869-ef2a950bd128")
+	)
+	(wire
+		(pts
+			(xy 114.3 101.6) (xy 114.3 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "188ec4de-3400-4757-a66a-ee928a679f36")
 	)
 	(wire
 		(pts
@@ -1233,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 99.06) (xy 190.5 99.06)
+			(xy 175.26 101.6) (xy 196.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1243,7 +1058,27 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 101.6) (xy 198.12 101.6)
+			(xy 179.07 91.44) (xy 179.07 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2afaba6f-d4c3-4044-a302-59d0be8df90c")
+	)
+	(wire
+		(pts
+			(xy 179.07 91.44) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31bf2a6f-2dbc-4c86-984d-d2ad8d1ca7dd")
+	)
+	(wire
+		(pts
+			(xy 175.26 104.14) (xy 204.47 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1253,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 91.44) (xy 179.07 91.44)
+			(xy 175.26 93.98) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1263,7 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 83.82) (xy 190.5 99.06)
+			(xy 196.85 86.36) (xy 196.85 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1283,17 +1118,17 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 99.06) (xy 114.3 107.95)
+			(xy 114.3 101.6) (xy 102.87 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6d938cfb-2afa-4ea2-8387-f158ca340d4c")
+		(uuid "6e07af9f-1161-404f-91d7-018eb2613bd3")
 	)
 	(wire
 		(pts
-			(xy 198.12 101.6) (xy 201.93 101.6)
+			(xy 204.47 104.14) (xy 208.28 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1303,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 96.52) (xy 182.88 96.52)
+			(xy 175.26 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1313,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 96.52) (xy 182.88 107.95)
+			(xy 179.07 99.06) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -1323,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 83.82) (xy 198.12 101.6)
+			(xy 204.47 86.36) (xy 204.47 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1333,7 +1168,17 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 101.6) (xy 102.87 101.6)
+			(xy 175.26 91.44) (xy 179.07 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7eddead3-090d-4c63-bbe2-eccfa6957dc1")
+	)
+	(wire
+		(pts
+			(xy 125.73 101.6) (xy 114.3 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1343,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 93.98) (xy 179.07 93.98)
+			(xy 175.26 96.52) (xy 208.28 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1363,17 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 99.06) (xy 114.3 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba43eeb7-ca08-4318-81d5-98bf433d506d")
-	)
-	(wire
-		(pts
-			(xy 182.88 96.52) (xy 201.93 96.52)
+			(xy 179.07 99.06) (xy 208.28 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1383,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 99.06) (xy 114.3 99.06)
+			(xy 102.87 99.06) (xy 125.73 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1393,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 99.06) (xy 201.93 99.06)
+			(xy 196.85 101.6) (xy 208.28 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1401,8 +1236,18 @@
 		)
 		(uuid "d06bded6-a706-4e0b-97c1-8c3627d2a859")
 	)
+	(wire
+		(pts
+			(xy 102.87 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da135a6e-a05b-47d3-a414-fd6f89a65d83")
+	)
 	(label "MUX_A0"
-		(at 181.61 91.44 0)
+		(at 184.15 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1413,7 +1258,7 @@
 		(uuid "aa1d2e68-5df6-4dc3-9894-ec442e2002d3")
 	)
 	(label "MUX_A1"
-		(at 181.61 93.98 0)
+		(at 184.15 96.52 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1516,6 +1361,12 @@
 		(pin "10"
 			(uuid "c334060e-ad7a-4859-8366-7a75c014d90a")
 		)
+		(pin "11"
+			(uuid "e9d71f96-f455-46da-a71a-1a96dad12616")
+		)
+		(pin "12"
+			(uuid "16f5439e-1a6d-4c6d-a525-b8832032a398")
+		)
 		(instances
 			(project ""
 				(path "/f43d7462-f6c1-4a4b-8e4f-6d3aba277fa4"
@@ -1527,7 +1378,7 @@
 	)
 	(symbol
 		(lib_id "X-MODs_SchLib:ADC_Board_Header_Conn_2.54mm")
-		(at 204.47 104.14 0)
+		(at 210.82 106.68 0)
 		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
@@ -1536,7 +1387,7 @@
 		(dnp no)
 		(uuid "22a40546-15b2-4913-895a-e7f7836867c7")
 		(property "Reference" "J1"
-			(at 205.994 87.63 0)
+			(at 212.344 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1544,7 +1395,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 213.36 87.63 0)
+			(at 219.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1552,7 +1403,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:ADC_Board_Header_Conn_2.54mm"
-			(at 213.614 84.836 0)
+			(at 219.964 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1561,7 +1412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 104.14 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1421,7 @@
 			)
 		)
 		(property "Description" "ADC_Board_Header_Conn_2.54mm"
-			(at 205.74 86.614 0)
+			(at 212.09 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1579,7 +1430,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 204.47 104.14 0)
+			(at 210.82 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1616,6 +1467,12 @@
 		)
 		(pin "5"
 			(uuid "67e38b84-9013-423e-928b-aa081ac6a9a4")
+		)
+		(pin "12"
+			(uuid "43e20a82-ba13-4502-bd22-d5c3f5438e30")
+		)
+		(pin "11"
+			(uuid "928c5649-6047-4e83-9deb-976141f5dd0d")
 		)
 		(instances
 			(project ""
@@ -1720,6 +1577,12 @@
 		(pin "5"
 			(uuid "67e38b84-9013-423e-928b-aa081ac6a9a5")
 		)
+		(pin "12"
+			(uuid "e2b7f053-2787-48b8-85d2-6f90c759b151")
+		)
+		(pin "11"
+			(uuid "4ef86336-bbe2-4eb9-bdaa-8a856128f127")
+		)
 		(instances
 			(project ""
 				(path "/f43d7462-f6c1-4a4b-8e4f-6d3aba277fa4"
@@ -1731,7 +1594,7 @@
 	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 190.5 83.82 0)
+		(at 196.85 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1740,7 +1603,7 @@
 		(fields_autoplaced yes)
 		(uuid "46845067-2ef2-47d0-b75e-4171a82fd50c")
 		(property "Reference" "#PWR01"
-			(at 190.5 87.63 0)
+			(at 196.85 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1749,7 +1612,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 190.5 78.74 0)
+			(at 196.85 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1757,7 +1620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 83.82 0)
+			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1766,7 +1629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 83.82 0)
+			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1775,7 +1638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 190.5 83.82 0)
+			(at 196.85 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1863,7 +1726,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 198.12 83.82 0)
+		(at 204.47 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1872,7 +1735,7 @@
 		(fields_autoplaced yes)
 		(uuid "afdc82e0-4ace-46f2-8e34-ad3605846292")
 		(property "Reference" "#PWR02"
-			(at 198.12 87.63 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1881,7 +1744,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 198.12 78.74 0)
+			(at 204.47 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1889,7 +1752,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 198.12 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,7 +1761,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1907,7 +1770,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 198.12 83.82 0)
+			(at 204.47 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1928,9 +1791,8 @@
 		)
 	)
 	(symbol
-		(lib_name "ADC_Board_Socket_Conn_1.27mm_1")
 		(lib_id "X-MODs_SchLib:ADC_Board_Socket_Conn_1.27mm")
-		(at 176.53 104.14 180)
+		(at 172.72 106.68 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1938,7 +1800,7 @@
 		(dnp no)
 		(uuid "cae64ed1-57c5-477e-affa-a04c2d3d9671")
 		(property "Reference" "J2"
-			(at 176.784 87.7571 0)
+			(at 173.228 87.5031 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1947,7 +1809,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 157.48 95.25 0)
+			(at 153.67 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1956,7 +1818,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:ADC_Board_Socket_Conn_1.27mm"
-			(at 167.386 84.836 0)
+			(at 163.576 87.376 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1965,7 +1827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 104.14 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1974,7 +1836,7 @@
 			)
 		)
 		(property "Description" "ADC_Board_Socket_Conn_1.27mm"
-			(at 175.26 86.614 0)
+			(at 171.45 89.154 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1845,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 176.53 104.14 0)
+			(at 172.72 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2021,6 +1883,12 @@
 		(pin "10"
 			(uuid "c334060e-ad7a-4859-8366-7a75c014d90b")
 		)
+		(pin "11"
+			(uuid "f6a835f2-c9ee-4b2d-b5a5-8f0f7910e0f6")
+		)
+		(pin "12"
+			(uuid "d4511e67-a0f3-43ef-8810-b4e59a996bbe")
+		)
 		(instances
 			(project ""
 				(path "/f43d7462-f6c1-4a4b-8e4f-6d3aba277fa4"
@@ -2032,7 +1900,7 @@
 	)
 	(symbol
 		(lib_id "power:Earth")
-		(at 182.88 107.95 0)
+		(at 179.07 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2041,7 +1909,7 @@
 		(fields_autoplaced yes)
 		(uuid "ffe7a5bf-55b8-4aaa-895a-aea547e0fc3d")
 		(property "Reference" "#PWR04"
-			(at 182.88 114.3 0)
+			(at 179.07 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2050,7 +1918,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 113.03 0)
+			(at 179.07 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2058,7 +1926,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 107.95 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2067,7 +1935,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 107.95 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2076,7 +1944,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 182.88 107.95 0)
+			(at 179.07 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)

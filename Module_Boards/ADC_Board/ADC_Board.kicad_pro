@@ -463,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Analog_Board.kicad_pro",
+    "filename": "ADC_Board.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -501,7 +501,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ADC_Board.step",
       "svg": "",
       "vrml": ""
     },

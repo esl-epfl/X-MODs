@@ -193,15 +193,6 @@
 		(remove_unused_layers no)
 		(uuid "3aa2b63e-5730-4ce8-b643-25dce7514355")
 	)
-	(pad "11" thru_hole circle
-		(at 0 0)
-		(size 0.4 0.4)
-		(drill 0.2)
-		(property pad_prop_heatsink)
-		(layers "*.Cu")
-		(remove_unused_layers no)
-		(uuid "a146ee31-efce-47ea-8ed3-9d15750fadd9")
-	)
 	(pad "11" smd roundrect
 		(at 0 0)
 		(size 1.05 2.55)
