@@ -883,7 +883,7 @@
 		(uuid "387bd718-54d8-4987-bf2b-69e822fdbe06")
 	)
 	(junction
-		(at 186.69 99.06)
+		(at 186.69 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eced5917-9ec4-4c43-87bf-27cda4a691b3")
@@ -896,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 180.34 99.06)
+			(xy 186.69 96.52) (xy 180.34 96.52)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 93.98) (xy 180.34 93.98)
+			(xy 193.04 101.6) (xy 180.34 101.6)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +926,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 96.52) (xy 180.34 96.52)
+			(xy 193.04 99.06) (xy 180.34 99.06)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 104.14) (xy 180.34 104.14)
+			(xy 193.04 91.44) (xy 180.34 91.44)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +986,17 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 101.6) (xy 180.34 101.6)
+			(xy 186.69 109.22) (xy 186.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2ad4a7-01af-49dc-9233-97ae7249b766")
+	)
+	(wire
+		(pts
+			(xy 193.04 93.98) (xy 180.34 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1006,7 +1016,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 91.44) (xy 180.34 91.44)
+			(xy 193.04 104.14) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1046,17 +1056,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 99.06) (xy 186.69 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c288e2a9-2987-4bc7-99a7-ee1618fd63e5")
-	)
-	(wire
-		(pts
-			(xy 193.04 99.06) (xy 186.69 99.06)
+			(xy 193.04 96.52) (xy 186.69 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1142,8 @@
 	)
 	(symbol
 		(lib_id "X-MODs_SchLib:Memory_Board_Header_Conn_2.54mm")
-		(at 195.58 88.9 0)
+		(at 195.58 106.68 0)
+		(mirror x)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1150,7 +1151,7 @@
 		(dnp no)
 		(uuid "417a4654-df9d-40fb-a108-08a3b3f90b32")
 		(property "Reference" "J2"
-			(at 195.326 87.5029 0)
+			(at 195.326 87.7571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1159,7 +1160,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 218.44 99.06 0)
+			(at 218.44 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1168,7 +1169,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Header_Conn_2.54mm"
-			(at 202.946 111.252 0)
+			(at 202.946 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1177,7 +1178,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 195.58 88.9 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +1187,7 @@
 			)
 		)
 		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
-			(at 196.85 109.474 0)
+			(at 196.85 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +1196,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 195.58 88.9 0)
+			(at 195.58 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1256,7 +1257,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "80f53b9c-2510-4e31-876d-b18dc797a0ce")
 		(property "Reference" "#PWR02"
 			(at 186.69 115.57 0)
@@ -1599,8 +1599,7 @@
 	)
 	(symbol
 		(lib_id "X-MODs_SchLib:Memory_Board_Socket_Conn_1.27mm")
-		(at 177.8 88.9 0)
-		(mirror y)
+		(at 177.8 106.68 180)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -1608,7 +1607,7 @@
 		(dnp no)
 		(uuid "f7c28677-f381-436f-92b9-f14f06c4cc3e")
 		(property "Reference" "J1"
-			(at 178.308 87.5029 0)
+			(at 178.054 87.7571 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1617,7 +1616,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 154.94 99.06 0)
+			(at 154.94 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1626,7 +1625,7 @@
 			)
 		)
 		(property "Footprint" "X-MODs_PcbLib:Memory_Board_Socket_Conn_1.27mm"
-			(at 168.402 111.252 0)
+			(at 168.402 84.328 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1635,7 +1634,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 177.8 88.9 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1643,7 @@
 			)
 		)
 		(property "Description" "Analog_Board_Castellated_Conn_1.27mm"
-			(at 176.53 109.474 0)
+			(at 176.53 86.106 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1653,7 +1652,7 @@
 			)
 		)
 		(property "MPN" ""
-			(at 177.8 88.9 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)

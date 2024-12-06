@@ -440,4 +440,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${HEEP_DIR}/Module_Boards/Memory_Board/Memory_Board.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

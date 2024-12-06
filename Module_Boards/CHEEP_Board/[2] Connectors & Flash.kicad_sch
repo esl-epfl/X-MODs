@@ -5589,7 +5589,7 @@
 		)
 	)
 	(global_label "JTAG_TCK"
-		(shape input)
+		(shape bidirectional)
 		(at 186.69 53.34 180)
 		(fields_autoplaced yes)
 		(effects

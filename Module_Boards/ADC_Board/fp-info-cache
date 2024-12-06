@@ -1,4 +1,4 @@
-24130001881505333
+24130007935927725
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -97843,15 +97843,15 @@ ADC_Board_Header_Conn_2.54mm
 
 
 0
-10
-10
+12
+12
 X-MODs_PcbLib
 ADC_Board_Socket_Conn_1.27mm
 
 
 0
-20
-10
+24
+12
 X-MODs_PcbLib
 C0201
 

@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.15
+          "min_clearance": 0.17
         }
       },
       "diff_pair_dimensions": [
@@ -613,11 +613,11 @@
     ],
     [
       "49cb7aeb-0ac0-45b6-8eb1-5dc013975d0d",
-      "[1] Power Regulation & Level Shifting"
+      "[1] Power Regulation & Connectors"
     ],
     [
       "97b9a398-7a5d-4ca2-b3db-825e217c0c0e",
-      "[2] ADC & Multiplexer"
+      "[2] ADC, Multiplexer & Reference"
     ]
   ],
   "text_variables": {}

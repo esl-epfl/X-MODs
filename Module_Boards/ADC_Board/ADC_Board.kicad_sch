@@ -24,7 +24,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "49cb7aeb-0ac0-45b6-8eb1-5dc013975d0d")
-		(property "Sheetname" "[1] Power Regulation & Level Shifting"
+		(property "Sheetname" "[1] Power Regulation & Connectors"
 			(at 295.91 29.7684 0)
 			(effects
 				(font
@@ -33,7 +33,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "[1] Power Regulation & Level Shifting.kicad_sch"
+		(property "Sheetfile" "[1] Power Regulation & Connectors.kicad_sch"
 			(at 295.91 45.0346 0)
 			(effects
 				(font
@@ -62,7 +62,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "97b9a398-7a5d-4ca2-b3db-825e217c0c0e")
-		(property "Sheetname" "[2] ADC & Multiplexer"
+		(property "Sheetname" "[2] ADC, Multiplexer & Reference"
 			(at 295.91 50.0884 0)
 			(effects
 				(font
@@ -71,7 +71,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "[2] ADC & Multiplexer.kicad_sch"
+		(property "Sheetfile" "[2] ADC, Multiplexer & Reference.kicad_sch"
 			(at 295.91 65.3546 0)
 			(effects
 				(font
