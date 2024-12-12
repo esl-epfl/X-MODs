@@ -2303,7 +2303,7 @@
 		(symbol "ADC_Board_Socket_Conn_1.27mm_2_1"
 			(rectangle
 				(start 0 0)
-				(end 17.78 -15.24)
+				(end 17.78 -17.78)
 				(stroke
 					(width 0)
 					(type default)
@@ -2311,6 +2311,24 @@
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin passive line
+				(at -2.54 -10.16 0)
+				(length 2.54)
+				(name "MUX_A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 			(pin passive line
@@ -2323,7 +2341,25 @@
 						)
 					)
 				)
-				(number "10"
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -15.24 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2341,7 +2377,7 @@
 						)
 					)
 				)
-				(number "6"
+				(number "7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2359,7 +2395,7 @@
 						)
 					)
 				)
-				(number "7"
+				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -2371,24 +2407,6 @@
 				(at -2.54 -7.62 0)
 				(length 2.54)
 				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -2.54 -10.16 0)
-				(length 2.54)
-				(name "MUX_A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -21994,7 +22012,7 @@
 	)
 	(symbol "Power_Board_Header_Conn_2.54mm"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at 0.762 1.27 0)

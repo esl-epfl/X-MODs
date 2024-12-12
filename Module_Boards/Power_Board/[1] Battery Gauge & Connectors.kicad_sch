@@ -4564,6 +4564,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Enable" "0"
+			(at 111.76 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Power_Board"
 				(path "/c0a0dac5-7405-47c6-b8b1-5f735e4d8957/0fe837ec-128f-40fc-90a1-b2b25b248238"

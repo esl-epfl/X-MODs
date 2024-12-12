@@ -2160,7 +2160,7 @@
 				)
 			)
 		)
-		(symbol "X-MODs_SchLib:TPS7A9401DSCR "
+		(symbol "X-MODs_SchLib:TPS7A9401DSCR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2212,6 +2212,15 @@
 					(hide yes)
 				)
 			)
+			(property "MPN" "TPS7A9401DSCR"
+				(at -12.7 -35.56 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "level shifter"
 				(at 0 0 0)
 				(effects
@@ -2221,7 +2230,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "TPS7A9401DSCR _0_1"
+			(symbol "TPS7A9401DSCR_0_1"
 				(rectangle
 					(start 0 0)
 					(end 21.59 -25.4)
@@ -2235,7 +2244,7 @@
 					)
 				)
 			)
-			(symbol "TPS7A9401DSCR _1_1"
+			(symbol "TPS7A9401DSCR_1_1"
 				(pin passive line
 					(at -2.54 -3.81 0)
 					(length 2.54)
@@ -4597,7 +4606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "X-MODs_SchLib:TPS7A9401DSCR ")
+		(lib_id "X-MODs_SchLib:TPS7A9401DSCR")
 		(at 186.69 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4648,6 +4657,15 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+		(property "MPN" "TPS7A9401DSCR"
+			(at 173.99 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)

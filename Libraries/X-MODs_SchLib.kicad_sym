@@ -11674,7 +11674,7 @@
 	)
 	(symbol "HEEPocrates"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "U"
 			(at -0.254 2.794 0)
@@ -22012,7 +22012,7 @@
 	)
 	(symbol "Power_Board_Header_Conn_2.54mm"
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(property "Reference" "J"
 			(at 0.762 1.27 0)
