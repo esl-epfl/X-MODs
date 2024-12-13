@@ -1,0 +1,52 @@
+﻿Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description
+"C1, C1, C1, C1, C1, C1, C1, C27, C27, C27, C27, C28, C28, C28, C28, C30, C30, C30, C30, C58, C58, C58, C58, C59, C59, C59, C59, C60, C60, C60, C60, C60, C60, C60, C61, C61, C61, C61, C61, C61, C61, C62, C62, C62, C62, C63, C63, C63, C63, C64, C64, C64, C64, C65, C65, C65, C65, C66, C66, C66, C66, C67, C67, C67, C67, C68, C68, C68, C68, C69, C69, C69, C69, C70, C70, C70, C70, C71, C71, C71, C71, C72, C72, C72, C72, C73, C73, C73, C73, C74, C74, C74, C74, C75, C75, C75, C75, C76, C76, C76, C76, C77, C77, C77, C77, C80, C80, C80, C80, C81, C81, C81, C81, C82, C82, C82, C82, C83, C83, C83, C83",121,100n 10V,C0402,,GRM155R71A104JA01D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.1 uF 10 VDC 5% 0402 X7R
+"C10, C10, C10, C10, C10, C10, C10",7,3n30 16V,C0402,,GRM15XR71C332KA86D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 3300 pF 16 VDC 10% 0402 X7R
+"C11, C11, C11, C11, C11, C11, C11, C14, C14, C14, C14, C14, C14, C14, C15, C15, C15, C15, C15, C15, C15, C16, C16, C16, C16, C16, C16, C16, C19, C19, C19, C19, C20, C20, C20, C20, C31, C31, C31, C31, C32, C32, C32, C32, C33, C33, C33, C33",48,1u00 10V,C0402,,C0402C105K8PACTU,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 10V 1uF X5R 0402 10%
+"C12, C12, C12, C12, C12, C12, C12, C13, C13, C13, C13, C13, C13, C13, C17, C17, C17, C17, C18, C18, C18, C18",22,2u20 16V,C0402,,GRM155R61C225KE44D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 2.2 uF 16 VDC 10% 0402 X5R
+"C2, C2, C2, C2, C2, C2, C2",7,470n 6V3,C0402,,GRM155R60J474KE19D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 0.47 uF 6.3 VDC 10% 0402 X5R
+"C21, C21, C21, C21, C23, C23, C23, C23, C25, C25, C25, C25, C79, C79, C79, C79",16,22u0 6V3,C0402,,CL05A226MQ5CUN,,smt,"Multilayer Ceramic Capacitors MLCC - SMD/SMT 0402, X5R, 22uF, +/-20%"
+"C22, C22, C22, C22, C24, C24, C24, C24",8,10n0 16V,C0402,,CL05B103JO5NNWC ,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 10nX7R +/-5% 16v 040 0402
+"C26, C26, C26, C26",4,4u70 6V3,C0402,,MSASJ105BB5475MFNA01,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 6.3V 4.7uF X5R 0402 20%
+"C29, C29, C29, C29",4,680p 50V,C0402,, GCM1555C1H681FA16J ,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 680 pF 50 VDC 1% 0402 C0G (NP0) AEC-Q200
+"C3, C3, C3, C3, C3, C3, C3, C4, C4, C4, C4, C4, C4, C4",14,4u70 25V,C0603,,GRM188R61E475KE11D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 4.7 uF 25 VDC 10% 0603 X5R
+"C5, C5, C5, C5, C5, C5, C5, C6, C6, C6, C6, C6, C6, C6, C7, C7, C7, C7, C7, C7, C7, C8, C8, C8, C8, C8, C8, C8, C9, C9, C9, C9, C9, C9, C9",35,22u0 10V,C0603,,GRM188R61A226ME15D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 22 uF 10 VDC 20% 0603 X5R
+"C78, C78, C78, C78",4,10u0 4V,C0402,,GRM155R60G106ME01D,,smt,Multilayer Ceramic Capacitors MLCC - SMD/SMT 10 uF 4 VDC 20% 0402 X5R
+"FB2, FB2, FB2, FB2",4,300R,L0402,, LI0402B301R-10 ,,smt,Ferrite Beads 300ohms 100MHz .2A Monolithic 0402 SMD
+"J10, J10, J10, J10, J11, J11, J11, J11, J12, J12, J12, J12, J2, J2, J2, J2",16,212134-0003,2121340003,, 212134-0003 ,,smt,Headers & Wire Housings Pico-EZMate Plus1.0 PlugAssy ETP LH 3Ckt
+"L2, L2, L2, L2, L2, L2, L2",7,1u50,L0806,,DFE201612E-1R5M=P2,,smt,Power Inductors - SMD 1.5 UH 20%
+"OSC2, OSC2, OSC2, OSC2",4,SIT1532AC-J5-DCC-32.768D,SIT1532AC,,SIT1532AC-J5-DCC-32.768D,,smt,Standard Clock Oscillators 32.768kHz 75ppm -10C +70C
+"R1, R1, R1, R1, R1, R1, R1",7,10K0,R0402,,CRCW040210K0FKEDHP,Yes,smt,Thick Film Resistors - SMD 0.2W 10Kohms 1% High Power AEC-Q200
+"R10, R10, R10, R10, R3, R3, R3, R3",8,39R0,R0402,,RT0402BRD0739RL ,,smt,Thin Film Resistors - SMD 1/16W 39 ohm .1% 25ppm
+"R11, R11, R11, R11, R12, R12, R12, R12",8,1K00,R0402,,ERA-2ARC102X,,smt,Thin Film Resistors 1K OHM .25% 10PPM 1/16W
+"R13, R13, R13, R13",4,20K0,R0402,, ERA-2ARC203X ,,smt,Thin Film Resistors 20K OHM .25% 10PPM 1/16W
+"R14, R14, R14, R14",4,169K,R0402,,CRCW0402169KFKTD ,,smt,Thick Film Resistors - SMD 1/16watt 169Kohms 1%
+"R15, R15, R15, R15",4,1M33,R0402,,CRCW04021M33FKED ,,smt,Thick Film Resistors - SMD 1/16watt 1.33Mohms 1% 100ppm
+"R16, R16, R16, R16, R18, R18, R18, R18",8,0R30,R0402,, ERJ-2BQJR30X ,,smt,Current Sense Resistors - SMD 0402 0.3ohm 5% Curr Sense AEC-Q200
+"R17, R17, R17, R17, R19, R19, R19, R19",8,1R00,R0402,, CRCW04021R00FKEDHP ,,smt,Thick Film Resistors 0.2W 1ohms 1% High Power AEC-Q200
+"R2, R2, R2, R2, R2, R2, R2, R5, R5, R5, R5, R5, R5, R5, R55, R55, R55, R55, R55, R55, R55, R63, R63, R63, R63",25,0R00,R0402,,RK73Z1ETTP,,smt,Thick Film Resistors ZEROohms JUMPER
+"R39, R39, R39, R39, R40, R40, R40, R40, R41, R41, R41, R41, R42, R42, R42, R42, R43, R43, R43, R43, R44, R44, R44, R44, R45, R45, R45, R45, R46, R46, R46, R46, R46, R46, R46, R47, R47, R47, R47, R47, R47, R47, R48, R48, R48, R48, R48, R48, R48, R49, R49, R49, R49, R49, R49, R49, R50, R50, R50, R50, R50, R50, R50, R51, R51, R51, R51, R51, R51, R51, R52, R52, R52, R52, R52, R52, R52",77,10K0,R0402,,CRCW040210K0FKEDHP,,smt,Thick Film Resistors - SMD 0.2W 10Kohms 1% High Power AEC-Q200
+"R4, R4, R4, R4",4,22R0,R0402,,CRCW040222R0FKED,,smt,Thick Film Resistors 1/16watt 22ohms 1%
+"R53, R53, R53, R53, R54, R54, R54, R54, R60, R60, R60, R60, R8, R8, R8, R8, R8, R8, R8, R9, R9, R9, R9, R9, R9, R9",26,100K,R0402,,CRCW0402100KFKEDC,,smt,Thick Film Resistors - SMD 1/16watt 100Kohms 1% Commercial Use
+"R56, R56, R56, R56, R56, R56, R56",7,0R00,R0402,,RK73Z1ETTP,Yes,smt,Thick Film Resistors ZEROohms JUMPER
+"R57, R57, R57, R57, R57, R57, R57",7,0R00,R0402,,RK73Z1ETTP,Yes,smt,Thick Film Resistors ZEROohms JUMPER
+"R58, R58, R58, R58",4,100K,R0402,,CRCW0402100KFKEDC,Yes,smt,Thick Film Resistors - SMD 1/16watt 100Kohms 1% Commercial Use
+"R59, R59, R59, R59",4,20K0,R0402,,CRCW040220K0FKED,,smt,Thick Film Resistors 1/16watt 20Kohms 1%
+"R6, R6, R6, R6, R6, R6, R6",7,0R00,R0402,,RK73Z1ETTP,Yes,smt,Thick Film Resistors ZEROohms JUMPER
+"R61, R61, R61, R61, R62, R62, R62, R62",8,0R15,R0402,,KDV04FR150ET ,,smt,Current Sense Resistors - SMD .15 OHM 1% 1/8W
+"R64, R64, R64, R64",4,0R00,R0402,,RK73Z1ETTP,Yes,smt,Thick Film Resistors ZEROohms JUMPER
+"R7, R7, R7, R7, R7, R7, R7",7,0R00,R0402,,RK73Z1ETTP,Yes,smt,Thick Film Resistors ZEROohms JUMPER
+"U1, U1, U1, U1, U1, U1, U1",7,MAX17262REWL+T,WLCSP-9_1.468x1.448mm_P0.4mm,,MAX17262REWL+T,,smt,Battery Management 5.2 A 1-Cell Fuel Gauge with ModelGauge m5 EZ and Internal Current Sensing
+"U17, U17, U17, U17",4,W25Q128JWYIQ,WLCSP-21,,W25Q128JWYIQ,,smt,"NOR Flash spiFlash, 1.8V, 128M-bit, 4Kb Uniform Sector"
+"U18, U18, U18, U18, U18, U18, U18",7,MX25U12832FZNI02-TR,8-WSON_DUAL_(6x5mm)_8x6mn,, MX25U12832FZNI02-TR ,,smt,NOR Flash Serial NOR 1.8V 128Mbit x4 I/O WSON-8 6x5mm
+"U19, U19, U19, U19, U19, U19, U19",7,MX25U25643GZ4I00-T,8-WSON_DUAL_6x5mm_(8x6mn),, MX25U25643GZ4I00-T ,,smt,NOR Flash Serial NOR 1.8V 256Mbit x4 I/O WSON-8 8x6mm
+"U2, U2, U2, U2, U2, U2, U2",7,MAX77654MENV+T,WLCSP-30_2.788x2.338mm_P0.4mm,,MAX77654MENV+T,,smt,Power Management Specialised - PMIC Ultra Low Power PMIC w/ 3-Output SIMO + 2 LDOs
+"U20, U20, U20, U20, U21, U21, U21, U21",8,~,X2SON-8,,SN74AUP2G08DQER,,smt,Logic Gates Low-Pwr Dual 2-Inp Pos-AND Gate
+"U22, U22, U22, U22",4,~,X2SON-6,,SN74AUP1G14DSFR,,smt,Inverters Low-Pwr Sgl Schmitt- Trigger Inverter
+"U23, U23, U23, U23",4,LTC6255IDC#TRMPBF,SOT_23_6,, LTC6255CS6#TRMPBF ,,smt,"Precision Amplifiers 6.5MHz, 65uA Pwr Eff R2R I/O Op Amps"
+"U24, U24, U24, U24",4,OPA310SIDBVR,SOT_23_5_SHDN,, OPA310SIDBVR ,,smt,"Operational Amplifiers - Op Amps Single, 5.5-V, 3-MHz high-output-current (150 mA) fast-shutdown (1 s) operational amplifier"
+"U25, U25, U25, U25",4,OPA333AIDBVR,SOT_23_5_SHDN,, OPA333AIDBVR ,,smt,Operational Amplifiers - Op Amps 1.8V 17uA 2uV microPOWER CMOS
+"U3, U3, U3, U3",4,ADS8860IDRCT,VSON-10_3x3mm_P0.5,, ADS8860IDRCT ,,smt,Analog to Digital Converters - ADC 16B 1MSPS Pseud-Diff inpt Micro Pwr Mini
+"U4, U4, U4, U4",4,REF35250YBHR,DSBGA-4_1.085x0.870mm,,REF35250YBHR ,,smt,"Voltage References 650-nA quiescent current, 12-ppm/C drift, ultra-low-power precision voltage reference"
+"U5, U5, U5, U5",4,TPS22916CYFPR,DSBGA-4_0.74x0.74mm,,TPS22916CYFPR,,smt,"Power Switch ICs - Power Distribution 5.5-V, 2-A, 60-mohm, 10-nA leakage load switch with output discharge 4-DSBGA -40 to 85"
+"U6, U6, U6, U6",4,TPS7A9401DSCR,WSON-10-3.15x3.15mm,,TPS7A9401DSCR,,smt,"LDO Voltage Regulators 1-A, ultra-low noise, ultra-high PSRR, RF voltage regulator 10-WSON -40 to 125"
+"U7, U7, U7, U7",4,TMUX1104DQAR,USON-10_1x2.5mm,,TMUX1104DQAR ,,smt,"Multiplexer Switch ICs 3-pA on-state leakage current, 5-V, 4:1, 1-channel precision multiplexer 10-USON -40 to 125"
