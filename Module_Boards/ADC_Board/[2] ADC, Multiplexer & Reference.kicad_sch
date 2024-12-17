@@ -6889,7 +6889,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LTC6255IDC#TRMPBF"
+		(property "Value" "LTC6255CS6#TRMPBF"
 			(at 118.364 137.16 0)
 			(effects
 				(font
