@@ -1,5 +1,3 @@
-# X-MODs
-
 # X-MODs: Modular PCBs for Wearable Healthcare Devices
 
 A collection of compact, power-efficient PCB modules designed for rapid prototyping and development of wearable healthcare devices, with a focus on biosignal acquisition.
