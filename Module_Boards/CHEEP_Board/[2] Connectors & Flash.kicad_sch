@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "7b2e3c9a-d146-4c71-8bef-ca91337d0738")
 	(paper "A4")
+	(title_block
+		(title "[2] Connectors & Flash")
+		(rev "1.0")
+		(company "Embedded Systems Laboratory - EPFL")
+		(comment 1 "Author: José Angel Miranda Calero")
+		(comment 2 "Author: Juan Sapriza")
+		(comment 3 "Author: Alejandro López Rodriguez")
+	)
 	(lib_symbols
 		(symbol "X-MODs_SchLib:CHEEP_Board_Castellated_Conn_1.27mm"
 			(exclude_from_sim no)

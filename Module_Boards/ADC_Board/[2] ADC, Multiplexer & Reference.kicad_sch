@@ -5456,10 +5456,10 @@
 		)
 		(uuid "442c0217-4c07-41f3-966f-121407167aba")
 	)
-	(text_box "Check /Simulations/ADC_Charge_Bucket/ADC_CHARGE_BUCKET.xlsx \nfor the calculation of the charge-bucket circuit components.\n\nR_{FILT(MIN)} = 322 Ω | R_{FILT(NOMINAL)} = 1286 Ω | R_{FILT(MAX)} = 2572 Ω | C_{FILT} = 180 pF\n\nWe can use a GND sense topology (balanced impedance in both INx paths) to achieve a \nhigher CMRR and cancel the offset error created by R_FILT. For this the value of R_{FILT} we\nshould use for both paths is R_{FILT}/2. However, the important aspect is the RC constant of the pair.\nIn this sense, a bigger resistor can result in a higher distortion (though it helps avoid the instability\nresulting from driving capacitive loads). In this case, as the driver buffer is designed to drive capacitive\nloads, we can increase the value of C_{FILT} (to 2.2 nF) and reduce the value of R_{FILT} (to 2*39 Ω = 78 Ω)\nand achieve better results (In simulations)"
+	(text_box "Check /Simulations/ADC_Charge_Bucket/ADC_CHARGE_BUCKET.xlsx \nfor the calculation of the charge-bucket circuit components.\n\nWe can use a GND sense topology (balanced impedance in both INx paths) to achieve a \nhigher CMRR and cancel the offset error created by R_FILT. For this the value of R_{FILT} we\nshould use for both paths is R_{FILT}/2. However, the important aspect is the RC constant of the pair.\nIn this sense, a bigger resistor can result in a higher distortion (though it helps avoid the instability\nresulting from driving capacitive loads). "
 		(exclude_from_sim no)
 		(at 161.29 133.35 0)
-		(size 109.22 26.67)
+		(size 109.22 19.05)
 		(stroke
 			(width 0)
 			(type default)

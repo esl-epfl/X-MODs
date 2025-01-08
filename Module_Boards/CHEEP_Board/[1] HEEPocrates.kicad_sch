@@ -4,6 +4,14 @@
 	(generator_version "8.0")
 	(uuid "f81bd9e0-fc79-4d6b-86c8-b0542692bef4")
 	(paper "A4")
+	(title_block
+		(title "[1] HEEPocrates")
+		(rev "1.0")
+		(company "Embedded Systems Laboratory - EPFL")
+		(comment 1 "Author: José Angel Miranda Calero")
+		(comment 2 "Author: Juan Sapriza")
+		(comment 3 "Author: Alejandro López Rodriguez")
+	)
 	(lib_symbols
 		(symbol "X-MODs_SchLib:CRCW040210K0FKEDHP"
 			(exclude_from_sim no)
@@ -8320,7 +8328,7 @@
 	)
 	(text_box "Boot Procedure:\n	- SPI Flash Load → BOOT_SEL_EXT = 1 (Default)\n	- JTAG		   → BOOT_SEL_EXT = 0 "
 		(exclude_from_sim no)
-		(at 224.79 69.85 0)
+		(at 218.44 69.85 0)
 		(size 58.42 7.62)
 		(stroke
 			(width 0)

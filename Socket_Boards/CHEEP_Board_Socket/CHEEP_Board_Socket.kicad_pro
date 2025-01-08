@@ -75,10 +75,12 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "hole_to_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -237,6 +239,7 @@
       "mfg": "",
       "mpn": ""
     },
+    "layer_pairs": [],
     "layer_presets": [],
     "viewports": []
   },
@@ -460,7 +463,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "HEEP_Board_Socket.kicad_pro",
+    "filename": "CHEEP_Board_Socket.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -498,7 +501,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "CHEEP_Board_Socket.step",
       "svg": "",
       "vrml": ""
     },

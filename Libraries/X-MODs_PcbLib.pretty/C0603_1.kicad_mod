@@ -1,0 +1,231 @@
+(footprint "C0603_1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.05 -7.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9c5525f8-5374-44fb-bee0-caa7639067c3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "C0603_1"
+		(at 0 7.2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "92d483a2-045c-454c-ba59-cc2b0d66b727")
+		(effects
+			(font
+				(size 0.28 0.28)
+				(thickness 0.042)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3471c5d-ba15-4820-8b3a-0c6d53e0bb06")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7aeb224b-df2c-4dcc-8002-23d764171d07")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3fbb8acc-fd64-4a14-9a5a-e5dd61e88676")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -9 -5.6)
+		(end 8.8 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "21086a64-3989-4eb1-a831-a38f86df34f5")
+	)
+	(fp_line
+		(start -9 5.6)
+		(end -9 -5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "de2e30ee-cd64-498f-96ee-6a0b4c1e5571")
+	)
+	(fp_line
+		(start 8.8 -5.6)
+		(end 8.8 5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3cd894e0-fc9b-42e3-9fbb-95a6b29d962d")
+	)
+	(fp_line
+		(start 8.8 5.6)
+		(end -9 5.6)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "531d5196-ea0f-4b90-bbf6-82a24ec73ac4")
+	)
+	(fp_line
+		(start -10 -6.6)
+		(end 9.8 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d63c7a88-474f-46cf-ad30-ca6a7e8be922")
+	)
+	(fp_line
+		(start -10 6.6)
+		(end -10 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e64e41dd-94f9-4ed7-b48f-d20a7893912c")
+	)
+	(fp_line
+		(start -9 -5.6)
+		(end -9 5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d7ebff7a-42d5-4203-b21d-bdfe362554e3")
+	)
+	(fp_line
+		(start -9 5.6)
+		(end 8.8 5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "a997b1d0-3101-48ce-a193-3397c4ac38e3")
+	)
+	(fp_line
+		(start 8.8 -5.6)
+		(end -9 -5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "12fac324-3e01-42ab-a7d6-d27b27d01482")
+	)
+	(fp_line
+		(start 8.8 5.6)
+		(end 8.8 -5.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "3a9c6ea3-d88b-46be-981d-03e5efbeb268")
+	)
+	(fp_line
+		(start 9.8 -6.6)
+		(end 9.8 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "50fcfd19-44d0-4c50-b4e5-3dc015b1cb4f")
+	)
+	(fp_line
+		(start 9.8 6.6)
+		(end -10 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7c7e30ad-f2d0-4899-a593-f413f0611a15")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -0.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f31409b2-37a8-46e5-bf2d-532043cfff3a")
+		(effects
+			(font
+				(size 0.28 0.28)
+				(thickness 0.042)
+			)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -3.85 0 90)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 45)
+		(uuid "f66ccfcb-2705-4bf9-b356-6348c1f21f69")
+	)
+	(pad "2" thru_hole circle
+		(at 3.65 0 90)
+		(size 1.5 1.5)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "F.SilkS")
+		(remove_unused_layers no)
+		(uuid "a911a987-cd24-4d87-943d-95780eb07467")
+	)
+	(model "${HEEP_DIR}/Libraries/3D_Models/Capacitors/Ceramic_Capacitor_0603_h32mil.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
