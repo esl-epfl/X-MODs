@@ -14,7 +14,6 @@ X-MODs provides a modular hardware approach that bridges the gap between fully c
 
 ### CHEEP Module
 - Built around the HEEPocrates RISC-V SoC
-- Low power consumption processor
 - Multiple communication interfaces (UART, I2C, SPI)
 
 ### Power Module
@@ -42,15 +41,6 @@ Each module comes with a companion scoket board featuring:
 - Easy module swapping capabilities
 - Breadboard-compatible format
 - Testing and validation infrastructure
-
-## Documentation
-
-Detailed documentation for each module includes:
-- Complete schematics
-- PCB layout files
-- Component selection rationale
-- Design considerations
-- Assembly guidelines
 
 ## Applications
 
